@@ -1,0 +1,21 @@
+section {
+    margin-top: 3rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(255, 255, 255) !important;
+}
+p{
+    color: rgb(179, 176, 176);
+}
+.contact-us{
+    text-align: left;
+}
+.message-img{
+    width: 40px;
+}
+span{
+    color: #00c0ba;
+}
+.highlight{
+    color: rgb(253, 198, 0);
+}
