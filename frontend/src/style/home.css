@@ -27,6 +27,9 @@ h6{
   display: flex;
   width: 100px;
   height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns of equal size */
+  grid-template-rows: repeat(3, 1fr);
   transition: all 0.5s ease-in-out;
   transform: translate3d(900px, -100px, 0);
 }
@@ -51,6 +54,10 @@ h6{
 } */
 
 /* Bottom-Home */
+.bottom-home{
+  height: 10vh;
+}
+
 
 .wrap {
     overflow: hidden;

@@ -31,7 +31,7 @@ body{
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: black !important;
+  background-color: rgb(255, 255, 255) !important;
   color: azure;
   font-family:'Anton', 'Josefin', sans-serif;
 }
