@@ -1,0 +1,40 @@
+.home{
+    margin-top: 20%;
+}
+
+h1{
+    color: white !important;
+    font-family: 'Anton';
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+h6{
+    color: rgb(2, 151, 146) !important;
+    text-transform: capitalize;
+    font-family: 'Kanit';
+    font-weight: 200;
+}
+
+.image-container{
+    background-color: rgb(0, 202, 195);
+    border-radius: 100px 200px 40px 100px;
+}
+
+.wrap {
+    overflow: hidden;
+    border-right: .15em solid rgb(0, 255, 238); /* Adjust color and size as needed */
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 255, 238); }
+  }
+  
