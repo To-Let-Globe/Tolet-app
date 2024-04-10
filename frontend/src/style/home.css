@@ -1,0 +1,72 @@
+
+.home{
+    margin-top: 20%;
+}
+
+/* General Styling */
+h1{
+    color: white !important;
+    font-family: 'Anton';
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+h6{
+    color: rgb(2, 151, 146) !important;
+    text-transform: capitalize;
+    font-family: 'Kanit';
+    font-weight: 200;
+}
+
+/* Top Home */
+.top-home{
+  height: 100vh;
+  position: relative;
+}
+
+.img-1{
+  display: flex;
+  width: 100px;
+  height: auto;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(900px, -100px, 0);
+}
+
+.scrolled .img-1{
+  /* transform: translateX(400px); */
+  /* transform: translate3d(350px, 500px, 0); */
+  width: 500px;
+}
+
+.scrolled .image-container-1 .img-1{
+  width: 500px;
+  transform: translate3d(620px, 500px, 0);
+  background-color: rgb(0, 202, 195);
+  border-radius: 100px 200px 40px 100px;
+}
+
+/* .image-container{
+  background-color: aqua;
+  border-radius: 40px;
+  width: 500px;
+} */
+
+/* Bottom-Home */
+
+.wrap {
+    overflow: hidden;
+    border-right: .15em solid rgb(0, 255, 238); /* Adjust color and size as needed */
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 255, 238); }
+  }
+  
