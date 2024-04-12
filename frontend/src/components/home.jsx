@@ -26,7 +26,7 @@ export const Home = () => {
 
   return (
     <section className={isScrolled ? "home scrolled" : "home"} id="home">
-      <Container className="top-home" style={{ backgroundImage: `url(${backgroundImg})` }}>
+      <Container className="top-home" >
       <img src={backgroundImg} alt="Background Img" className="img-2" />
         <h1 className="tagline">Welcome to To-Let Globe</h1>
         <h6 className="headline">
