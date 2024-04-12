@@ -2,10 +2,11 @@ import '../style/home.css';
 import {useState, useEffect} from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
+// import InputGroup from 'react-bootstrap/InputGroup';
 import headerImg from "../assets/img/header-img.png";
+import backgroundImg from "../assets/image/home.svg"
 import 'animate.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 export const Home = () => {
 
@@ -24,34 +25,42 @@ export const Home = () => {
   },[]);
 
   return (
-    <section className={isScrolled ? 'home scrolled' : 'home'} id='home'>
-      <Container className='top-home'> 
-            <h1 className='tagline'>Welcome to To-Let Globe</h1>
-            <h6>{`NO BROKERAGE ON`}<span className='wrap'> PGS | FLATS | HOUSES | OFFICES </span></h6>
-            <div className='image-container-1'>
-              <img src={headerImg} alt="Header Img" className="img-1"/>
-        
-            </div>
-          
+    <section className={isScrolled ? "home scrolled" : "home"} id="home">
+      <Container className="top-home" style={{ backgroundImage: `url(${backgroundImg})` }}>
+      <img src={backgroundImg} alt="Background Img" className="img-2" />
+        <h1 className="tagline">Welcome to To-Let Globe</h1>
+        <h6 className="headline">
+          {`NO BROKERAGE ON`}
+          <span className="wrap"> PGS | FLATS | HOUSES | OFFICES </span>
+        </h6>        
+        <div className="image-container-1">
+          <img src={headerImg} alt="Header Img" className="img-1" />
+        </div>
       </Container>
-      <Container className='bottom-home'>
-        <Row className='align-item-center'>
-          <Col xs={12} md={6} mt={10} xl={6}>
-            <h1 className='tagline'>Welcome to To-Let Globe</h1>
-            <h6>{`NO BROKERAGE ON`}<span className='wrap'> PGS | FLATS | HOUSES | OFFICES </span></h6>
-            <InputGroup className='mb-3 mt-2'>
+
+      <div className="scrollable-content">
+
+        <Container className='bottom-home'>
+          <h1 className="tagline2">Welcome to To-Let Globe</h1>
+          <h6 className="headline2">
+            {`NO BROKERAGE ON`}
+            <span className="wrap"> PGS | FLATS | HOUSES | OFFICES </span>
+          </h6>
+          <div className={`input-bar mb-3 mt-3 d-flex justify-content-between align-items-center ${isScrolled ? "show" : "hide"}`} id="inputGroup">
               <Form.Control
                 placeholder="Search PG, Flats and Houses"
                 aria-label="Search PG, Flats and Houses"
               />
-              <Button onClick={()=> console.log('connect')}>
-                Search
-              </Button>
-            </InputGroup>
-          </Col>
-        </Row>
-      </Container>
-      
+              <Button onClick={() => console.log("connect")}>Search</Button>
+          </div> 
+
+            <div className="image-container-2">
+              <img src={headerImg} alt="Header Img" className="img-2" />
+            </div>
+
+           
+        </Container>
+      </div>
     </section>
-  )
-}
+  );
+};
