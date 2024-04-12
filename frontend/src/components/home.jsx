@@ -30,6 +30,7 @@ export const Home = () => {
       <Container className="top-home" >
       <img src={bird1} alt="Bird1 Img" className="bird-1" />
       <img src={bird2} alt="Bird2 Img" className="bird-2" />
+      {/* <img src={backgroundImg} alt="Background Img" className="img-2" /> */}
         <h1 className="tagline">Welcome to To-Let Globe</h1>
         <h6 className="headline">
           {`NO BROKERAGE ON`}
