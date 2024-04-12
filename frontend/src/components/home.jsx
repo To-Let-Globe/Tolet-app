@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 // import InputGroup from 'react-bootstrap/InputGroup';
 import headerImg from "../assets/img/header-img.png";
-import backgroundImg from "../assets/image/home.svg"
+import bird1 from "../assets/image/birds/bird1.svg"
+import bird2 from "../assets/image/birds/bird2.svg"
 import 'animate.css';
 import { Container } from 'react-bootstrap';
 
@@ -26,8 +27,9 @@ export const Home = () => {
 
   return (
     <section className={isScrolled ? "home scrolled" : "home"} id="home">
-      <Container className="top-home" style={{ backgroundImage: `url(${backgroundImg})` }}>
-      <img src={backgroundImg} alt="Background Img" className="img-2" />
+      <Container className="top-home" >
+      <img src={bird1} alt="Bird1 Img" className="bird-1" />
+      <img src={bird2} alt="Bird2 Img" className="bird-2" />
         <h1 className="tagline">Welcome to To-Let Globe</h1>
         <h6 className="headline">
           {`NO BROKERAGE ON`}
