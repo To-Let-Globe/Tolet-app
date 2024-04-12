@@ -9,7 +9,7 @@ return(
     <div class="lorem">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     </div>
-    <div class="content">
+    <div classname="content">
     <div class="trending">
        <div class="cl">Trending</div>
        <div class="cla"> Latest</div>
