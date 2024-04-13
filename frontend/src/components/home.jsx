@@ -3,10 +3,10 @@ import {useState, useEffect} from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 // import InputGroup from 'react-bootstrap/InputGroup';
-import headerImg from "../assets/img/header-img.png";
+// import headerImg from "../assets/img/header-img.png";
 import 'animate.css';
 import { Container } from 'react-bootstrap';
-// import { Images } from './background';
+import { Images } from './background';
 
 export const Home = () => {
 
@@ -33,11 +33,10 @@ export const Home = () => {
           {`NO BROKERAGE ON`}
           <span className="wrap"> PGS | FLATS | HOUSES | OFFICES </span>
         </h6>        
-       {/* <Images/> */}
+       <Images/>
       </Container>
 
       <div className="scrollable-content">
-
         <Container className='bottom-home'>
           <h1 className="tagline2">Welcome to To-Let Globe</h1>
           <h6 className="headline2">
@@ -50,13 +49,10 @@ export const Home = () => {
                 aria-label="Search PG, Flats and Houses"
               />
               <Button onClick={() => console.log("connect")}>Search</Button>
-          </div> 
-
+          </div>
             <div className="image-container-2">
-              <img src={headerImg} alt="Header Img" className="img-2" />
-            </div>
-
-           
+            <Images/>
+            </div>    
         </Container>
       </div>
     </section>
