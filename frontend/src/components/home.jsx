@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 // import InputGroup from 'react-bootstrap/InputGroup';
 import headerImg from "../assets/img/header-img.png";
+import backgroundImg from "../assets/image/home.svg"
 import 'animate.css';
 import { Container } from 'react-bootstrap';
 
@@ -17,9 +18,6 @@ import home5 from "../assets/image/home/home5.svg"
 import home6 from "../assets/image/home/home6.svg"
 
 // -----------Birds Img------------
-import bird1 from "../assets/image/birds/bird1.svg"
-import bird2 from "../assets/image/birds/bird2.svg"
-
 
 export const Home = () => {
 
@@ -40,13 +38,7 @@ export const Home = () => {
   return (
     <section className={isScrolled ? "home scrolled" : "home"} id="home">
       <Container className="top-home" >
-<<<<<<< HEAD
-      <img src={bird1} alt="Bird1 Img" className="bird-1" />
-      <img src={bird2} alt="Bird2 Img" className="bird-2" />
-      {/* <img src={backgroundImg} alt="Background Img" className="img-2" /> */}
-=======
-      
->>>>>>> 5517bd049a5e2bb5e1edc5c89d6aa3adff10feee
+      <img src={backgroundImg} alt="Background Img" className="img-2" />
         <h1 className="tagline">Welcome to To-Let Globe</h1>
         <h6 className="headline">
           {`NO BROKERAGE ON`}
