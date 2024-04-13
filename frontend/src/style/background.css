@@ -1,0 +1,10 @@
+.bird-1{
+    transform: translate3d(-400px, 100px, 0);
+}
+.bird-2{
+    transform: translate3d(-200px, 100px, 0);
+    transition: 0.3s ease-in-out;
+}
+.scrolled .bird-2{
+    transform: translate3d(-200px,-300px,0);
+}
