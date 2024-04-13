@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 import headerImg from "../assets/img/header-img.png";
 import 'animate.css';
 import { Container } from 'react-bootstrap';
-import { Images } from './background';
+// import { Images } from './background';
 
 export const Home = () => {
 
@@ -29,11 +29,13 @@ export const Home = () => {
       <Container className="top-home" >
       
         <h1 className="tagline">Welcome to To-Let Globe</h1>
+        <h1 className="tagline">Welcome to To-Let Globe</h1>
+        <h1 className="tagline">Welcome to To-Let Globe</h1>
         <h6 className="headline">
           {`NO BROKERAGE ON`}
           <span className="wrap"> PGS | FLATS | HOUSES | OFFICES </span>
         </h6>        
-       <Images/>
+       {/* <Images/> */}
       </Container>
 
       <div className="scrollable-content">
