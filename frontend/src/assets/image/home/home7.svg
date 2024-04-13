@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 <svg width="237" height="553" viewBox="0 0 237 553" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M590 632L1 717.5L80.5 456L31 292.5L207 265L423.5 292.5L590 632Z" fill="#263238" fill-opacity="0.3" stroke="#263238" stroke-opacity="0.1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M168 147L243.511 1L305 1.00001L168 147Z" fill="white" fill-opacity="0.12" stroke="#263238" stroke-opacity="0.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+=======
+<svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.05">
+<path d="M14.3308 0.764381L0 1.01453L0.718311 42.1665L15.0491 41.9164L14.3308 0.764381Z" fill="#C7C7C7"/>
+<path d="M28.6614 0.514259L14.3306 0.764404L15.0489 41.9164L29.3797 41.6663L28.6614 0.514259Z" fill="#263238"/>
+<path d="M42.9924 0.264138L28.6616 0.514282L29.3799 41.6663L43.7107 41.4162L42.9924 0.264138Z" fill="#C7C7C7"/>
+</g>
+>>>>>>> 5517bd049a5e2bb5e1edc5c89d6aa3adff10feee
 </svg>
