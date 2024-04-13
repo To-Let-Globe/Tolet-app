@@ -39,7 +39,7 @@ export const Home = () => {
       <div className="scrollable-content">
 
         <Container className='bottom-home'>
-          <h1 className="tagline2">Welcome to To-Let </h1>
+          <h1 className="tagline2">Welcome to To-Let Priti </h1>
           <h6 className="headline2">
             {`NO BROKERAGE ON`}
             <span className="wrap"> PGS | FLATS | HOUSES | OFFICES </span>
