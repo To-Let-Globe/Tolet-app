@@ -6,17 +6,7 @@ import Form from 'react-bootstrap/Form';
 import headerImg from "../assets/img/header-img.png";
 import 'animate.css';
 import { Container } from 'react-bootstrap';
-
-
-// ------------Home Img-------------
-import home1 from "../assets/image/home/home1.svg"
-import home2 from "../assets/image/home/home2.svg"
-import home3 from "../assets/image/home/home3.svg"
-import home4 from "../assets/image/home/home4.svg"
-import home5 from "../assets/image/home/home5.svg"
-import home6 from "../assets/image/home/home6.svg"
-
-// -----------Birds Img------------
+// import { Images } from './background';
 
 export const Home = () => {
 
@@ -43,14 +33,7 @@ export const Home = () => {
           {`NO BROKERAGE ON`}
           <span className="wrap"> PGS | FLATS | HOUSES | OFFICES </span>
         </h6>        
-        <div className="image-container-1">
-        <img src={home1} alt="Home Img" className="img-1" />
-        <img src={home2} alt="Home Img" className="img-1" />
-        <img src={home3} alt="Home Img" className="img-1" />
-        <img src={home4} alt="Home Img" className="img-1" />
-        <img src={home5} alt="Home Img" className="img-1" />
-        <img src={home6} alt="Home Img" className="img-1" />
-        </div>
+       {/* <Images/> */}
       </Container>
 
       <div className="scrollable-content">
