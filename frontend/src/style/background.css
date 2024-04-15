@@ -1,19 +1,40 @@
-.bird-1{
-    transform: translate3d(-400px, 100px, 0);
+/*------------------- Background CSS -----------------------*/
+.bg-img{
+    position: absolute;
 }
+.bg-1{
+    transform: translate3d(360px,-650px,0);
+}
+.bg-2{
+    transform: translate3d(300px,-280px,0);
+}
+
+/* -----------------------Bird Component-------------- */
+
+.bird-1{
+    transform: translate3d(-550px, -200px, 0) !important;
+}
+/* .scrolled .image-container-1{
+    transform: translate3d(620px, -150px, 0);
+    border-radius: 100px 200px 40px 100px;
+}  */
+.scrolled .bird-1{
+    transform: translate3d(-200px,-300px,0);
+} 
 .bird-2{
     transform: translate3d(-200px, 100px, 0);
-    transition: 0.3s ease-in-out;
+    transition: 0.7s ease-in-out;
 }
-.scrolled .bird-2{
+/* .scrolled .bird-2{
+    opacity: 0;
     transform: translate3d(-200px,-300px,0);
-}
+}  */
 
 
-/* Home CSS */
+/* -------------------Home CSS ------------------ */
 
 /* ----------Bottom Home */
-.thome-1{
+/* .thome-1{
     opacity: 1;
 }
 .thome-2{
@@ -51,4 +72,4 @@
 }
 .thome-13{
     opacity: 1;
-}
+} */

@@ -28,17 +28,22 @@ export const Home = () => {
     <section className={isScrolled ? "home scrolled" : "home"} id="home">
       <Container className="top-home" >
       
-        <h1 className="tagline">Welcome to To-Let Globe Priti </h1>
+        <h1 className="tagline">Welcome to To-Let Globe </h1>
         <h6 className="headline">
           {`NO BROKERAGE ON`}
           <span className="wrap"> PGS | FLATS | HOUSES | OFFICES </span>
         </h6>        
-       <Images/>
+        <div className="image-container-1">
+            <Images/>
+        </div>  
       </Container>
 
       <div className="scrollable-content">
         <Container className='bottom-home'>
-          <h1 className="tagline2">Welcome to To-Let Priti </h1>
+        {/* <div className="image-container-2">
+            <Images/>
+            </div>     */}
+          <h1 className="tagline2">Welcome to To-Let Globe </h1>
           <h6 className="headline2">
             {`NO BROKERAGE ON`}
             <span className="wrap"> PGS | FLATS | HOUSES | OFFICES </span>
@@ -50,9 +55,7 @@ export const Home = () => {
               />
               <Button onClick={() => console.log("connect")}>Search</Button>
           </div>
-            <div className="image-container-2">
-            <Images/>
-            </div>    
+            
         </Container>
       </div>
     </section>
