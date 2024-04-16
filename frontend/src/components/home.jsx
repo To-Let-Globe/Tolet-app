@@ -36,6 +36,7 @@ export const Home = () => {
             <Images/>
         </div>  
       </Container>
+      
       <div className="scrollable-content">
         <Container className='bottom-home'>
             
