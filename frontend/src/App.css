@@ -1,3 +1,9 @@
+/* 1. 40B5A8
+2. C8A21C
+3. D4DED8
+4. C0CFB8
+5. 000000 */
+
 /* Custom Fonts */
 @font-face{
   font-family: Anton;
@@ -24,7 +30,9 @@
 }
 html{
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  scroll-padding-top: 0px;
+  scrollbar-color:  #61928e #000000;
+  scrollbar-width:  thin;
 }
 
 body{
