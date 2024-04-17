@@ -55,7 +55,10 @@ h6{
 }
 
 .scrolled .tagline{
-  transform: translate3d(-300px,0px,0);
+  font-size: 2rem;
+  padding-top: 20%;
+  letter-spacing: 0;
+  transform: translate3d(-200px,0px,0);
 }
 
 .headline{
@@ -78,9 +81,10 @@ h6{
 
 
 .tagline2{
+  letter-spacing: 10px;
   font-size: 2rem;
   padding-top: 20%;
-  transition: all 1s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 
 .scrolled .tagline2{
@@ -90,11 +94,13 @@ h6{
 .headline2{
   font-size: 1rem;
   opacity: 0;
-  transition: all 1s ease-in-out;
+  color: #C8A21C;
+  transition: all 1.5s ease-in-out;
 }
 
 .scrolled .headline2{
   opacity: 1;
+  color: white;
   transform: translate3d(-300px,0px,0);
 }
 

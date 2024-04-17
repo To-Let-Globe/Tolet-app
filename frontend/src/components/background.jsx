@@ -1,7 +1,7 @@
 import "../style/background.css"
 
 import { Container } from "react-bootstrap"
-
+// import { HomeImg } from "./homeImg";
 // -----------Birds Img------------
 import bird1 from "../assets/image/birds/bird1.svg";
 import bird2 from "../assets/image/birds/bird2.svg";
@@ -23,12 +23,10 @@ export const Images =() =>{
             <div className="image-container-1">
                 
                 <div className="top-img">
-                    {/* <div className="Tbg-img Tback">
-                        <img src={bg2} alt=""  className="Tbg-2"/>
-                        <div className="front">
-                            <img src={bg1} alt=""  className="Tbg-1"/>
-                        </div>
-                    </div> */}
+                        {/* <img src={bg2} alt=""  className="Tbg-2"/> */}
+        
+                            {/* <img src={bg1} alt=""  className="Tbg-1"/> */}
+                        
 
                     {/* ---------- Birds Image ---------- */}
                     <div className="bird-img">
@@ -71,7 +69,7 @@ export const Images =() =>{
                     <div className="cloud-img">
                         <img src={cloud1} alt="" className="cloud-1" />
                         <img src={cloud2} alt="" className="cloud-2" />
-                        {/* <img src={cloud3} alt="" className="cloud-3" /> */}
+                        <img src={cloud3} alt="" className="cloud-3" />
                     </div>
 
                     

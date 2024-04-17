@@ -42,7 +42,7 @@ body{
   background-color: rgb(0, 0, 0) !important;
   color: azure;
   font-family:'Anton', 'Josefin', sans-serif;
-}
+  }
 
 h1, h2, h3, h4, h5, h6{
   margin: 0;
