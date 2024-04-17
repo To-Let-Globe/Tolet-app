@@ -52,14 +52,15 @@ span{
 }
 .cls2{
     text-align: center;
-    padding-left:120px !important;
-    padding-right:220px !important;
+    
+    /* padding-left:120px !important;
+    padding-right:220px !important; */
     background-color: #83c6c4 !important;
 }
 .buttoncolor{
     color: black;
     text-align: center;
-    padding-left: 80px;
+    /* padding-left: 80px; */
    
 }
 

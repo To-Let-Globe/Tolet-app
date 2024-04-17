@@ -99,11 +99,8 @@ export const Contact = () => {
                                                 <label for="message" class="label">Message</label>
 
                                                 <textarea rows="6" id="inputID" value={formDetails.message} placeholder=" Type your Message...." onChange={(e) => onFormUpdate('message', e.target.value)} className="form-control mb-3"></textarea>
-                                                <div className='text-centre'>
-                                                
-                                                <button type="submit" className="btn cls2"><span className='buttoncolor'>{buttonText}</span></button>
-                                                </div>
-                                               
+                                                   
+                                                <button type="submit" className="btn text-center cls2 justify-content-space-between"><span className='buttoncolor'>{buttonText}</span></button>
                                                 {status.message && <p className={status.success === false ? "text-danger" : "text-success"}>{status.message}</p>}
                                                 
                                             </Col>

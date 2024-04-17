@@ -1,5 +1,5 @@
 nav.navbar {
-    padding: 15px 0;
+    padding: 5px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -12,6 +12,7 @@ nav.navbar {
   }
   nav.navbar a.navbar-brand {
       width: 8%;
+
   }
   
   
