@@ -1,21 +1,65 @@
 section {
-    margin-top: 7rem; 
+    margin-top: 15rem; 
+    
+   
 }
 h1, h2, h3, h4, h5, h6 {
     color: rgb(255, 255, 255) !important;
+    font-family:Poppins;
 }
+
 p{
     color: rgb(179, 176, 176);
+
+   
 }
 .contact-us{
     text-align: left;
 }
 .message-img{
     width: 40px;
+   
 }
 span{
-    color: #00c0ba;
+    color: #83c6c4;
+    
+    
 }
 .highlight{
     color: rgb(233, 232, 226);
+    font-weight: 100 !important;
+   
+   
 }
+.space{
+    padding-bottom: 50px;
+}
+#inputID::placeholder {
+    color: #d3cece;
+    opacity: 1;
+}
+#inputID{
+    background-color:black;
+    -webkit-text-fill-color: white;
+    opacity: 1;
+    
+}
+.label{
+    color: white !important;
+    padding-bottom: 5px;
+    font-size: 20px;
+   
+}
+.cls2{
+    text-align: center;
+    padding-left:120px !important;
+    padding-right:220px !important;
+    background-color: #83c6c4 !important;
+}
+.buttoncolor{
+    color: black;
+    text-align: center;
+    padding-left: 80px;
+   
+}
+
