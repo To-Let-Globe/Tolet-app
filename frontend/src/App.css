@@ -5,6 +5,11 @@
   font-weight: 700;
 }
 @font-face{
+  font-family: Poppins;
+  src:url('./assets/fonts/Poppins-Regular.ttf');
+  font-weight: 700;
+}
+@font-face{
   font-family: Josefin;
   src:url('./assets/fonts/JosefinSans-VariableFont_wght.ttf');
   font-weight: 500;
@@ -82,9 +87,7 @@ p.danger {
 	color: red;
 }
 
-.App {
-  text-align: center;
-}
+
 
 
 @media (prefers-reduced-motion: no-preference) {
