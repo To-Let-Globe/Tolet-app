@@ -35,7 +35,7 @@ export const BottomImages =() =>{
                     </div> */}
 
                      
-                      {/* ---------- Birds Image ---------- */}
+                    {/* ---------- Birds Image ---------- */}
                         <img src={bird1} alt="Home Img" className="bird-1" />
                         <img src={bird2} alt="Home Img" className="bird-2" />
                     {/* -----------Cloud Images---------- */}

@@ -12,12 +12,6 @@ import cloud2 from "../assets/image/cloud/cloud2.svg";
 import cloud3 from "../assets/image/cloud/cloud3.svg";
 
 
-//------------Hand IMG--------------
-// import finger1 from "../assets/image/hand/finger1.svg";
-// import finger2 from "../assets/image/hand/finger2.svg";
-import hand from "../assets/image/hand/hand.svg";
-// import handsleeves from "../assets/image/hand/handsleeves.svg";
-
 
 // ---------- Background Img----------
 // import bg1 from "../assets/image/background/bg1.svg";
