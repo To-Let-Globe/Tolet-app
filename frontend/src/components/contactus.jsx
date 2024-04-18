@@ -48,12 +48,14 @@ export const Contact = () => {
            
             <Container>
                 <Row className="align-items-center justify-content-between">
-                    <Col size={12} md={5} className="contact-us">
+                    <Col size={13} md={6} className="contact-us">
                         <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__backInRight" : ""}>
+                            {/* {({ isVisible }) => */}
+                                {/* <div className={isVisible ? "animate__animated animate__backInRight" : ""}> */}
                                     <h1 style={{ marginBottom: '30px' }}><span className='highlight'>Contact Us</span>, We're Ready to Help!</h1>
-                                    <p>We strive to provide you with the best experience and the best platform to find your choice.</p>
+                                    <p style={{wordSpacing:'5px',letterSpacing:'2px'}}>We strive to provide you with the best</p> 
+                                    <p style={{wordSpacing:'5px',letterSpacing:'2px'}}>experience and the best platform to find your</p>
+                                    <p style={{wordSpacing:'5px',letterSpacing:'2px'}}> choice.</p>
                                     <p class='space'>Post us any queries and we’ll get back to you.</p>
 
                                     <Row className="mb-4">
@@ -76,7 +78,7 @@ export const Contact = () => {
                                             <span>+91 9876543210</span>
                                         </Col>
                                     </Row>
-                                </div>}
+                                {/* </div>} */}
                         </TrackVisibility>
                     </Col>
                     <Col size={12} md={5} className='form-container'>

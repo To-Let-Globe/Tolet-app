@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 // import InputGroup from 'react-bootstrap/InputGroup';
 // import headerImg from "../assets/img/header-img.png";
 import 'animate.css';
-import { Container } from 'react-bootstrap';
+import { Container, InputGroup } from 'react-bootstrap';
 import { Images } from './background';
 
 export const Home = () => {
@@ -45,12 +45,16 @@ export const Home = () => {
             {`NO BROKERAGE ON`}
             <span className="wrap2"> PGS | FLATS | HOUSES | OFFICES </span>
           </h6>
-          <div className="input-bar mb-3 mt-3 d-flex justify-content-between align-items-center" id="inputGroup">
+          <div className="input-bar mb-5 mt-4 d-flex justify-content-between align-items-center" id="inputGroup">
+            <InputGroup className='w-100'>  {/* Set width to 100% for proper sizing */}
               <Form.Control
                 placeholder="Search PG, Flats and Houses"
                 aria-label="Search PG, Flats and Houses"
               />
-              <Button className='btn' onClick={() => console.log("connect")}>Search</Button>
+              <Button className='btn' onClick={() => console.log("connect")}>
+                Search
+              </Button>
+            </InputGroup>
           </div>
           <div className="image-container-2">
             <Images/>

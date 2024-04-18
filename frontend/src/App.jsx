@@ -5,6 +5,7 @@ import { Home } from './components/home';
 import { Contact } from './components/contactus';
 import { Login } from './components/login';
 import { Blog } from './components/blog';
+import {AboutUs} from './components/aboutus';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -18,7 +19,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/login/*" element={<Login />} />
+          <Route path="/about/*" element={<AboutUs />} />
         </Routes>
+        
       </BrowserRouter>
     </div>
 );

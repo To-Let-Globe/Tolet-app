@@ -5,18 +5,22 @@
 
 h1{
     color: white !important;
-    font-family: 'Kanit';
+    font-family: Poppins-regular;
     font-weight: 200;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 }
 h6{
     color: rgb(2, 151, 146) !important;
     text-transform: capitalize;
-    font-family: 'Kanit';
+    font-family: Poppins-regular;
     font-weight: 200;
 }
 #home{
-  width: 100%;
+  /* display: flex; */
+  margin-top: 10%;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 85vh;
 }
 
 
@@ -81,7 +85,7 @@ h6{
 
 
 .tagline2{
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   font-size: 2rem;
   padding-top: 20%;
   transition: all 1.5s ease-in-out;
@@ -101,7 +105,7 @@ h6{
 .scrolled .headline2{
   opacity: 1;
   color: white;
-  transform: translate3d(-300px,0px,0);
+  transform: translate3d(-360px,0px,0);
 }
 
 .input-bar {
@@ -113,7 +117,7 @@ h6{
 
 .scrolled .input-bar{
   opacity: 1;
-  margin-left: 50px;
+  margin-left: 0px;
   transform: translateX(0);
 }
 
@@ -149,7 +153,7 @@ h6{
   }
   100%{
     opacity: 0;
-    transform: translate3d(-300px, 0, 0);
+    transform: translate3d(0px, 0, 0);
   }
 }
 

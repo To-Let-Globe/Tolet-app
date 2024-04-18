@@ -1,14 +1,16 @@
-section {
+.contact {
     height: 100vh;
-    margin-top: 10%; 
+    width: auto;
+    margin-top:12%; 
     text-align: left !important ;  
 }
 h1, h2, h3, h4, h5, h6 {
     color: rgb(255, 255, 255) !important;
-    font-family:Poppins;
+    font-family:Poppins-Regular!important;
 }
 
 p{
+    line-height: 50%;
     color: rgb(179, 176, 176);
 }
 .contact-us{

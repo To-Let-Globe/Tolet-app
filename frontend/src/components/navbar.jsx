@@ -8,6 +8,7 @@ export const NavBar = () => {
     const [scrolled, setScrolled] = useState(false);
     const [activeLink, setActiveLink] = useState('home');
     const [contactVisible, setContactVisible] = useState(false);
+    const [aboutVisible, setAboutVisible] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -20,6 +21,11 @@ export const NavBar = () => {
             if (contactSection) {
                 const rect = contactSection.getBoundingClientRect();
                 setContactVisible(rect.top <= windowHeight && rect.bottom >= 0);
+            }
+            const aboutSection = document.getElementById('about');
+            if (aboutSection) {
+                const rect = aboutSection.getBoundingClientRect();
+                setAboutVisible(rect.top <= windowHeight && rect.bottom >= 0);
             }
 
             
@@ -37,14 +43,19 @@ export const NavBar = () => {
 
             setActiveLink(contactVisible ? 'contact' : activeSection);
             setScrolled(scrollY > 50);
+            setActiveLink(aboutVisible ? 'about' : activeSection);
+            setScrolled(scrollY > 50);
         };
 
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [contactVisible]);
+    }, [contactVisible,aboutVisible]);
 
     const handleContactClick = () => {
         setActiveLink('contact');
+    };
+    const handleAboutClick = () => {
+        setActiveLink('about');
     };
 
     return (
@@ -61,7 +72,7 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => setActiveLink('home')}>Home</Nav.Link>
-                        <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'}>About</Nav.Link>
+                        <Nav.Link as={Link} to="/about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={handleAboutClick}>About</Nav.Link>
                         <Nav.Link as={Link} to="/contact" className={(activeLink === 'contact' || contactVisible) ? 'active navbar-link' : 'navbar-link'} onClick={handleContactClick}>Contact</Nav.Link>
                         <Nav.Link as={Link} to="/blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'}>Blog</Nav.Link>
                         <Nav.Link as={Link} to="/login" className={activeLink === 'login' ? 'active navbar-link' : 'navbar-link'}>Login</Nav.Link>
