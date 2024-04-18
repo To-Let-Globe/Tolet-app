@@ -84,7 +84,7 @@
 .checkpoint:nth-child(odd)::before{
   content: "";
 	background: #6cc0c4;
-	width: 9em;
+	width: 9.5em;
 	height: 3px;
 	position: absolute;
 	top: 50%;
@@ -94,7 +94,7 @@
 .checkpoint:nth-child(even)::before{
 	content: "";
 	background: #6cc0c4;
-	width: 9em;
+	width: 9.5em;
 	height: 3px;
 	position: absolute;
 	top: 50%;
@@ -134,7 +134,7 @@
     width: 3.9em;
     height: 4em;
     position:fixed;
-    left: 203%;
+    left: 19% !important;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
@@ -150,7 +150,7 @@
     width: 3.9em;
     height: 4em;
     position:fixed;
-    left: 77%;
+    left: 74%;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;   
