@@ -163,6 +163,46 @@
 	left: 9em ;
 }
 
+.line1{
+	/* Line 43 */
+	box-sizing: border-box;
+	position: absolute;
+	width: 546px;
+	height: 0px;
+	left: 180px;
+	bottom: 270px;
+
+	border: 2px solid #6CBFC4;
+	transform: rotate(156.12deg);
+
+}
+.line2{
+	/* Line 43 */
+	box-sizing: border-box;
+	position: absolute;
+	width: 146px;
+	height: 0px;
+	left: 630px;
+	bottom: 307px;
+
+	border: 2px solid #6CBFC4;
+	transform: rotate(90deg);
+
+}
+.line3{
+	/* Line 43 */
+	box-sizing: border-box;
+	position: absolute;
+	width: 546px;
+	height: 0px;
+	left: 680px;
+	bottom: 268px;
+
+	border: 2px solid #6CBFC4;
+	transform: rotate(204.12deg);
+
+}
+
 
 .team-container {
 	height: auto;
@@ -186,10 +226,12 @@
   .lines{
 	padding-right: 8px;
   }
-  .images {
+  .team-images {
+	margin-top: 10%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	flex-wrap: wrap;
   }
   
   /* Scroll clients starts*/

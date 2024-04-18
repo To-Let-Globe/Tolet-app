@@ -6,7 +6,8 @@ import Form from 'react-bootstrap/Form';
 // import headerImg from "../assets/img/header-img.png";
 import 'animate.css';
 import { Container, InputGroup } from 'react-bootstrap';
-import { Images } from './background';
+import { TopImages } from './Tbackground';
+import { BottomImages } from './Bbackground';
 
 export const Home = () => {
 
@@ -33,7 +34,7 @@ export const Home = () => {
           NO BROKERAGE ON PGS | FLATS | HOUSES | OFFICES
         </h6>        
         <div className="image-container-1">
-            <Images/>
+            <TopImages/>
         </div>  
       </Container>
       
@@ -57,7 +58,7 @@ export const Home = () => {
             </InputGroup>
           </div>
           <div className="image-container-2">
-            <Images/>
+            <BottomImages/>
           </div>  
         </Container>
       </div>

@@ -20,7 +20,7 @@
     opacity: 1;
     transform: translate3d(560px,-520px,0);
 } */
-
+/*  */
 .Tbg-2{
     height: 600px !important;
     opacity: 0.1;
@@ -48,12 +48,14 @@
 
 .Tbird-1{
     opacity: 0.5;
-    transform: translate3d(-550px, -200px, 0) !important;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(-400px, -200px, 0) !important;
     transition: all 1.5s ease-in-out;
 }
 .scrolled .Tbird-1 {
     opacity: 0;
-    transform: translate3d(200px,-300px,0);
+    transform: translate3d(170px,-180px,0) !important;
 }
 
 .bird-1{
@@ -64,16 +66,22 @@
 
 .scrolled .bird-1{
     opacity: 1;
-    transform: translate3d(200px,-300px,0) !important;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(170px,-180px,0) !important;
 } 
 
 .Tbird-2{
     opacity: 0.5;
+    width: 100px;
+    height: 40px;
     transform: translate3d(-200px, 100px, 0);
     transition: 1.5s ease-in-out;
 }
 .scrolled .Tbird-2{
     opacity: 0;
+    width: 100px;
+    height: 40px;
     transform: translate3d(450px, -250px, 0);
 }
 
@@ -84,13 +92,33 @@
 }
 .scrolled .bird-2{
     opacity: 1;
-    transform: translate3d(450px, -250px, 0);
+    width: 100px;
+    height: 40px;
+    transform: translate3d(450px, -160px, 0);
 }
 
 /* ------------------Cloud CSS------------------- */
+
+/* Line 42 */
+
+/* box-sizing: border-box;
+
+position: absolute;
+width: 366.72px;
+height: 0px;
+left: 572px;
+top: 1632px;
+
+background: #6CBFC4;
+border: 5px solid #6CBFC4;
+transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
+
+
 .Tcloud-1{
-    opacity: 1;
-    transform: translate3d(-300px,-350px,0);
+    opacity: 0.5;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(-500px,-300px,0) !important;
     transition: all 1.5s ease-in-out;
 }
 
@@ -99,37 +127,47 @@
     transform: translate3d(150px, -350px,0);
 }
 .cloud-1{
-    opacity: 0;
+    opacity: 0.3;
     transform: translate3d(-300px,-475px,0);
     transition: all 1.5s ease-in-out;
 }
 .scrolled .cloud-1{
     opacity: 1;
-    transform: translate3d(150px, -475px,0);
+    width: 100px;
+    height: 40px;
+    transform: translate3d(150px, -375px,0);
 }
 
 .Tcloud-2{
-    opacity: 1;
-    transform: translate3d(-150px,-220px,0);
+    opacity: 0.5;
+    width: 170px;
+    height: 60px;
+    transform: translate3d(-250px,-150px,0);
     transition: all 1.5s ease-in-out;
 }
 .scrolled .Tcloud-2{
     opacity: 0;
-    transform: translate3d(400px,-300px,0);
+    width: 100px;
+    height: 40px;
+    transform: translate3d(450px,-300px,0);
 }
 .cloud-2{
-    opacity: 0;
+    opacity: 0.3;
     transform: translate3d(-150px,-345px,0);
     transition: all 1.5s ease-in-out;
 }
-.scrolled .cloud-2{
+.scrolled  .cloud-2{
     opacity: 1;
-    transform: translate3d(400px,-425px,0);
+    width: 100px;
+    height: 40px;
+    transform: translate3d(0px,0px,0);
 }
 
 .Tcloud-3{
-    opacity: 1;
-    transform: translate3d(-550px,-50px,0);
+    opacity: 0.5;
+    width: 120px;
+    height: 40px;
+    transform: translate3d(-800px,-50px,0);
     transition: all 1.5s ease-in-out;
 }
 .scrolled .Tcloud-3{
@@ -138,13 +176,30 @@
     
 }
 .cloud-3{
-    opacity: 0;
+    opacity: 0.3;
     transform: translate3d(-550px,-50px,0);
     transition: all 1.5s ease-in-out;
 }
 .scrolled .cloud-3{
     opacity: 1;
-    transform: translate3d(60px,163px,0);
+    width: 100px;
+    height: 40px;
+    transform: translate3d(30px,-250px,0);
+}
+
+/* -------------------Hand CSS ------------------ */
+
+.hand{
+    opacity: 0;
+    transform: translate3d(0px,100px,0);
+    transition: all 1.5s ease-in-out;
+}
+.scrolled .hand{
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+    transform: translate3d(200px,-150px,0);
 }
 
 /* -------------------Home CSS ------------------ */

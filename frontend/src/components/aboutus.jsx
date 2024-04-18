@@ -38,7 +38,7 @@ export const AboutUs = () => {
     }
 
     function fnUpdateProgress() {
-      var agTop = topoffset.offsetTop + 145
+      var agTop = topoffset.offsetTop + 140
 
       var i = agTop + agPosY - $(window).scrollTop()
       var a =
@@ -166,8 +166,11 @@ export const AboutUs = () => {
       </Container>
       <Container className="team-container">
         <div id="team-head">Our team</div>
-
-        <div className="images">
+        
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
+        <div className="team-images">
           <div className="flip-box">
             <div className="flip-box-inner">
               <div className="flip-box-front">

@@ -17,10 +17,12 @@ h6{
 }
 #home{
   /* display: flex; */
-  margin-top: 10%;
+  
+  margin-top: 5%;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   height: 85vh;
+  width: 100% !important;
 }
 
 
