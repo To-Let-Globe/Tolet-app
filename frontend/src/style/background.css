@@ -209,48 +209,32 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     width: 470px;
     height: 400px;
     opacity: 1;
-    transform: translate(85%,-25%);
+    transform: translate(85%,-45%);
 }
 
 /* -------------------Home CSS ------------------ */
 
-/* ----------Bottom Home */
-/* .thome-1{
-    opacity: 1;
+.wall-1{
+    position: absolute;
+    height: 100px;
+    width:150px;
+    transform: translate3d(60px,50px,0);
 }
-.thome-2{
-    opacity: 1;
+.wall-2{
+    position: absolute;
+    height: 180px;
+    width:150px;
+    transform: translate3d(160px,-35px,0);
 }
-.thome-3{
-    opacity: 1;
+.roof-1{
+    position: relative;
+    height: 140px;
+    width:180px;
+    transform: translate3d(65px,-65px,0);
 }
-.thome-4{
-    opacity: 1;
+.roof-2{
+    position: relative;
+    height: 150px;
+    width:80px;
+    transform: translate3d(-70px,-75px,0)  !important;
 }
-.thome-5{
-    opacity: 1;
-}
-.thome-6{
-    opacity: 1;
-}
-.thome-7{
-    opacity: 1;
-}
-.thome-8{
-    opacity: 1;
-}
-.thome-9{
-    opacity: 1;
-}
-.thome-10{
-    opacity: 1;
-}
-.thome-11{
-    opacity: 1;
-}
-.thome-12{
-    opacity: 1;
-}
-.thome-13{
-    opacity: 1;
-} */

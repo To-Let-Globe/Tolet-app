@@ -164,11 +164,12 @@ export const AboutUs = () => {
       </div>
 
       <div className="team-container">
-        <div id="team-head">Our team</div>
+        <div id="team-head" className='mb-2'>Our team</div>
 
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>
+
         <div className="team-images">
           <div className="flip-box">
             <div className="flip-box-inner">
