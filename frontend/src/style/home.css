@@ -55,25 +55,31 @@ h6{
 } */
 
 .tagline{
-  letter-spacing: 10px;
+  position: absolute;
+  letter-spacing: 8px;
   padding-top: 20%;
-  transition: all 1.5s ease-in-out;
+  transform: translateX(40%);
+  transition: all 2s ease-in-out !important;
 }
 
 .scrolled .tagline{
   font-size: 2rem;
   padding-top: 20%;
   letter-spacing: 0;
-  transform: translate3d(-200px,0px,0);
+  opacity: 0;
+  transform: translateX(20%) !important;
 }
 
 .headline{
+  position: absolute;
+  transform: translate(110%,300px);
   color: #C8A21C !important;
-  transition: all 1.5s ease-in-out;
+  transition: all 2s ease-in-out !important;
 }
 
 .scrolled .headline{
-  transform: translate3d(-300px,0px,0);
+  opacity: 0;
+  transform: translate(10%,300px) !important;
 }
 
 
@@ -148,17 +154,3 @@ h6{
   }
   
 
-
-@keyframes slideOut {
-  0%{
-    transform: translate3d(0, 0, 0);
-  }
-  100%{
-    opacity: 0;
-    transform: translate3d(0px, 0, 0);
-  }
-}
-
-.scrolled .tagline, .scrolled .headline {
-  animation: slideOut 0.8s forwards; /* forwards keeps the last keyframe state */
-}

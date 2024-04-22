@@ -37,6 +37,9 @@ import plant1 from "../assets/image/plant/plant1.svg"
 import plant2 from "../assets/image/plant/plant2.svg"
 
 
+//--------------Sun IMG-------------
+import sun from "../assets/image/sun/sun.svg";
+
 // ---------- Background Img----------
 // import bg1 from "../assets/image/background/grey.svg";
 // import bg2 from "../assets/image/background/bg2.svg";
@@ -65,6 +68,15 @@ export const TopImages =() =>{
                         <img src={cloud2} alt="" className="Tcloud-2" />
                         <img src={cloud3} alt="" className="Tcloud-3" />
 
+                    {/*----------Sun Image -------------- */}
+                    {/* <img src={ray1} alt="Home Img" className="Tray-1" />
+                    <img src={ray2} alt="Home Img" className="Tray-2" />
+                    <img src={ray3} alt="Home Img" className="Tray-3" />
+                    <img src={ray4} alt="Home Img" className="Tray-4" />
+                    <img src={ray5} alt="Home Img" className="Tray-5" />
+                    <img src={sun-rays} alt="Home Img" className="Tray-6" /> */}
+                        <img src={sun} alt="Home Img" className="Tsun-circle" />
+
                     {/* -----------Plant Imaages----------- */}
                         {/* <img src={plant1} alt="" className="Tplant-1" />
                         <img src={plant2} alt="" className="Tplant-2" /> */}
@@ -74,7 +86,7 @@ export const TopImages =() =>{
                         {/* <img src={roof3} alt="" className="Troof-3" /> */}
                         <img src={wall1} alt="" className="Twall-1" />
                         <img src={wall2} alt="" className="Twall-2" />
-                        <img src={gate} alt="" className="Tgate" />
+                        {/* <img src={gate} alt="" className="Tgate" /> */}
                         <img src={frontw1} alt="" className="Twindow-1" />
                         <img src={frontw2} alt="" className="Twindow-2" />
                         <img src={frontw3} alt="" className="Twindow-3" />
@@ -82,13 +94,13 @@ export const TopImages =() =>{
                         <img src={frontw5} alt="" className="Twindow-5" />
                         <img src={frontw6} alt="" className="Twindow-6" />
                         {/* <img src={roof1} alt="" className="Troof-1" />
-                        <img src={roof4} alt="" className="Troof-4" />
-                        <img src={roof2} alt="" className="Troof-2" /> */}
+                        <img src={roof4} alt="" className="Troof-4" /> */}
+                        <img src={roof2} alt="" className="Troof-2" />
                     
 
 
                     {/* -----------Hand Images----------- */}
-                        {/* <img src={hand} alt="" className="Thand" /> */}
+                        <img src={hand} alt="" className="Thand" />
 
                     
 

@@ -35,6 +35,9 @@ import frontw6 from "../assets/image/home/window6.svg"
 import plant1 from "../assets/image/plant/plant1.svg"
 import plant2 from "../assets/image/plant/plant2.svg"
 
+//--------------Sun IMG-------------
+import sun from "../assets/image/sun/sun.svg";
+
 // ---------- Background Img----------
 import bg1 from "../assets/image/background/grey.svg";
 import bg2 from "../assets/image/background/black.svg";
@@ -60,25 +63,35 @@ export const BottomImages =() =>{
                         <img src={cloud2} alt="" className="cloud-2" />
                         <img src={cloud3} alt="" className="cloud-3" />
 
+                    {/*----------Sun Image -------------- */}
+
+                    {/* <img src={ray1} alt="Home Img" className="Tray-1" />
+                    <img src={ray2} alt="Home Img" className="Tray-2" />
+                    <img src={ray3} alt="Home Img" className="Tray-3" />
+                    <img src={ray4} alt="Home Img" className="Tray-4" />
+                    <img src={ray5} alt="Home Img" className="Tray-5" />
+                    <img src={sun-rays} alt="Home Img" className="Tray-6" /> */}
+                        <img src={sun} alt="Home Img" className="sun-circle" />
+
                     {/* -----------Plant Imaages----------- */}
                         <img src={plant1} alt="" className="plant-1" />
                         <img src={plant2} alt="" className="plant-2" />
 
 
                     {/* ----------Home Images------------ */}
-                        <img src={roof3} alt="" className="roof-3" />
+                        {/* <img src={roof3} alt="" className="roof-3" /> */}
                         <img src={wall1} alt="" className="wall-1" />
                         <img src={wall2} alt="" className="wall-2" />
-                        <img src={gate} alt="" className="gate" />
+                        {/* <img src={gate} alt="" className="gate" /> */}
                         <img src={frontw1} alt="" className="window-1" />
                         <img src={frontw2} alt="" className="window-2" />
                         <img src={frontw3} alt="" className="window-3" />
                         <img src={frontw4} alt="" className="window-4" />
                         <img src={frontw5} alt="" className="window-5" />
                         <img src={frontw6} alt="" className="window-6" />
-                        <img src={roof1} alt="" className="roof-1" />
-                        <img src={roof4} alt="" className="roof-4" />
-                        <img src={roof2} alt="" className="roof-2" />
+                        {/* <img src={roof1} alt="" className="roof-1" /> */}
+                        {/*  <img src={roof4} alt="" className="roof-4" /> */}
+                        <img src={roof2} alt="" className="roof-2" /> 
                     
 
 
