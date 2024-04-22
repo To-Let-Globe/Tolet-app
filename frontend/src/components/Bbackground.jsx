@@ -1,5 +1,5 @@
 import "../style/background.css"
-
+import 'animate.css';
 import { Container } from "react-bootstrap"
 // import { HomeImg } from "./homeImg";
 // -----------Birds Img------------
@@ -16,19 +16,24 @@ import cloud3 from "../assets/image/cloud/cloud3.svg";
 import hand from "../assets/image/hand/hand.svg";
 
 // ------------Home Img-------------
-import chimney1 from "../assets/image/home/chimney-front.svg"
+// import chimney1 from "../assets/image/home/chimney-front.svg"
 import wall1 from "../assets/image/home/wall-1.svg"
 import wall2 from "../assets/image/home/wall-2.svg"
 import roof1 from "../assets/image/home/roof.svg"
 import roof2 from "../assets/image/home/roof-top.svg"
-// import home6 from "../assets/image/home/home6.svg"
-// import home7 from "../assets/image/home/home7.svg"
-// import home8 from "../assets/image/home/home8.svg"
-// import home9 from "../assets/image/home/home9.svg"
-// import home10 from "../assets/image/home/home10.svg"
-// import home11 from "../assets/image/home/home11.svg"
-// import home12 from "../assets/image/home/home12.svg"
-// import home13 from "../assets/image/home/home13.svg"
+import roof3 from "../assets/image/home/backroof.svg"
+import roof4 from "../assets/image/home/rooftop1.svg"
+import gate from "../assets/image/home/gate.svg"
+import frontw1 from "../assets/image/home/window1.svg"
+import frontw2 from "../assets/image/home/window2.svg"
+import frontw3 from "../assets/image/home/window3.svg"
+import frontw4 from "../assets/image/home/window4.svg"
+import frontw5 from "../assets/image/home/window5.svg"
+import frontw6 from "../assets/image/home/window6.svg"
+
+// ---------- Plant Img----------
+import plant1 from "../assets/image/plant/plant1.svg"
+import plant2 from "../assets/image/plant/plant2.svg"
 
 // ---------- Background Img----------
 // import bg1 from "../assets/image/background/bg1.svg";
@@ -41,12 +46,9 @@ export const BottomImages =() =>{
             {/* -----------Bottom components--------------- */}
             <div className="image-container-2">
                 {/* <div className="bottom-img"> */}
-                    {/* <div className="bg-img back">
-                        <img src={bg2} alt=""  className="bg-2"/>
-                        <div className="front">
-                            <img src={bg1} alt=""  className="bg-1"/>
-                        </div>
-                    </div> */}
+                        {/* <img src={bg2} alt=""  className="bg-2"/> */}
+                            {/* <img src={bg1} alt=""  className="bg-1"/> */}
+                    
 
                      
                     {/* ---------- Birds Image ---------- */}
@@ -58,12 +60,28 @@ export const BottomImages =() =>{
                         <img src={cloud2} alt="" className="cloud-2" />
                         <img src={cloud3} alt="" className="cloud-3" />
 
+                    {/* -----------Plant Imaages----------- */}
+                        <img src={plant1} alt="" className="plant-1" />
+                        <img src={plant2} alt="" className="plant-2" />
+
+
                     {/* ----------Home Images------------ */}
+                        <img src={roof3} alt="" className="roof-3" />
                         <img src={wall1} alt="" className="wall-1" />
                         <img src={wall2} alt="" className="wall-2" />
+                        <img src={gate} alt="" className="gate" />
+                        <img src={frontw1} alt="" className="window-1" />
+                        <img src={frontw2} alt="" className="window-2" />
+                        <img src={frontw3} alt="" className="window-3" />
+                        <img src={frontw4} alt="" className="window-4" />
+                        <img src={frontw5} alt="" className="window-5" />
+                        <img src={frontw6} alt="" className="window-6" />
                         <img src={roof1} alt="" className="roof-1" />
+                        <img src={roof4} alt="" className="roof-4" />
                         <img src={roof2} alt="" className="roof-2" />
                     
+
+
                     {/* -----------Hand Images----------- */}
                         <img src={hand} alt="" className="hand" />
 

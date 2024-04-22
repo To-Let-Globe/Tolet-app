@@ -1,6 +1,6 @@
 /*------------------- Background CSS -----------------------*/
 
-/* .Tbg-1{
+.Tbg-1{
     opacity: 0.2;
     transform: translate3d(560px,-520px,0);
     transition: all 1sec ease-in-out;
@@ -17,10 +17,12 @@
     transition: all 1sec ease-in-out;
 }
 .scrolled .bg-1{
+    /* width: 500px; */
+    position: absolute;
     opacity: 1;
-    transform: translate3d(560px,-520px,0);
-} */
-/*  */
+    transform: translate3d(160px,-120px,0);
+}
+
 .Tbg-2{
     height: 600px !important;
     opacity: 0.1;
@@ -47,6 +49,7 @@
 /* -----------------------Bird Component-------------- */
 
 .Tbird-1{
+    position: absolute;
     opacity: 0.5;
     width: 100px;
     height: 40px;
@@ -68,14 +71,15 @@
     opacity: 1;
     width: 80px;
     height: 30px;
-    transform: translate3d(400px,-180px,0) !important;
+    transform: translate3d(650px,-190px,0) !important;
 } 
 
 .Tbird-2{
+    position: relative;
     opacity: 0.5;
     width: 100px;
     height: 40px;
-    transform: translate3d(-200px, 120px, 0);
+    transform: translate3d(120%, 120px, 0);
     transition: 1.5s ease-in-out;
 }
 .scrolled .Tbird-2{
@@ -94,7 +98,7 @@
     opacity: 1;
     width: 80px;
     height: 30px;
-    transform: translate3d(675px, -100px, 0);
+    transform: translate3d(810px, -100px, 0);
 }
 
 /* ------------------Cloud CSS------------------- */
@@ -115,10 +119,11 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
 
 
 .Tcloud-1{
-    opacity: 0.5;
+    position: relative;
+    opacity: 0.3;
     width: 100px;
     height: 40px;
-    transform: translate3d(-400px,-256px,0) !important;
+    transform: translate3d(-100%,-345px,0) !important;
     transition: all 1.5s ease-in-out !important;
 }
 
@@ -137,14 +142,14 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     opacity: 1;
     width: 100px;
     height: 40px;
-    transform: translate3d(300px, -250px,0);
+    transform: translate3d(450px, -350px,0);
 }
 
 .Tcloud-2{
     opacity: 0.5;
     width: 170px;
     height: 60px;
-    transform: translate3d(-200px,-150px,0);
+    transform: translate3d(-20%,-190px,0);
     transition: all 1.5s ease-in-out !important;
 }
 .scrolled .Tcloud-2{
@@ -164,14 +169,14 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     opacity: 1;
     width: 120px;
     height: 40px;
-    transform: translate3d(50px,-130px,0);
+    transform: translate3d(110px,-130px,0);
 }
 
 .Tcloud-3{
     opacity: 0.5;
     width: 120px;
     height: 40px;
-    transform: translate3d(-800px,130px,0);
+    transform: translate3d(-620px,130px,0);
     transition: all 1.5s ease-in-out !important;
 }
 .scrolled .Tcloud-3{
@@ -192,16 +197,23 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     opacity: 1;
     width: 260px;
     height: 40px;
-    transform: translate3d(270px,-180px,0);
+    transform: translate3d(400px,-265px,0);
 }
 
 /* -------------------Hand CSS ------------------ */
 
+.Thand{
+    opacity: 0;
+    width: 470px;
+    height: 400px;
+    transform: translate(85%,-45%);
+    transition: all 1.5s ease-in-out;
+}
 .hand{
     opacity: 0;
     width: 470px;
     height: 400px;
-    /* transform: translate3d(0px,100px,0); */
+    transform: translate(85%,-45%);
     transition: all 1.5s ease-in-out;
 }
 .scrolled .hand{
@@ -212,29 +224,198 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     transform: translate(85%,-45%);
 }
 
+
 /* -------------------Home CSS ------------------ */
 
+.Twall-1{
+    position: absolute;
+    height: 100px;
+    width:170px;
+    transform: translate3d(10px,40px,0);
+}
 .wall-1{
     position: absolute;
     height: 100px;
-    width:150px;
-    transform: translate3d(60px,50px,0);
+    width:170px;
+    transform: translate3d(10px,40px,0);
+}
+.Twall-2{
+    position: absolute;
+    height: 180px;
+    width:160px;
+    transform: translate3d(128px,-45px,0);
 }
 .wall-2{
     position: absolute;
     height: 180px;
-    width:150px;
-    transform: translate3d(160px,-35px,0);
+    width:160px;
+    transform: translate3d(128px,-45px,0);
+}
+.Troof-1{
+    position: relative;
+    height: 140px;
+    width:190px;
+    transform: translate3d(30px,-75px,0);
 }
 .roof-1{
     position: relative;
     height: 140px;
-    width:180px;
-    transform: translate3d(65px,-65px,0);
+    width:190px;
+    transform: translate3d(30px,-75px,0);
+}
+.Troof-3{
+    position: absolute;
+    height: 120px;
+    width:190px;
+    z-index: 0;
+    transform: translate3d(85px,-70px,0);
+}
+.roof-3{
+    position: absolute;
+    height: 120px;
+    width:190px;
+    z-index: 0;
+    transform: translate3d(85px,-70px,0);
+}
+.Troof-2{
+    position: absolute;
+    height: 170px;
+    width:90px;
+    transform: translate3d(-115px,-105px,0)  !important;
 }
 .roof-2{
-    position: relative;
-    height: 150px;
-    width:80px;
-    transform: translate3d(-70px,-75px,0)  !important;
+    position: absolute;
+    height: 170px;
+    width:90px;
+    transform: translate3d(-115px,-105px,0)  !important;
+}
+.Troof-4{
+    position: absolute;
+    height: 140px;
+    width:85px;
+    transform: translate3d(-111px,-35%,0)  !important;
+}
+.roof-4{
+    position: absolute;
+    height: 140px;
+    width:85px;
+    transform: translate3d(-111px,-75px,0)  !important;
+}
+.Tgate{
+    position: absolute;
+    height: 80px;
+    width:30px;
+    transform: translate3d(80px,65px,0)  !important;
+}
+.gate{
+    position: absolute;
+    height: 80px;
+    width:30px;
+    transform: translate3d(80px,65px,0)  !important;
+}
+.Twindow-1{
+    position: absolute;
+    height: 60px;
+    width:30px;
+    transform: translate3d(45px,45px,0)  !important;
+}
+.window-1{
+    position: absolute;
+    height: 60px;
+    width:30px;
+    transform: translate3d(45px,45px,0)  !important;
+}
+.Twindow-2{
+    position: absolute;
+    height: 60px;
+    width:30px;
+    transform: translate3d(115px,45px,0)  !important;
+}
+.window-2{
+    position: absolute;
+    height: 60px;
+    width:30px;
+    transform: translate3d(115px,45px,0)  !important;
+}
+.Twindow-3{
+    position: absolute;
+    height: 60px;
+    width:30px;
+    transform: translate3d(170px,42px,0)  !important;
+}
+.window-3{
+    position: absolute;
+    height: 60px;
+    width:30px;
+    transform: translate3d(170px,42px,0)  !important;
+}
+.Twindow-4{
+    position: absolute;
+    height: 60px;
+    width:30px;
+    transform: translate3d(220px,42px,0)  !important;
+}
+.window-4{
+    position: absolute;
+    height: 60px;
+    width:30px;
+    transform: translate3d(220px,42px,0)  !important;
+}
+.Twindow-5{
+    position: absolute;
+    height: 40px;
+    width:25px;
+    transform: translate3d(195px,0px,0)  !important;
+}
+.window-5{
+    position: absolute;
+    height: 40px;
+    width:25px;
+    transform: translate3d(195px,0px,0)  !important;
+}
+.Twindow-6{
+    position: absolute;
+    z-index: 1;
+    height: 35px;
+    width:25px;
+    transform: translate3d(90px,-10px,0)  !important;
+}
+.window-6{
+    position: absolute;
+    z-index: 1;
+    height: 35px;
+    width:25px;
+    transform: translate3d(90px,-10px,0)  !important;
+}
+
+
+/* --------Plant CSS---------- */
+.Tplant-1{
+    position: absolute;
+    height: 80px;
+    width:60px;
+    z-index: 0;
+    transform: translate3d(260px,15px,0)  !important;
+}
+.plant-1{
+    position: absolute;
+    height: 80px;
+    width:60px;
+    z-index: 0;
+    transform: translate3d(260px,15px,0)  !important;
+}
+
+.Tplant-2{
+    position: absolute;
+    height: 90px;
+    width:70px;
+    z-index: 0;
+    transform: translate3d(-27px,35px,0)  !important;
+}
+.plant-2{
+    position: absolute;
+    height: 90px;
+    width:70px;
+    z-index: 0;
+    transform: translate3d(-27px,35px,0)  !important;
 }
