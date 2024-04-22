@@ -47,7 +47,7 @@ export const Home = () => {
             <span className="wrap2"> PGS | FLATS | HOUSES | OFFICES </span>
           </h6>
           <div className="input-bar mb-5 mt-4 d-flex justify-content-between align-items-center" id="inputGroup">
-            <InputGroup className='w-100'>  {/* Set width to 100% for proper sizing */}
+            <InputGroup className='w-100'> 
               <Form.Control
                 placeholder="Search PG, Flats and Houses"
                 aria-label="Search PG, Flats and Houses"

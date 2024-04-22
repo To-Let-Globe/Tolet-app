@@ -36,8 +36,8 @@ import plant1 from "../assets/image/plant/plant1.svg"
 import plant2 from "../assets/image/plant/plant2.svg"
 
 // ---------- Background Img----------
-// import bg1 from "../assets/image/background/bg1.svg";
-// import bg2 from "../assets/image/background/bg2.svg";
+import bg1 from "../assets/image/background/grey.svg";
+import bg2 from "../assets/image/background/black.svg";
 
 export const BottomImages =() =>{
     return(

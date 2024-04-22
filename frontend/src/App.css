@@ -48,6 +48,7 @@ body{
   position: relative;
   background-color: rgb(0, 0, 0) !important;
   color: azure;
+  overflow-x: hidden;
   font-family:'Poppins-bold', 'Poppins-black', sans-serif, 'Poppins-regular','Poppins-bold';
   }
 
