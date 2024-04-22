@@ -235,29 +235,64 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
 
 
 /* -------------------Home CSS ------------------ */
-
 .Twall-1{
     position: absolute;
-    height: 100px;
+    height: 110px;
     width:170px;
+    opacity: 0.1;
+    transform: translate3d(240px,192px,0px) rotate(300deg);
+    transition: all 1.5s ease-in-out;
+}
+.scrolled .Twall-1{
+    position: absolute;
+    height: 110px;
+    width:170px;
+    opacity: 0;
     transform: translate3d(10px,40px,0);
 }
 .wall-1{
     position: absolute;
     height: 100px;
     width:170px;
+    opacity: 0;
+    transform: translate3d(240px,192px,0px) rotate(300deg);
+    transition: all 1.5s ease-in-out;
+}
+.scrolled .wall-1{
+    position: absolute;
+    height: 100px;
+    width:170px;
+    opacity: 1;
     transform: translate3d(10px,40px,0);
 }
 .Twall-2{
     position: absolute;
-    height: 180px;
-    width:160px;
+    height: 190px;
+    width:240px;
+    opacity:0.1;
+    transform: translate3d(220px,20px,50px)rotate(300deg);
+    transition: all 1.5s ease-in-out;
+}
+.scrolled .Twall-2{
+    position: absolute;
+    height: 190px;
+    width:240px;
+    opacity:0;
     transform: translate3d(128px,-45px,0);
 }
 .wall-2{
     position: absolute;
     height: 180px;
     width:160px;
+    opacity: 0;
+    transform: translate3d(220px,20px,50px)rotate(300deg);
+    transition: all 1.5s ease-in-out;
+}
+.scrolled .wall-2{
+    position: absolute;
+    height: 180px;
+    width:160px;
+    opacity: 1;
     transform: translate3d(128px,-45px,0);
 }
 .Troof-1{
@@ -499,18 +534,45 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     position: absolute;
     height: 80px;
     width:60px;
+    opacity: 0.1;
+    z-index: 0;
+    transform: translate3d(240px,220px,0)  !important;
+    transition: all 1.5s ease-in-out;
+}
+.scrolled .Tplant-1{
+    position: absolute;
+    height: 80px;
+    width:60px;
+    opacity: 0;
     z-index: 0;
     transform: translate3d(260px,15px,0)  !important;
 }
 .plant-1{
     position: absolute;
     height: 80px;
-    width:70px;
+    width:60px;
     z-index: 0;
-    transform: translate3d(255px,5px,0)  !important;
+    transform: translate3d(260px,220px,0)  !important;
+    transition: all 1.5s ease-in-out;
+}
+.scrolled .plant-1{
+    position: absolute;
+    height: 80px;
+    width:60px;
+    z-index: 0;
+    transform: translate3d(260px,15px,0)  !important;
 }
 
 .Tplant-2{
+    position: absolute;
+    height: 90px;
+    width:70px;
+    opacity:0.1;
+    z-index: 0;
+    transform: translate3d(-27px,90px,0)  !important;
+    transition: all 1.5s ease-in-out;
+}
+.scrolled .Tplant-2{
     position: absolute;
     height: 90px;
     width:70px;
@@ -520,6 +582,14 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
 .plant-2{
     position: absolute;
     height: 90px;
+    width:70px;
+    z-index: 0;
+    transform: translate3d(-27px,35px,0)  !important;
+    transition: all 1.5s ease-in-out;
+}
+.scrolled .plant-2{
+    position: absolute;
+    height: 90px; 
     width:70px;
     z-index: 0;
     transform: translate3d(-27px,35px,0)  !important;

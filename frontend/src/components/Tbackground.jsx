@@ -71,10 +71,10 @@ export const TopImages =() =>{
 
 
                     {/* ----------Home Images------------ */}
-                        {/* <img src={roof3} alt="" className="Troof-3" />
+                        {/* <img src={roof3} alt="" className="Troof-3" /> */}
                         <img src={wall1} alt="" className="Twall-1" />
                         <img src={wall2} alt="" className="Twall-2" />
-                        <img src={gate} alt="" className="Tgate" /> */}
+                        <img src={gate} alt="" className="Tgate" />
                         <img src={frontw1} alt="" className="Twindow-1" />
                         <img src={frontw2} alt="" className="Twindow-2" />
                         <img src={frontw3} alt="" className="Twindow-3" />
