@@ -58,8 +58,8 @@ h6{
   position: absolute;
   letter-spacing: 8px;
   padding-top: 20%;
-  transform: translateX(40%);
-  transition: all 2s ease-in-out !important;
+  transform: translateX(35%);
+  transition: all 1.5s ease-in-out !important;
 }
 
 .scrolled .tagline{
@@ -72,9 +72,9 @@ h6{
 
 .headline{
   position: absolute;
-  transform: translate(110%,300px);
+  transform: translate(100%,300px);
   color: #C8A21C !important;
-  transition: all 2s ease-in-out !important;
+  transition: all 1.5s ease-in-out !important;
 }
 
 .scrolled .headline{
