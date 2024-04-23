@@ -162,7 +162,10 @@
 .checkpoint:nth-child(even) div::before{
 	left: 9em ;
 }
-
+.imagd{
+	margin-left: -5px;
+	margin-top: -7px;
+}
 .line1{
 	/* Line 43 */
 	box-sizing: border-box;
@@ -227,7 +230,7 @@
 	padding-right: 8px;
   }
   .team-images {
-	margin-top: 10%;
+	margin-top: 0;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -356,4 +359,62 @@
   .flip-box-back a{
 	text-decoration: none;
 	color: white;
+  }
+  .header {
+    border-radius: 20px 20px 0 0;
+    padding: 20px 0;
+    font-size: 25px;
+    background: #6cc0c4;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .faq-item h3 {
+      padding: 20px 30px;
+    font-size: 1.5em;
+  }
+  .icon{
+    color: #fff;
+    font-size: xx-large;
+    margin-right: 16px;
+    transition: transform 0.2s;
+  }
+  .icon.active{
+    transform: rotate(-180deg);
+  }
+  .question{
+    padding: 5px 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+    padding: 0px 30px 10px 30px;
+  }
+  
+  .answer{
+    color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition:  0.2s;
+    margin-left: 30px;
+    margin-right: 20px;
+	
+  }
+  .answer.active{
+    max-height: max-content; 
+	line-height: 80%; 
+  }
+  .faqinner {
+    border: 2px solid #6cc0c4;
+    cursor: pointer;
+  }
+  .container {
+    background-color: black;
+    width: 75%; 
+  
   }
