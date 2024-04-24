@@ -32,10 +32,12 @@ export const Home = () => {
         <h1 className="tagline">Welcome to To-Let Globe </h1>
         <h6 className="headline">
           NO BROKERAGE ON PGS | FLATS | HOUSES | OFFICES
-        </h6>        
+        </h6>
+        <div className="input-bar mb-5 mt-4 d-flex justify-content-between align-items-center" id="inputGroup">        
         <div className="image-container-1">
             <TopImages/>
-        </div>  
+        </div>
+        </div>    
       </Container>
       
       <div className="scrollable-content">
