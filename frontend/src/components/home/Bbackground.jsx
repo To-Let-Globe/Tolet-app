@@ -1,46 +1,46 @@
-import "../style/background.css"
+import "../../style/background.css"
 import 'animate.css';
 import { Container } from "react-bootstrap"
 // import { HomeImg } from "./homeImg";
 // -----------Birds Img------------
-import bird1 from "../assets/image/birds/bird1.svg";
-import bird2 from "../assets/image/birds/bird2.svg";
+import bird1 from "../../assets/image/birds/bird1.svg";
+import bird2 from "../../assets/image/birds/bird2.svg";
 
 // -----------Cloud IMG------------
-import cloud1 from "../assets/image/cloud/cloud1.svg";
-import cloud2 from "../assets/image/cloud/cloud2.svg";
-import cloud3 from "../assets/image/cloud/cloud3.svg";
+import cloud1 from "../../assets/image/cloud/cloud1.svg";
+import cloud2 from "../../assets/image/cloud/cloud2.svg";
+import cloud3 from "../../assets/image/cloud/cloud3.svg";
 
 
 //------------Hand IMG--------------
-import hand from "../assets/image/hand/hand.svg";
+import hand from "../../assets/image/hand/hand.svg";
 
 // ------------Home Img-------------
-import chimney from "../assets/image/home/chimney.svg"
-import wall1 from "../assets/image/home/wall-1.svg"
-import wall2 from "../assets/image/home/wall-2.svg"
-import roof1 from "../assets/image/home/roof.svg"
-import roof2 from "../assets/image/home/roof-top.svg"
-import roof3 from "../assets/image/home/backroof.svg"
-import roof4 from "../assets/image/home/rooftop1.svg"
-import gate from "../assets/image/home/gate.svg"
-import frontw1 from "../assets/image/home/window1.svg"
-import frontw2 from "../assets/image/home/window2.svg"
-import frontw3 from "../assets/image/home/window3.svg"
-import frontw4 from "../assets/image/home/window4.svg"
-import frontw5 from "../assets/image/home/window5.svg"
-import frontw6 from "../assets/image/home/window6.svg"
+import chimney from "../../assets/image/home/chimney.svg"
+import wall1 from "../../assets/image/home/wall-1.svg"
+import wall2 from "../../assets/image/home/wall-2.svg"
+import roof1 from "../../assets/image/home/roof.svg"
+import roof2 from "../../assets/image/home/roof-top.svg"
+import roof3 from "../../assets/image/home/backroof.svg"
+import roof4 from "../../assets/image/home/rooftop1.svg"
+import gate from "../../assets/image/home/gate.svg"
+import frontw1 from "../../assets/image/home/window1.svg"
+import frontw2 from "../../assets/image/home/window2.svg"
+import frontw3 from "../../assets/image/home/window3.svg"
+import frontw4 from "../../assets/image/home/window4.svg"
+import frontw5 from "../../assets/image/home/window5.svg"
+import frontw6 from "../../assets/image/home/window6.svg"
 
 // ---------- Plant Img----------
-import plant1 from "../assets/image/plant/plant1.svg"
-import plant2 from "../assets/image/plant/plant2.svg"
+import plant1 from "../../assets/image/plant/plant1.svg"
+import plant2 from "../../assets/image/plant/plant2.svg"
 
 //--------------Sun IMG-------------
-import sun from "../assets/image/sun/sun.svg";
+import sun from "../../assets/image/sun/sun.svg";
 
 // ---------- Background Img----------
-import bg1 from "../assets/image/background/grey.svg";
-import bg2 from "../assets/image/background/black.svg";
+import bg1 from "../../assets/image/background/grey.svg";
+import bg2 from "../../assets/image/background/black.svg";
 
 export const BottomImages =() =>{
     return(

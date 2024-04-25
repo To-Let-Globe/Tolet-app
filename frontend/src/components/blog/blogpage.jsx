@@ -1,4 +1,4 @@
-import "../style/blogpage.css"
+import "../../style/blogpage.css"
 // import { Container } from 'react-bootstrap';
 // import image1 from '../assets/image/blogpage/1.png';
 // import image2 from '../assets/image/blogpage/2.png';
@@ -6,20 +6,20 @@ import "../style/blogpage.css"
 // import image4 from '../assets/image/blogpage/4.png';
 // import image5 from '../assets/image/blogpage/5.png';
 // import image6 from '../assets/image/blogpage/6.png';
-import image7 from '../assets/image/blogpage/7.png';
-import image8 from '../assets/image/blogpage/8.jpeg';
+import image7 from '../../assets/image/blogpage/7.png';
+import image8 from '../../assets/image/blogpage/8.jpeg';
 // import image9 from '../assets/image/blog/image1.png';
 // import image10 from '../assets/image/blog/image2.png';
 // import image11 from '../assets/image/blog/image3.png';
 // import image12 from '../assets/image/blog/image4.png';
 // import image13 from '../assets/image/blog/image5.png';
 // import image14 from '../assets/image/blog/image6.png';
-import Rectangle1 from '../assets/image/blog/Rectangle1.png';
-import Rectangle2 from '../assets/image/blog/Rectangle2.png';
-import Rectangle3 from '../assets/image/blog/Rectangle3.png';
-import Rectangle4 from '../assets/image/blog/Rectangle4.png';
-import Rectangle5 from '../assets/image/blog/Rectangle5.png';
-import Rectangle6 from '../assets/image/blog/Rectangle6.png';
+import Rectangle1 from '../../assets/image/blog/Rectangle1.png';
+import Rectangle2 from '../../assets/image/blog/Rectangle2.png';
+import Rectangle3 from '../../assets/image/blog/Rectangle3.png';
+import Rectangle4 from '../../assets/image/blog/Rectangle4.png';
+import Rectangle5 from '../../assets/image/blog/Rectangle5.png';
+import Rectangle6 from '../../assets/image/blog/Rectangle6.png';
 
 export const BlogPage = () => {
     return (

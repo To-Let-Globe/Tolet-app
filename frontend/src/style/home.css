@@ -17,7 +17,6 @@ h6{
 }
 #home{
   /* display: flex; */
-  
   margin-top: 5%;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -31,40 +30,22 @@ h6{
 .top-home{
   height: 85vh;
   position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
   /* background-color: rgb(118, 112, 112); */
 
 }
-/* 
-.img-1{
-  display: flex;
-  width: 100px;
-  height: auto;
-  transition: all 0.7s ease-in-out;
-  transform: translate3d(900px, -100px, 0);
-}
-
-.scrolled .img-1{
-  opacity: 0;
-  width: 500px;
-}
-
-.scrolled .image-container-1 .img-1{
-  width: 500px;
-  transform: translate3d(620px, -150px, 0);
-  border-radius: 100px 200px 40px 100px;
-} */
 
 .tagline{
   position: absolute;
   letter-spacing: 8px;
-  padding-top: 20%;
-  transform: translateX(35%);
+  transform: translate(0,220px);
   transition: all 1.5s ease-in-out !important;
 }
 
 .scrolled .tagline{
   font-size: 2rem;
-  padding-top: 20%;
+  transform: translate(0,220px);
   letter-spacing: 0;
   opacity: 0;
   transform: translateX(20%) !important;
@@ -72,14 +53,14 @@ h6{
 
 .headline{
   position: absolute;
-  transform: translate(100%,300px);
+  transform: translate(30%,270px);
   color: #C8A21C !important;
   transition: all 1.5s ease-in-out !important;
 }
 
 .scrolled .headline{
   opacity: 0;
-  transform: translate(10%,300px) !important;
+  transform: translate(10%,270px) !important;
 }
 
 
@@ -88,11 +69,14 @@ h6{
   width: 100%;
   height: 100vh;
   position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
   /* background-color: rgb(63, 63, 63); */
 }
 
 
 .tagline2{
+  opacity: 0;
   letter-spacing: 5px;
   font-size: 2rem;
   padding-top: 20%;
@@ -100,7 +84,8 @@ h6{
 }
 
 .scrolled .tagline2{
-  transform: translate3d(-300px,0px,0);
+  opacity: 1;
+  transform: translate(-320px,0px);
 }
 
 .headline2{
@@ -126,7 +111,7 @@ h6{
 .scrolled .input-bar{
   opacity: 1;
   margin-left: 0px;
-  transform: translateX(0);
+  transform: translateX(-250px);
 }
 
 .scrolled .wrap2 {
@@ -154,3 +139,18 @@ h6{
   }
   
 
+@media (max-width: 767px) {
+  .headline {
+    position: absolute;
+    transform: translate(10%,290px);
+    color: #C8A21C !important;
+    transition: all 1.5s ease-in-out !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+@media (min-width: 992px) {
+  
+}
