@@ -1,5 +1,6 @@
 import '../style/navbar.css';
 import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/logo.jpeg';
@@ -14,7 +15,7 @@ export const NavBar = () => {
         const handleScroll = () => {
             const scrollY = window.scrollY;
             const windowHeight = window.innerHeight;
-            const sections = ['home', 'about', 'contact', 'blog', 'login'];
+            const sections = ['home', 'about', 'contact', 'blog', 'login','service'];
 
             // Check if contact section is in view
             const contactSection = document.getElementById('contact');
@@ -45,6 +46,7 @@ export const NavBar = () => {
             setScrolled(scrollY > 50);
             setActiveLink(aboutVisible ? 'about' : activeSection);
             setScrolled(scrollY > 50);
+           
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -76,6 +78,7 @@ export const NavBar = () => {
                         <Nav.Link as={Link} to="/contact" className={(activeLink === 'contact' || contactVisible) ? 'active navbar-link' : 'navbar-link'} onClick={handleContactClick}>Contact</Nav.Link>
                         <Nav.Link as={Link} to="/blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'}>Blog</Nav.Link>
                         <Nav.Link as={Link} to="/login" className={activeLink === 'login' ? 'active navbar-link' : 'navbar-link'}>Login</Nav.Link>
+                        <Nav.Link as={Link} to="/service" className={activeLink === 'service' ? 'active navbar-link' : 'navbar-link'}>Services</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
