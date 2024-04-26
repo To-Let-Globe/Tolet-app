@@ -1,15 +1,16 @@
 import React from 'react'
-import '../style/Service.css'
-import Image1 from '../assets/image/service/image 18.png'
-import Image2 from '../assets/image/service/image 21.png'
-import Image3 from '../assets/image/service/image 23.png'
-import Image4 from '../assets/image/service/image 25.png'
-import Image5 from '../assets/image/service/image 27.png'
-import Image6 from '../assets/image/service/image 29.png'
+import '../style/service.css'
+import Image1 from '../assets/image/service/image18.png'
+import Image2 from '../assets/image/service/image21.png'
+import Image3 from '../assets/image/service/image23.png'
+import Image4 from '../assets/image/service/image25.png'
+import Image5 from '../assets/image/service/image27.png'
+import Image6 from '../assets/image/service/image29.png'
 
-export const Service = () =>  {
+export const Service = () => {
   return (
     <div style={{ width: '100vw', height: '100vh' }}>
+     
       <div style={{ width: '100%', height: '10%', marginTop: '3%' }}>
         <p
           style={{
@@ -212,5 +213,3 @@ export const Service = () =>  {
     </div>
   )
 }
-
-export default Service
