@@ -1,0 +1,76 @@
+
+@media (min-width:500px) and (max-width: 767px) {
+    /* ----------------TOP HOME------------------- */
+    .tagline {
+      font-size: 30px;
+      justify-content: center;
+      position: relative;
+      transform: translate(0px,180px);
+      color: #ffffff !important;
+      transition: all 1.5s ease-in-out !important;
+    }
+    .scrolled .tagline{
+      font-size: 20px;
+      transform: translate(-100px,180px) !important;
+      letter-spacing: 0;
+      opacity: 0;
+    }  
+    .headline {
+      opacity: 0;
+      font-size: 15px;
+      position: relative;
+      justify-content: center !important;
+      transform: translateY(190px);
+      color: #C8A21C !important;
+      transition: all 1.5s ease-in-out !important;
+    }
+    .scrolled .headline{
+      opacity: 0;
+      transform: translate(-100px,190px) !important;
+    }
+    /* -----------------Bottom-Home------------------ */
+    .tagline2{
+      font-size: 26px;
+      justify-content: center;
+      position: relative;
+      transform: translate(100px,0px) !important;
+      color: #ffffff !important;
+      transition: all 1.5s ease-in-out !important;
+    }
+    
+    .scrolled .tagline2{
+      opacity: 1;
+      transform: translateX(-17%) !important;
+    }
+    .headline2{
+      font-size: 15px;
+      opacity: 0 !important;
+      transform: translate(125px,0);
+      transition: all 1.5s ease-in-out;
+    }
+    .scrolled .headline2{
+      opacity: 1 !important;
+      color: #C8A21C !important;
+      transform: translateX(-19%) !important;
+    }
+    .scrolled .wrap2 {
+      overflow: hidden;
+      border-right: .15em solid rgb(0, 255, 238); /* Adjust color and size as needed */
+      white-space: nowrap;
+      margin: 0 auto;
+      animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+    }
+    .input-bar {
+      opacity:  0;
+      transform: translateX(0);
+      transition: all 1.2s ease-in-out !important;
+    }
+    .scrolled .input-bar{
+      opacity: 1;
+      width: 50%;
+      margin-left: 0px;
+      transform: translateX(10%) !important;
+    }
+  
+  }
+  

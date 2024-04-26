@@ -80,27 +80,27 @@ export const BlogPage = () => {
                 <div className="columimg">
                     <div className="coloumbox">
                         <img src={Rectangle5} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="#" className="news">News & Events</a><i className="fa-solid fa-arrow-right arrow1"></i></div>
+                        <div className="block"><a href="/blog" className="news">News & Events</a><i className="fa-solid fa-arrow-right arrow1"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle4} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="#" className="featured1">Feature Updates</a><i className="fa-solid fa-arrow-right arrow2"></i></div>
+                        <div className="block"><a href="/blog" className="featured1">Feature Updates</a><i className="fa-solid fa-arrow-right arrow2"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle1} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="#" className="brand">Brand Collaboration</a><i className="fa-solid fa-arrow-right arrow3"></i></div>
+                        <div className="block"><a href="/blog" className="brand">Brand Collaboration</a><i className="fa-solid fa-arrow-right arrow3"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle2} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="#" className="life-at-tolet">Life at To-Let</a><i className="fa-solid fa-arrow-right arrow4"></i></div>
+                        <div className="block"><a href="/blog" className="life-at-tolet">Life at To-Let</a><i className="fa-solid fa-arrow-right arrow4"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle6} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="#" className="internship-campaigns">Internship Campaigns</a><i className="fa-solid fa-arrow-right arrow5"></i></div>
+                        <div className="block"><a href="/blog" className="internship-campaigns">Internship Campaigns</a><i className="fa-solid fa-arrow-right arrow5"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle3} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="#" className="giveaway">Giveway & Offers</a><i className="fa-solid fa-arrow-right arrow6"></i></div>
+                        <div className="block"><a href="/blog" className="giveaway">Giveway & Offers</a><i className="fa-solid fa-arrow-right arrow6"></i></div>
                     </div>
                 </div>
             </div>

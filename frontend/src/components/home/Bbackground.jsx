@@ -1,4 +1,4 @@
-import "../../style/background.css"
+import "../../style/background/background.css"
 import 'animate.css';
 import { Container } from "react-bootstrap"
 // import { HomeImg } from "./homeImg";

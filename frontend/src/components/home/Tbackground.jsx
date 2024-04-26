@@ -1,4 +1,4 @@
-import "../../style/background.css"
+import "../../style/background/background.css"
 
 import { Container } from "react-bootstrap"
 // import { HomeImg } from "./homeImg";
@@ -102,12 +102,6 @@ export const TopImages =() =>{
 
                     {/* -----------Hand Images----------- */}
                         <img src={hand} alt="" className="Thand" />
-
-                    
-
-
-
-
                     
                 </div>
             </div>

@@ -1,4 +1,7 @@
-import '../../style/home.css';
+import '../../style/home/home-1.css';
+import '../../style/home/home-2.css';
+import '../../style/home/home-3.css';
+import '../../style/home/home-4.css';
 import {useState, useEffect} from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -40,7 +43,7 @@ export const Home = () => {
       </Container>
 
       <Container fluid className="scrollable-content bottom-home">
-        <Row className="justify-content-center align-items-center h-100">
+        <Row className="justify-content-center align-items-center h-100 mb-5 mt-4 d-flex">
           <Col xs={12} md={8} lg={6}>
             <h1 className="tagline2 text-left">Welcome to To-Let Globe</h1>
             <h6 className="headline2 text-center">
