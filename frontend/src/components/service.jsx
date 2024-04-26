@@ -1,55 +1,15 @@
-import React, { useEffect, useState } from 'react'
-import '../style/service.css'
-import logo from '../assets/img/logo.jpeg'
+import React from 'react'
+import '../style/Service.css'
 import Image1 from '../assets/image/service/image 18.png'
 import Image2 from '../assets/image/service/image 21.png'
 import Image3 from '../assets/image/service/image 23.png'
 import Image4 from '../assets/image/service/image 25.png'
 import Image5 from '../assets/image/service/image 27.png'
 import Image6 from '../assets/image/service/image 29.png'
-// import Image from './img/Group 17.png';
 
-export const Service = () => {
+export const Service = () =>  {
   return (
     <div style={{ width: '100vw', height: '100vh' }}>
-      {/* <div class="nav">
-        <img
-          id="navimage"
-          src={logo}
-          alt=""
-          style={{ marginTop: '1%', marginLeft: '3%' }}
-        ></img>
-        <form
-          id="navform"
-          class="d-flex align-items-center"
-          style={{ marginTop: '1%', marginRight: '3%' }}
-        >
-          <input
-            class="text-center"
-            type="text"
-            placeholder="Search PG, Flats and Houses"
-            style={{
-              height: '40%',
-              width: '80%',
-              color: '#5A5656',
-              borderRadius: '5px 0  0 5px',
-              borderWidth: '0',
-            }}
-          />
-          <button
-            style={{
-              backgroundColor: '#1D5F58',
-              color: '#FFFEFE',
-              height: '40%',
-              width: '20%',
-              borderRadius: '0  5px 5px 0',
-              borderWidth: '0',
-            }}
-          >
-            search
-          </button>
-        </form>
-      </div> */}
       <div style={{ width: '100%', height: '10%', marginTop: '3%' }}>
         <p
           style={{
@@ -253,3 +213,4 @@ export const Service = () => {
   )
 }
 
+export default Service

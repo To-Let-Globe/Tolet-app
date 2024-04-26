@@ -41,7 +41,7 @@ import plant2 from "../../assets/image/plant/plant2.svg"
 import sun from "../../assets/image/sun/sun.svg";
 
 // ---------- Background Img----------
-import bg1 from "../../assets/image/background/grey.svg";
+// import bg1 from "../../assets/image/background/grey.svg";
 // import bg2 from "../assets/image/background/bg2.svg";
 
 export const TopImages =() =>{

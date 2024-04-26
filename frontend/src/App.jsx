@@ -8,14 +8,13 @@ import { Blog } from './components/blog/blog';
 import {AboutUs} from './components/aboutus';
 import {Service} from './components/service';
 import {BlogPage} from './components/blog/blogpage';
+// import {Service} from './components/Service'
 import 'bootstrap/dist/css/bootstrap.css';
-
-
 function App() {
   return (
-    <div className="App">
+   <div className="App">
       <BrowserRouter>
-        <NavBar />
+      <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
@@ -28,6 +27,7 @@ function App() {
         
       </BrowserRouter>
     </div>
+   
 );
 }
 

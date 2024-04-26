@@ -1,5 +1,6 @@
 import '../style/navbar.css';
 import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/logo.jpeg';
@@ -14,7 +15,7 @@ export const NavBar = () => {
         const handleScroll = () => {
             const scrollY = window.scrollY;
             const windowHeight = window.innerHeight;
-            const sections = ['home', 'about', 'contact', 'blog', 'login'];
+            const sections = ['home', 'about', 'contact', 'blog', 'login','service'];
 
             // Check if contact section is in view
             const contactSection = document.getElementById('contact');
@@ -45,6 +46,7 @@ export const NavBar = () => {
             setScrolled(scrollY > 50);
             setActiveLink(aboutVisible ? 'about' : activeSection);
             setScrolled(scrollY > 50);
+           
         };
 
         window.addEventListener('scroll', handleScroll);
