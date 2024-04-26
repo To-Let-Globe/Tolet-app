@@ -1,6 +1,6 @@
 
   @media (max-width: 600px) {
-    /* .nav{
+    .nav{
       width:100%;
       height:12%;
       display:flex;
@@ -14,7 +14,7 @@
     #navimage{
       height:100%;
       width:15%;
-    } */
+    }
     .box1 {
       display: flex;
       justify-content: center;
@@ -99,7 +99,7 @@
   
   /* For screen sizes 576px and below */
   @media (min-width: 601px) {
-    /* p{
+    p{
       text-align: start;
     }
     div{
@@ -124,7 +124,7 @@
     #navimage{
       height:100%;
       width:10%;
-    } */
+    }
     .box1 {
       display: flex;
       justify-content: center;
