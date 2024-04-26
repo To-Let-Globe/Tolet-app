@@ -1,13 +1,12 @@
 import React from 'react'
-import '../style/Service.css'
+import '../style/service.css'
 
-import Image1 from '../assets/image/service/image 18.png'
-import Image2 from '../assets/image/service/image 21.png'
-import Image3 from '../assets/image/service/image 23.png'
-import Image4 from '../assets/image/service/image 25.png'
-import Image5 from '../assets/image/service/image 27.png'
-import Image6 from '../assets/image/service/image 29.png'
-import Image from '../assets/image/service/Group 17.png'
+import Image1 from '../assets/image/service/image18.png'
+import Image2 from '../assets/image/service/image21.png'
+import Image3 from '../assets/image/service/image23.png'
+import Image4 from '../assets/image/service/image25.png'
+import Image5 from '../assets/image/service/image27.png'
+import Image6 from '../assets/image/service/image29.png'
 
 export const Service = () => {
   return (

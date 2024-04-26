@@ -6,7 +6,7 @@ import { Contact } from './components/contactus';
 import { Login } from './components/login';
 import { Blog } from './components/blog/blog';
 import {AboutUs} from './components/aboutus';
-import {Service} from './components/Service';
+import {Service} from './components/service';
 import {BlogPage} from './components/blog/blogpage';
 import 'bootstrap/dist/css/bootstrap.css';
 function App() {
