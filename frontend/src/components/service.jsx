@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/Service.css'
+import '../style/service.css'
 import Image1 from '../assets/image/service/image 18.png'
 import Image2 from '../assets/image/service/image 21.png'
 import Image3 from '../assets/image/service/image 23.png'
@@ -8,14 +8,16 @@ import Image5 from '../assets/image/service/image 27.png'
 import Image6 from '../assets/image/service/image 29.png'
 
 export const Service = () =>  {
+  const isMobile = window.innerWidth <= 600;
+
   return (
     <div style={{ width: '100vw', height: '100vh' }}>
-      <div style={{ width: '100%', height: '10%', marginTop: '3%' }}>
-        <p
+      <div style={{ width: '100%', height: '10%', marginTop: '10%' }}>
+        <p class="serviceh1"
           style={{
-            marginLeft: '4%',
+           
             fontWeight: 'normal',
-            fontSize: '56px',
+            
             font: 'poppins',
             color: '#ffffff',
             fontWeight: 'bold',
@@ -23,26 +25,22 @@ export const Service = () =>  {
         >
           Services
         </p>
-        <p
+        <p class="serviceh2"
           style={{
-            marginLeft: '4%',
+            
             color: '#C8A21C',
             font: 'poppins',
-            fontSize: '12px',
+            
           }}
         >
-          OUR SERVICES FOR CLIENT
+          SKIP THE MIDDLEMAN : RENT OR LEASE DIRECTLY ON TO-LET GLOBE
         </p>
       </div>
-      <div class="container">
+     
+      <div class="row-container">
         <div
-          class="d-flex justify-content-between"
-          style={{
-            width: '100%',
-            height: '45%',
-            position: 'relative',
-            marginBottom: '5%',
-          }}
+          class="serviced1"
+          
         >
           <div class="box1">
             <div class="box12">
@@ -97,7 +95,8 @@ export const Service = () =>  {
               </div>
             </div>
           </div>
-
+         
+         
           <div class="box1">
             <div class="box12">
               <img
@@ -124,11 +123,12 @@ export const Service = () =>  {
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="d-flex justify-content-between"
-          style={{ width: '100%', height: '45%', position: 'relative' }}
+          </div>
+          <div
+          class="serviced1"
+        
         >
+       
           <div class="box1">
             <div class="box12">
               <img
@@ -155,6 +155,8 @@ export const Service = () =>  {
               </div>
             </div>
           </div>
+       
+        
           <div class="box1">
             <div class="box12">
               <img

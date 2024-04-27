@@ -19,14 +19,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 31%;
-      height: 100%;
+     
+      width: 100%;
+      height: 20%;
       flex-direction: column;
       border-radius: 15px;
       border-width: 0px;
       border-style: solid;
       border-color: #d4ded8;
       overflow: hidden; 
+      
+      margin-top: 0;
+      margin-left: 0;
       transition: height 0.3s ease-in-out; ;/* Add a transition for smooth hover effect */
     }
     .box12{
@@ -75,8 +79,8 @@
       color: black;
       display: none;
       font-weight: bold;
-     margin-left: 3%;
-     margin-right: 2.5%;
+     text-align: center;
+     margin: 0;
     }
     
     .box1:hover  .box14{
@@ -94,18 +98,67 @@
     .box1:hover  .box23{
       height:50%;
     }
-  
+    p{
+      text-align: start;
+     }
+     div{
+      text-align: start;
+     }
+    .serviceh1{
+      font-size: 48px;
+      margin-left: 3%;
+      margin-bottom: 2%;
+     }
+     .serviceh2{
+      font-size: 8px;
+      margin-left: 3%;
+     }
+     .row-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      width:99%;
+      height:70%;
+    }
+    .serviced1{
+      display:flex;
+      justify-content:space-evenly;
+      width: 40%;
+      height: 100%;
+      position: relative;
+      margin-bottom: 1%;
+      margin-top:3%;
+      margin-left: 0%;
+      flex-direction:column;
+
+  }
   }
   
-  /* For screen sizes 576px and below */
+
+
+
+
+ /* pc and laptop*/
   @media (min-width: 601px) {
-    /* p{
-      text-align: start;
-    }
-    div{
-      text-align: start;
-    }
-    .container{
+ p{
+  text-align: start;
+ }
+ div{
+  text-align: start;
+ }
+ .serviceh1{
+  font-size: 70px;
+  margin-left: 9%;
+  margin-bottom: 1%;
+ 
+ }
+ .serviceh2{
+  font-size: 10px;
+  margin-left: 9%;
+ 
+ }
+   /* .container{
       width:60%;
       height:65%;
       margin-top: 3%;
@@ -125,11 +178,28 @@
       height:100%;
       width:10%;
     } */
+    .row-container {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      flex-direction: column;
+      margin:10%;
+    }
+    .serviced1{
+        display:flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        margin-bottom: 3%;
+        flex-direction:row;
+  
+    }
     .box1 {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 30%;
+      width: 25%;
       height: 100%;
       flex-direction: column;
       border-radius: 15px;
