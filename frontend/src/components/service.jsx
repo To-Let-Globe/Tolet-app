@@ -8,31 +8,12 @@ import Image5 from '../assets/image/service/image27.png'
 import Image6 from '../assets/image/service/image29.png'
 
 export const Service = () =>  {
-  // const isMobile = window.innerWidth <= 600;
 
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
-      <div style={{ width: '100%', height: '10%', marginTop: '10%' }}>
-        <p class="serviceh1"
-          style={{
-           
-            fontWeight: 'normal',
-            
-            font: 'poppins',
-            color: '#ffffff',
-            fontWeight: 'bold',
-          }}
-        >
-          Services
-        </p>
-        <p class="serviceh2"
-          style={{
-            
-            color: '#C8A21C',
-            font: 'poppins',
-            
-          }}
-        >
+    <div className="serviceouterdiv">
+      <div className="serviced2">
+        <p class="serviceh1">Services</p>
+        <p class="serviceh2">
           SKIP THE MIDDLEMAN : RENT OR LEASE DIRECTLY ON TO-LET GLOBE
         </p>
       </div>
@@ -44,21 +25,16 @@ export const Service = () =>  {
         >
           <div class="box1">
             <div class="box12">
-              <img
+              <img class="servicepageimage"
                 src={Image1}
                 alt=""
-                style={{ width: '30%', height: '40%' }}
+               
               ></img>
             </div>
             <div class="box13">
               <p
-                class="here"
-                style={{
-                  color: 'black',
-                  marginLeft: '5%',
-                  marginTop: '2%',
-                  fontWeight: 'bold',
-                }}
+                class="servicepagetext"
+               
               >
                 Paying Guest
               </p>
@@ -71,21 +47,16 @@ export const Service = () =>  {
 
           <div class="box1">
             <div class="box12">
-              <img
+              <img class="servicepageimage"
                 src={Image2}
                 alt=""
-                style={{ width: '30%', height: '40%' }}
+               
               />
             </div>
             <div class="box23">
               <p
-                class="here"
-                style={{
-                  color: 'black',
-                  marginLeft: '5%',
-                  marginTop: '2%',
-                  fontWeight: 'bold',
-                }}
+                class="servicepagetext"
+               
               >
                 Flat
               </p>
@@ -99,21 +70,16 @@ export const Service = () =>  {
          
           <div class="box1">
             <div class="box12">
-              <img
+              <img class="servicepageimage"
                 src={Image3}
                 alt=""
-                style={{ width: '30%', height: '40%' }}
+                
               ></img>
             </div>
             <div class="box13">
               <p
-                class="here"
-                style={{
-                  color: 'black',
-                  marginLeft: '5%',
-                  marginTop: '2%',
-                  fontWeight: 'bold',
-                }}
+                class="servicepagetext"
+               
               >
                 House
               </p>
@@ -131,21 +97,16 @@ export const Service = () =>  {
        
           <div class="box1">
             <div class="box12">
-              <img
+              <img class="servicepageimage"
                 src={Image4}
                 alt=""
-                style={{ width: '30%', height: '40%' }}
+                
               ></img>
             </div>
             <div class="box23">
               <p
-                class="here"
-                style={{
-                  color: 'black',
-                  marginLeft: '5%',
-                  marginTop: '2%',
-                  fontWeight: 'bold',
-                }}
+                class="servicepagetext"
+               
               >
                 Shop
               </p>
@@ -159,21 +120,16 @@ export const Service = () =>  {
         
           <div class="box1">
             <div class="box12">
-              <img
+              <img class="servicepageimage"
                 src={Image5}
                 alt=""
-                style={{ width: '30%', height: '40%' }}
+               
               ></img>
             </div>
             <div class="box13">
               <p
-                class="here"
-                style={{
-                  color: 'black',
-                  marginLeft: '5%',
-                  marginTop: '2%',
-                  fontWeight: 'bold',
-                }}
+                class="servicepagetext"
+               
               >
                 Office
               </p>
@@ -185,21 +141,15 @@ export const Service = () =>  {
           </div>
           <div class="box1">
             <div class="box12">
-              <img
+              <img class="servicepageimage"
                 src={Image6}
                 alt=""
-                style={{ width: '30%', height: '40%' }}
+              
               ></img>
             </div>
             <div class="box23">
               <p
-                class="here"
-                style={{
-                  color: 'black',
-                  marginLeft: '5%',
-                  marginTop: '2%',
-                  fontWeight: 'bold',
-                }}
+                class="servicepagetext"
               >
                 Warehouse
               </p>
