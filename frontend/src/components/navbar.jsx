@@ -10,6 +10,7 @@ export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [contactVisible, setContactVisible] = useState(false);
     const [aboutVisible, setAboutVisible] = useState(false);
+    const [blogVisible, setBlogVisible] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -27,6 +28,11 @@ export const NavBar = () => {
             if (aboutSection) {
                 const rect = aboutSection.getBoundingClientRect();
                 setAboutVisible(rect.top <= windowHeight && rect.bottom >= 0);
+            }
+            const blogSection = document.getElementById('blog');
+            if (blogSection) {
+                const rect = blogSection.getBoundingClientRect();
+                setBlogVisible(rect.top <= windowHeight && rect.bottom >= 0);
             }
 
             
@@ -46,12 +52,14 @@ export const NavBar = () => {
             setScrolled(scrollY > 50);
             setActiveLink(aboutVisible ? 'about' : activeSection);
             setScrolled(scrollY > 50);
+            setActiveLink(blogVisible ? 'blog' : activeSection);
+            setScrolled(scrollY > 50);
            
         };
 
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [contactVisible,aboutVisible]);
+    }, [contactVisible,aboutVisible,blogVisible]);
 
     const handleContactClick = () => {
         setActiveLink('contact');
@@ -59,12 +67,15 @@ export const NavBar = () => {
     const handleAboutClick = () => {
         setActiveLink('about');
     };
+    const handleBlogClick = () => {
+        setActiveLink('blog');
+    };
 
     return (
         <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
             <Container className="px-0">
                 <Navbar.Brand href="#home">
-                    <img  className={`logo ${scrolled ? 'scrolled' : ''}`}  src={logo} alt="LOGO" />
+                    <img  className="logo" src={logo} alt="LOGO" />
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -75,7 +86,7 @@ export const NavBar = () => {
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => setActiveLink('home')}>Home</Nav.Link>
                         <Nav.Link as={Link} to="/service" className={activeLink === 'service' ? 'active navbar-link' : 'navbar-link'}>Service</Nav.Link>
-                        <Nav.Link as={Link} to="/blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'}>Blog</Nav.Link>
+                        <Nav.Link as={Link} to="/blog" className={(activeLink === 'blog' || blogVisible) ? 'active navbar-link' : 'navbar-link'} onClick={handleBlogClick} >Blog</Nav.Link>
                         <Nav.Link as={Link} to="/contact" className={(activeLink === 'contact' || contactVisible) ? 'active navbar-link' : 'navbar-link'} onClick={handleContactClick}>Contact</Nav.Link>
                         <Nav.Link as={Link} to="/about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={handleAboutClick}>About</Nav.Link>
                         {/* <Nav.Link as={Link} to="/" className={activeLink === 'login' ? 'active navbar-link' : 'navbar-link'}>Login</Nav.Link> */}

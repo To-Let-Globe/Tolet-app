@@ -1,5 +1,5 @@
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 768px) {
     .tagline {
       font-size: 35px;
       position: relative;

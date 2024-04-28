@@ -1,4 +1,5 @@
-import "../../style/background/background.css"
+import "../../style/background/background-1.css"
+import "../../style/background/background-4.css"
 import 'animate.css';
 import { Container } from "react-bootstrap"
 // import { HomeImg } from "./homeImg";
@@ -51,9 +52,7 @@ export const BottomImages =() =>{
                 {/* <div className="bottom-img"> */}
                         <img src={bg2} alt=""  className="bg-2"/>
                             <img src={bg1} alt=""  className="bg-1"/>
-                    
 
-                     
                     {/* ---------- Birds Image ---------- */}
                         <img src={bird1} alt="Home Img" className="bird-1" />
                         <img src={bird2} alt="Home Img" className="bird-2" />

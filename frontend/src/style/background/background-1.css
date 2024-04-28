@@ -1,3 +1,4 @@
+@media (max-width:1600px){
 /*------------------- Background CSS -----------------------*/
 
 .Tbg-1{
@@ -25,7 +26,7 @@
     width: 500px;
     height: 600px;
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.2;
     transform: translate3d(260px,-120px,0);
 }
 
@@ -52,8 +53,7 @@
     width: 1200px;
     position: absolute;
     z-index: -1;
-    transform: height(400px);
-    transform: translate3d(-250px,-290px,0);
+    transform: translate3d(-220px,-290px,0);
 }
 
 /* -----------------------Bird Component-------------- */
@@ -258,7 +258,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     width: 470px;
     height: 400px;
     opacity: 1;
-    transform: translate(39%,-5%);
+    transform: translate(50%,10%);
 }
 
 
@@ -291,7 +291,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     height: 110px;
     width:170px;
     opacity: 1;
-    transform: translate3d(255px,48px,0px) rotate(360deg);
+    transform: translate3d(295px,110px,0px) rotate(360deg);
 }
 .Twall-2{
     position: absolute;
@@ -321,7 +321,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     height: 180px;
     width:160px;
     opacity: 1;
-    transform: translate3d(380px,-39px,0) rotate(360deg);
+    transform: translate3d(420px,25px,0) rotate(360deg);
 }
 .Troof-1{
     position: absolute;
@@ -349,7 +349,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     position: absolute;
     height: 140px;
     width:200px;
-    transform: translate3d(273px,-70px,0) rotate(360deg);
+    transform: translate3d(310px,-5px,0) rotate(360deg);
 }
 
 .Troof-2{
@@ -380,7 +380,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     opacity: 1;
     height: 170px;
     width:90px;
-    transform: translate3d(322px,-103px,0)  !important;
+    transform: translate3d(362px,-35px,0)  !important;
 }
 .Troof-3{
     position: absolute;
@@ -412,7 +412,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     height: 100px;
     width:190px;
     z-index: 0;
-    transform: translate3d(348px,-50px,0);
+    transform: translate3d(390px,15px,0);
 }
 
 .Troof-4{
@@ -443,7 +443,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     opacity: 1;
     height: 140px;
     width:85px;
-    transform: translate3d(325px,-72px,0)  !important;
+    transform: translate3d(365px,-5px,0)  !important;
 }
 .Tgate{
     position: absolute;
@@ -470,7 +470,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     position: absolute;
     height: 80px;
     width:30px;
-    transform: translate3d(322px,85px,0) !important;
+    transform: translate3d(362px,145px,0) !important;
 }
 
 .Twindow-1{
@@ -501,7 +501,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     position: absolute;
     height: 60px;
     width:30px;
-    transform: translate3d(285px,50px,0)  !important;
+    transform: translate3d(325px,120px,0)  !important;
 }
 .Twindow-2{
     opacity: 0.06;
@@ -531,7 +531,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     position: absolute;
     height: 60px;
     width:30px;
-    transform: translate3d(360px,50px,0)  !important;
+    transform: translate3d(400px,120px,0)  !important;
 }
 .Twindow-3{
     opacity: 0.06;
@@ -561,7 +561,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     position: absolute;
     height: 60px;
     width:30px;
-    transform: translate3d(415px,50px,0)  !important;
+    transform: translate3d(455px,120px,0)  !important;
 }
 .Twindow-4{
     opacity: 0.06;
@@ -591,7 +591,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     position: absolute;
     height: 60px;
     width:30px;
-    transform: translate3d(470px,50px,0)  !important;
+    transform: translate3d(510px,120px,0)  !important;
 }
 .Twindow-5{
     opacity: 0.06;
@@ -621,7 +621,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     position: absolute;
     height: 40px;
     width:25px;
-    transform: translate3d(445px,0px,0)  !important;
+    transform: translate3d(485px,70px,0)  !important;
 }
 .Twindow-6{
     position: absolute;
@@ -655,7 +655,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     z-index: 1;
     height: 35px;
     width:25px;
-    transform: translate3d(335px,-10px,0)  !important;
+    transform: translate3d(375px,60px,0)  !important;
 }
 
 
@@ -688,7 +688,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     opacity: 1;
     width: 25px;
     height: 25px;
-    transform: translate3d(420px,-60px,0)  !important;
+    transform: translate3d(460px,0px,0)  !important;
 
 }
 
@@ -725,7 +725,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     width:60px;
     z-index: 0;
     opacity: 1;
-    transform: translate3d(510px,25px,0)  !important;
+    transform: translate3d(550px,85px,0)  !important;
 }
 
 .Tplant-2{
@@ -760,7 +760,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     width:75px;
     opacity: 1;
     z-index: 0;
-    transform: translate3d(208px,33px,0)  !important;
+    transform: translate3d(250px,93px,0)  !important;
 }
 
 /* -------------------Sun Css-------------------- */
@@ -796,4 +796,6 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     height: 60px;
     transform: translate(430px,-270px);
     transition: all 1.5s ease-in-out;
+}
+
 }

@@ -145,7 +145,7 @@ export const Blog = () => {
                 </div>
                 <h2 className="heading">
                   Collaboration and Partnership Update!
-                </h2>
+                </h2> 
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Libero reprehenderit natus, voluptas at amet minus ab Lorem
