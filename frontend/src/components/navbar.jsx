@@ -89,6 +89,7 @@ export const NavBar = () => {
                         <Nav.Link as={Link} to="/blog" className={(activeLink === 'blog' || blogVisible) ? 'active navbar-link' : 'navbar-link'} onClick={handleBlogClick} >Blog</Nav.Link>
                         <Nav.Link as={Link} to="/contact" className={(activeLink === 'contact' || contactVisible) ? 'active navbar-link' : 'navbar-link'} onClick={handleContactClick}>Contact</Nav.Link>
                         <Nav.Link as={Link} to="/about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={handleAboutClick}>About</Nav.Link>
+                        <Nav.Link as={Link} to="/login" className={activeLink === 'login' ? 'active navbar-link' : 'navbar-link'}>Login</Nav.Link>
                         {/* <Nav.Link as={Link} to="/" className={activeLink === 'login' ? 'active navbar-link' : 'navbar-link'}>Login</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>

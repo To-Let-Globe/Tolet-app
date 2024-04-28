@@ -19,12 +19,11 @@ function App() {
           <Route path="/" element={<Layout/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/blogpage" element={<BlogPage />} />
+          <Route path="/about" element={<AboutUs />} />
           <Route path="/service" element={<Service />} />
-          <Route path="/login/" element={<Login />} />
-          <Route path="/about/" element={<AboutUs />} />
+          <Route path="/blogpage" element={<BlogPage />} />
+          <Route path="/login/*" element={<Login />} />
         </Routes>
-        
       </BrowserRouter>
     </div>
    
