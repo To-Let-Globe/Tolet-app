@@ -4,22 +4,30 @@
 4. C0CFB8
 5. 000000 */
 
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 /* Custom Fonts */
 @font-face{
-  font-family: Anton;
-  src:url('./assets/fonts/Anton-Regular.ttf');
+  font-family: Poppins-black;
+  src:url('./assets/fonts/Poppins-Black.ttf');
   font-weight: 700;
 }
 @font-face{
-  font-family: Josefin;
-  src:url('./assets/fonts/JosefinSans-VariableFont_wght.ttf');
-  font-weight: 500;
+  font-family: Poppins-bold;
+  src:url('./assets/fonts/Poppins-Bold.ttf');
+  font-weight: 700;
 }
 @font-face{
-  font-family: Kanit;
-  src:url('./assets/fonts/Kanit-Regular.ttf');
-  font-weight: 500;
+  font-family: Poppins-regular;
+  src:url('./assets/fonts/Poppins-Regular.ttf');
+  font-weight: 700;
 }
+@font-face{
+  font-family: Poppins-semi;
+  src:url('./assets/fonts/Poppins-SemiBold.ttf');
+  font-weight: 700;
+}
+
 
 /* Default CSS */
 
@@ -30,6 +38,7 @@
 }
 html{
   scroll-behavior: smooth;
+  width: 100% !important;
   scroll-padding-top: 0px;
   scrollbar-color:  #61928e #000000;
   scrollbar-width:  thin;
@@ -37,12 +46,13 @@ html{
 
 body{
   font-weight: 400;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   position: relative;
   background-color: rgb(0, 0, 0) !important;
   color: azure;
-  font-family:'Anton', 'Josefin', sans-serif;
-}
+  overflow-x: hidden;
+  font-family:'Poppins-bold', 'Poppins-black', sans-serif, 'Poppins-regular','Poppins-bold';
+  }
 
 h1, h2, h3, h4, h5, h6{
   margin: 0;
@@ -53,7 +63,7 @@ h1, h2, h3, h4, h5, h6{
 p, a, li, button, ul {
   margin: 0;
   padding: 0;
-  line-height: normal;
+  /* line-height: normal; */
   text-decoration: none;
 }
 
@@ -66,21 +76,16 @@ img {
   height: auto;
 }
 
-button {
-  border: 0;
-  background-color: transparent;
-}
-
 input:focus, textarea:focus, select:focus {
   outline: none;
 }
-
+/* 
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
 		padding: 0 150px;
 	}
-}
+} */
 
 p.success {
 	color: green;
@@ -124,3 +129,7 @@ p.danger {
     transform: rotate(360deg);
   }
 }
+
+/* Assuming this is your CSS file */
+
+

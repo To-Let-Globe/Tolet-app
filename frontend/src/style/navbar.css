@@ -3,25 +3,27 @@
 }
 
 .logo {
-    transition: all 0.3s ease-in-out; /* Smooth transition */
+    padding: 0;
+    transition: all 1s ease-in-out !important; /* Smooth transition */
 }
 
 .logo.scrolled {
     max-height: 60px; 
     width: auto;
+
 }
 
 .navbar {
-    transition: height 0.3s ease; /* Smooth transition for navbar height */
+    transition: all 1s ease-in-out !important; /* Smooth transition for navbar height */
 }
 
 nav.navbar {
-    padding: 1px 0;
+    padding: 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 9999;
-    transition:  0.5s ease-in-out;
+    transition:  1s ease-in-out;
   }
   nav.navbar.scrolled {
     padding: 0px 0;
@@ -29,6 +31,7 @@ nav.navbar {
   }
   nav.navbar a.navbar-brand {
       width: 8%;
+
   }
   
   
@@ -54,7 +57,7 @@ nav.navbar {
       font-weight: 500;
       background-color: rgba(0, 225, 210, 0.71);
       border-radius: 50px;
-      margin: 0px 10px 0px 10px;
+      margin: 0px 0px 0px 0px;
       transition:  0.30s ease-in-out;
   }
   
