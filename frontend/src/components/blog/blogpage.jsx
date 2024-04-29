@@ -1,4 +1,4 @@
-import "../../style/blogpage.css"
+import "../../style/blog/blogpage.css"
 // import { Container } from 'react-bootstrap';
 // import image1 from '../assets/image/blogpage/1.png';
 // import image2 from '../assets/image/blogpage/2.png';

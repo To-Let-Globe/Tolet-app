@@ -36,7 +36,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo1">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image1} /></div>
+                <div className="box-img"><img src={image1} alt="BlogImage" /></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -87,7 +87,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo2">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image2} /></div>
+                <div className="box-img"><img src={image2} alt="BlogImage" /></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -138,7 +138,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo3">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image3}/></div>
+                <div className="box-img"><img src={image3} alt="BlogImage"/></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -189,7 +189,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo4">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image3} /></div>
+                <div className="box-img"><img src={image3} alt="BlogImage"/></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -240,7 +240,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo5">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image4} /></div>
+                <div className="box-img"><img src={image4} alt="BlogImage" /></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -291,7 +291,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo6">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image5} /></div>
+                <div className="box-img"><img src={image5} alt="BlogImage" /></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
