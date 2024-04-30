@@ -1,14 +1,12 @@
 import '../../style/blog/blog.css'
 import '../../style/blog/blog4.css'
 import { Container, Typography } from '@mui/material'
-import image1 from '../../assets/image/blog/image1.png'
-import image2 from '../../assets/image/blog/image2.png'
+import image1 from '../../assets/image/blog/blog1/image1.png'
+import image2 from '../../assets/image/blog/blog2/image2.png'
 import image3 from '../../assets/image/blog/blog3/image1.jpg'
 import image4 from '../../assets/image/blog/blog4/image1.jpg'
-// import image3 from '../../assets/image/blog/image3.png'
-// import image4 from '../../assets/image/blog/image4.png'
-import image5 from '../../assets/image/blog/image5.png'
-// import image6 from '../../assets/image/blog/image6.png'
+
+import image5 from '../../assets/image/blog/blog1/image1.png'
 
 import Rectangle1 from '../../assets/image/blog/Rectangle1.png'
 import Rectangle2 from '../../assets/image/blog/Rectangle2.png'
@@ -34,113 +32,93 @@ export const Blog = () => {
             <span className="cla"> Latest</span>
           </div>
           <div className="row">
-            <div className="col-md-4">
-              <div className="boxes bo1">
-                <Link to="/blog/blogpage-1" style={{ textDecoration: 'none' }}>
-                  <div className="box-img">
-                    <img
-                      src={image1}
-                      alt="BlogImage"
-                      style={{ height: '200px', borderRadius: '5px' }}
-                    />
-                  </div>
+          <div className="col-md-4">
+            <div className="boxes bo1">
+                <Link to="/blog/blogpage-1"  style={{ textDecoration: 'none' }}>
+                <div className="box-img"><img src={image1} alt='BlogImage' style={{height:"auto", borderRadius:'16px'}}/></div>
                 </Link>
                 <div className="box-content">
-                  <div className="date">
-                    2 Nov, 23
-                    <span className="vertical-line">|</span>
-                    <span className="featured">Featured Updates</span>
-                  </div>
-                  <h2 className="heading">
-                    PGs vs. Rental Flats: Making the Right Choice in Lucknow
-                  </h2>
-                  <p>
-                    In the world of rental property management, securing reliable tenants is the cornerstone of success.
-                  </p>
-                  <div className="read">
-                    <Link
-                      to="/blog/blogpage"
-                      style={{ textDecoration: 'none' }}
-                    >
-                      <p className="Readmore">
-                        Read More{' '}
-                        <i className="fa-solid fa-arrow-right arrow"></i>
-                      </p>
-                    </Link>
-                  </div>
-                  <div className="boxdiv">
+                    <div className="date">
+                        2 Nov, 23
+                        <span className="vertical-line">|</span>
+                        <span className="featured">Featured Updates</span>
+                    </div>
+                    <h2 className="heading">
+                    Mastering Rental Property Finances: Budgeting and Financial Planning Tips 
+                    </h2>
+                    <p>In the dynamic landscape of real estate investment, managing rental property finances efficiently is paramount for success
+                    {' '}
+                    </p>
+                    <div className="read">
+                        <Link to="/blog/blogpage-1"  style={{ textDecoration: 'none' }}>
+                        <p className="Readmore">Read More <i className="fa-solid fa-arrow-right arrow"></i></p>
+                    
+                      </Link>
+                    </div>
+                    <div className="boxdiv">
                     <div className="boxdiv1">
-                      <div className="box-footer">
-                        <div className="name">Bhaumik Kore</div>
-                      </div>
-                      <div className="designation">Full Stack Developer</div>
+                        <div className="box-footer">
+                        <div className="name">Akarshi Mathur</div>
+                        </div>
+                        <div className="designation">Full Stack Developer</div>
                     </div>
                     <div className="boxdiv2">
-                      <div className="eyebox">
+                        <div className="eyebox">
                         <i className="fa-solid fa-eye"></i>
                         <span>17</span>
-                      </div>
-                      <div className="eyebox">
+                        </div>
+                        <div className="eyebox">
                         <i className="fa-regular fa-heart"></i>
                         <span>22</span>
-                      </div>
+                        </div>
                     </div>
-                  </div>
-                  <hr className="hr1" />
+                    </div>
+                    <hr className="hr1" />
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="boxes bo2">
-                <Link to="/blog/blogpage" style={{ textDecoration: 'none' }}>
-                  <div className="box-img">
-                    <img src={image2} alt="BlogImage" />
-                  </div>
+            <div className="boxes bo2">
+                <Link to="/blog/blogpage-2"  style={{ textDecoration: 'none' }}>
+                <div className="box-img"><img src={image2} alt='BlogImage'style={{height:"220px",borderRadius:'16px'}}/></div>
                 </Link>
                 <div className="box-content">
-                  <div className="date">
-                    2 Nov, 23
-                    <span className="vertical-line">|</span>
-                    <span className="featured">Featured Updates</span>
-                  </div>
-                  <h2 className="heading">
-                    Collaboration and Partnership Update!
-                  </h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Libero reprehenderit natus, voluptas at amet minus ab Lorem
-                    ipsum dolor sit amet consectetur{' '}
-                  </p>
-                  <div className="read">
-                    <Link
-                      to="/blog/blogpage"
-                      style={{ textDecoration: 'none' }}
-                    >
-                      <p className="Readmore">
-                        Read More{' '}
-                        <i className="fa-solid fa-arrow-right arrow"></i>
-                      </p>
-                    </Link>
-                  </div>
-                  <div className="boxdiv">
+                    <div className="date">
+                        21 feb, 24
+                        <span className="vertical-line">|</span>
+                        <span className="featured">Featured Updates</span>
+                    </div>
+                    <h2 className="heading">
+                    Maximizing Rental Property Income: Strategies for Indian Landlords!
+                    </h2>
+                    <p>
+                    Investing in rental properties can be a lucrative venture for landlords in India, given the country's growing population {' '}
+                    </p>
+                    
+                    <div className="read">
+                        <Link to="/blog/blogpage-2"  style={{ textDecoration: 'none' }}>
+                        <p className="Readmore">Read More <i className="fa-solid fa-arrow-right arrow"></i></p>
+                      </Link>
+                    </div>
+                    <div className="boxdiv">
                     <div className="boxdiv1">
-                      <div className="box-footer">
-                        <div className="name">Bhaumik Kore</div>
-                      </div>
-                      <div className="designation">Full Stack Developer</div>
+                        <div className="box-footer">
+                        <div className="name">Divyanshi Shukla</div>
+                        </div>
+                        <div className="designation">Designer</div>
                     </div>
                     <div className="boxdiv2">
-                      <div className="eyebox">
+                        <div className="eyebox">
                         <i className="fa-solid fa-eye"></i>
-                        <span>17</span>
-                      </div>
-                      <div className="eyebox">
+                        <span>14</span>
+                        </div>
+                        <div className="eyebox">
                         <i className="fa-regular fa-heart"></i>
-                        <span>22</span>
-                      </div>
+                        <span>32</span>
+                        </div>
                     </div>
-                  </div>
-                  <hr className="hr1" />
+                    </div>
+                    <hr className="hr1" />
                 </div>
               </div>
             </div>
@@ -150,7 +128,7 @@ export const Blog = () => {
                   <div className="box-img">
                     <img
                       src={image3}
-                      style={{ height: '215px', borderRadius:'10px' }}
+                      style={{ height: '220px', borderRadius:'16px' }}
                       alt="BlogImage"
                     />
                   </div>
@@ -167,8 +145,7 @@ export const Blog = () => {
                   <p>
                     In Lucknow, as in many cities, individuals seeking
                     accommodation are often faced with the decision between
-                    staying in a paying guest (PG) accommodation or renting a
-                    flat. Both options
+                    staying in a paying guest 
                   </p>
                   <div className="read">
                     <Link
@@ -208,7 +185,7 @@ export const Blog = () => {
                 <Link to="/blog/blogpage-4" style={{ textDecoration: 'none' }}>
                   <div className="box-img">
                     <img src={image4}
-                    style={{ height: '215px', borderRadius:'10px' }} alt="BlogImage" />
+                    style={{ height: '215px', borderRadius:'16px' }} alt="BlogImage" />
                   </div>
                 </Link>
                 <div className="box-content">
@@ -261,7 +238,7 @@ export const Blog = () => {
               <div className="boxes bo5">
                 <Link to="/blog/blogpage" style={{ textDecoration: 'none' }}>
                   <div className="box-img">
-                    <img src={image4} alt="BlogImage" />
+                    <img src={image5} alt="BlogImage" />
                   </div>
                 </Link>
                 <div className="box-content">

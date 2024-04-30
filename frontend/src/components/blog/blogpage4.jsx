@@ -55,22 +55,22 @@ export const BlogPage4 = () => {
                     <div className="blogimg">
                     <img src={image2} alt="img" />
                     </div>
-                   <h4>Set Competitive Rental Rates: </h4>
+                   <h4 className="mt-4">Set Competitive Rental Rates: </h4>
                    <p>Conduct market research to determine the appropriate rental rates for your property based on its location, size, amenities, and condition. Setting competitive rental rates will not only attract more prospective tenants but also signal that you value your property and are serious about finding reliable tenants.</p>
                    <div className="blogimg">
                     <img src={image3} alt="img" />
                     </div>
-                   <h4>Screen Tenants Thoroughly: </h4>
+                   <h4 className="mt-4">Screen Tenants Thoroughly: </h4>
                    <p>Implement a rigorous tenant screening process to weed out unreliable applicants and identify those who are likely to be responsible and trustworthy. Conduct background and credit checks, verify employment and income, and contact previous landlords for references to ensure that prospective tenants have a solid rental history.</p>
                    <div className="blogimg">
                     <img src={image4} alt="img" />
                     </div>
-                   <h4>Be Transparent and Honest: </h4>
+                   <h4 className="mt-4">Be Transparent and Honest: </h4>
                    <p>Establish trust with prospective tenants by being transparent and honest about the terms and conditions of the rental agreement, including rent, security deposit, lease duration, and any rules or policies. Clear communication from the outset will help prevent misunderstandings and disputes down the line.</p>
                    <div className="blogimg">
                     <img src={image5} alt="img" />
                     </div>
-                   <h4>Maintain Property Curb Appeal: </h4>
+                   <h4 className="mt-4">Maintain Property Curb Appeal: </h4>
                    <p>Keep your rental property well-maintained and visually appealing to attract quality tenants who take pride in their living environment. Regularly inspect the property for any maintenance issues or repairs, and address them promptly to ensure that the property remains in good condition and reflects positively on you as a landlord.</p>
                    <h4>Offer Incentives or Special Amenities: </h4>
                     <p> Consider offering incentives or special amenities to entice prospective tenants and set your rental property apart from the competition. This could include perks such as flexible lease terms, discounted rent for long-term tenants, or complimentary services like landscaping or utilities.</p>
@@ -79,7 +79,7 @@ export const BlogPage4 = () => {
                     <div className="blogimg">
                     <img src={image5} alt="img" />
                     </div>
-                    <h4>Promote a Safe and Secure Environment: </h4>
+                    <h4 className="mt-4">Promote a Safe and Secure Environment: </h4>
                     <p>Prioritize safety and security measures to reassure tenants that they are renting from a responsible and caring landlord. Install adequate lighting, secure locks, and smoke detectors, and consider investing in additional security features such as surveillance cameras or alarm systems to enhance peace of mind for both you and your tenant.Attracting reliable tenants to your rental property is not an exact science, but by implementing these proactive strategies and maintaining a commitment to professionalism and excellence, you can increase your chances of finding tenants who are dependable, respectful, and committed to maintaining a positive rental experience for all parties involved. Remember that investing time and effort in attracting reliable tenants upfront will ultimately pay dividends in the form of long-term tenant satisfaction and property success.
 </p>            
 <h4>"The To-Let Globe: A Landlord's Guide to Attracting Tenants"</h4>
