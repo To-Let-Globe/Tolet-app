@@ -6,7 +6,7 @@ export const Footer =()=>{
       <Container className='footer-container'>
       <footer class="text-center text-lg-start text-muted">
         
-        <section class="">
+        <section class="footer-section">
           <div class="container text-center text-md-start mt-5">
           
             <div class="row mt-3">
