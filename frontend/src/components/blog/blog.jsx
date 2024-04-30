@@ -60,10 +60,6 @@ export const Blog = () => {
                     <div className="boxdiv">
                     <div className="boxdiv1">
                         <div className="box-footer">
-                        <div
-                            className="short-image"
-                            style={{ backgroundImage: `url(${image6})` }}
-                        ></div>
                         <div className="name">Bhaumik Kore</div>
                         </div>
                         <div className="designation">Full Stack Developer</div>
@@ -104,17 +100,12 @@ export const Blog = () => {
                     </p>
                     <div className="read">
                         <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                        <p className="Readmore">Read More </p>
+                        <p className="Readmore">Read More <i className="fa-solid fa-arrow-right arrow"></i></p>
                       </Link>
-                    <i className="fa-solid fa-arrow-right arrow"></i>
                     </div>
                     <div className="boxdiv">
                     <div className="boxdiv1">
                         <div className="box-footer">
-                        <div
-                            className="short-image"
-                            style={{ backgroundImage: `url(${image6})` }}
-                        ></div>
                         <div className="name">Bhaumik Kore</div>
                         </div>
                         <div className="designation">Full Stack Developer</div>
@@ -155,17 +146,12 @@ export const Blog = () => {
                     </p>
                     <div className="read">
                         <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                        <p className="Readmore">Read More </p>
+                        <p className="Readmore">Read More <i className="fa-solid fa-arrow-right arrow"></i></p>
                       </Link>
-                    <i className="fa-solid fa-arrow-right arrow"></i>
                     </div>
                     <div className="boxdiv">
                     <div className="boxdiv1">
                         <div className="box-footer">
-                        <div
-                            className="short-image"
-                            style={{ backgroundImage: `url(${image6})` }}
-                        ></div>
                         <div className="name">Bhaumik Kore</div>
                         </div>
                         <div className="designation">Full Stack Developer</div>
@@ -206,17 +192,13 @@ export const Blog = () => {
                     </p>
                     <div className="read">
                         <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                        <p className="Readmore">Read More </p>
+                        <p className="Readmore">Read More <i className="fa-solid fa-arrow-right arrow"></i></p>
                       </Link>
-                    <i className="fa-solid fa-arrow-right arrow"></i>
+                    
                     </div>
                     <div className="boxdiv">
                     <div className="boxdiv1">
                         <div className="box-footer">
-                        <div
-                            className="short-image"
-                            style={{ backgroundImage: `url(${image6})` }}
-                        ></div>
                         <div className="name">Bhaumik Kore</div>
                         </div>
                         <div className="designation">Full Stack Developer</div>
@@ -257,17 +239,12 @@ export const Blog = () => {
                     </p>
                     <div className="read">
                         <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                        <p className="Readmore">Read More </p>
+                        <p className="Readmore">Read More <i className="fa-solid fa-arrow-right arrow"></i></p>
                       </Link>
-                    <i className="fa-solid fa-arrow-right arrow"></i>
                     </div>
                     <div className="boxdiv">
                     <div className="boxdiv1">
                         <div className="box-footer">
-                        <div
-                            className="short-image"
-                            style={{ backgroundImage: `url(${image6})` }}
-                        ></div>
                         <div className="name">Bhaumik Kore</div>
                         </div>
                         <div className="designation">Full Stack Developer</div>
@@ -308,17 +285,12 @@ export const Blog = () => {
                     </p>
                     <div className="read">
                         <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                        <p className="Readmore">Read More </p>
+                        <p className="Readmore">Read More <i className="fa-solid fa-arrow-right arrow"></i></p>
                       </Link>
-                    <i className="fa-solid fa-arrow-right arrow"></i>
                     </div>
                     <div className="boxdiv">
                     <div className="boxdiv1">
                         <div className="box-footer">
-                        <div
-                            className="short-image"
-                            style={{ backgroundImage: `url(${image6})` }}
-                        ></div>
                         <div className="name">Bhaumik Kore</div>
                         </div>
                         <div className="designation">Full Stack Developer</div>

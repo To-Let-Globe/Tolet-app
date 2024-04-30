@@ -15,7 +15,7 @@ export const HomeDown = () => {
           <Col xs={15} md={8} lg={6}>
             <h1 className="tagline2 text-left">Welcome to To-Let Globe</h1>
             <h6 className="headline2 text-center">
-              NO BROKERAGE ON <span className="wrap2"> PGS | FLATS | HOUSES | OFFICES </span>
+              NO BROKERAGE ON  PGS | FLATS | HOUSES | OFFICES 
             </h6>
             <div className="input-bar mb-5 mt-4 d-flex justify-content-center align-items-center" id="inputGroup">
               <InputGroup className='w-85'>
