@@ -4,7 +4,7 @@ import image1 from '../assets/img/logo.jpeg'
 export const Footer =()=>{
     return (
       <Container className='footer-container'>
-      <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <footer class="text-center text-lg-start text-muted">
         
         <section class="">
           <div class="container text-center text-md-start mt-5">
