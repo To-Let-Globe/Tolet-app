@@ -1,7 +1,7 @@
 .contact {
     height: 100vh;
     width: auto;
-    margin-top:12%; 
+    margin-top:10%; 
     text-align: left !important ;  
 }
 h1, h2, h3, h4, h5, h6 {
@@ -9,9 +9,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family:Poppins-Regular!important;
 }
 
-p{
-    line-height: 20%;
-    color: rgb(179, 176, 176);
+.conpara{
+    line-height: 10%;
+    color: rgb(179, 176, 176) !important;
 }
 .contact-us{
     text-align: left;
@@ -31,6 +31,7 @@ span{
 .highlight{
     color: rgb(233, 232, 226);
     font-weight: 100 !important;
+    font-size: 22px;
    
    
 }
@@ -59,7 +60,7 @@ label{
     align-items: left !important;
     color: #848887 !important;
     padding-bottom: 5px;
-    font-size: 20px;  
+    font-size: 18px;  
 }
 .cls2{
     text-align: center;

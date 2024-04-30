@@ -51,24 +51,26 @@ export const BlogPage = () => {
                     <p>#InnovateTogether</p>
                 </div>
                 <div className="text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem necessitatibus sit incidunt sed voluptates nisi optio accusantium totam dolores, expedita eius assumenda veniam aut natus illo nihil inventore culpa. Fugiat. Itaque placeat temnsectetur numq Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officiis distinctio dignissimos excepturi</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vitae neque labore, totam illo numquam ipsa. Dolorem dicta ullam veritatis, distinctio reiciendis odit praesentium eveniet tempore, facilis delectus quo velit?
+                    Quae at exercitationem dolores, est aperiam sunt cumque nobis aliquam quisquam, sed alias dolorum nisi ratione, minima fuga itaque nesciunt ut molestias? Aspernatur in quia dolor, vitae cumque ut fuga.
+                    Eveniet magnam mollitia magni sed </p>
                 </div>
                 <div className="blogimg">
                     <img src={image8} alt="img" />
                 </div>
                 <div className="subtext">
                     <h1>Sub Heading</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tenetur neque cum aut dolore mollitia rerum quis enim ex officiis sunt accusamus alias eaque quasi. Sunt rerum nihil distinctio error tempore veniam, accusantium dolorum vel tempora qui perferendis, fugiat quos, doloremque pariatur reprehenderit numquam corporis officiis labore saepe voluptatibus? Rem accusantium non esse! Exercitationem, consequuntur. Nam ipsum consequatur corporis quam vel, mollitia debitis quae ratione veritatis id sit incidunt eius, deleniti voluptas tempora voluptates obcaecati temporibus saepe voluptatum exercitationem aperiam optio itaque natus perferendis? Voluptatem cum asperiores obcaecati saepe, aperiam consequatur nostrum iure quae sint necessitatibus dolore deleniti qui delectus!</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, debitis. Laudantium commodi odio distinctio nam quis et labore delectus praesentium, soluta aut officiis doloremque dignissimos magni similique fugiat beatae architecto mollitia eum. Possimus, harum dolor sequi impedit natus ea excepturi cumque sapiente nesciunt iste aperiam deleniti illo porro, minima voluptatum necessitatibus laudantium quisquam saepe maiores, quia quo rem repellat aliquid incidunt. Suscipit unde nesciunt quasi sequi vel iure omnis tempora fugit, reiciendis, animi perspiciatis voluptatum voluptate, aliquam quas quisquam inventore illum veniam molestias enim laboriosam repellendus nemo! Eos, iste! Harum, quos! Eligendi cum perferendis porro, quod officiis magni nesciunt eveniet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tenetur neque cum aut dolore mollitia rerum quis enim ex officiis sunt accusamus alias eaque quasi. Sunt rerum nihil distinctio error tempore veniam, accusantium dolorum vel tempora qui perferendis, fugiat quos, doloremque pariatur reprehenderit numquam corporis officiis labore saepe voluptatibus? Rem accusantium non esse!  </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, debitis. Laudantium commodi odio distinctio nam quis et labore delectus praesentium, soluta aut officiis doloremque dignissimos magni similique fugiat beatae architecto mollitia eum. Possimus, harum dolor sequi impedit natus ea excepturi cumque sapiente nesciunt iste aperiam deleniti illo porro, minima voluptatum necessitatibus </p>
                     <h1>Sub Heading</h1>
                     <ul className="list">
-                        <li className="list1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        <li className="list2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li className="list1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequuntur est ab dignissimos facere molestias</li>
+                        <li className="list2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit assumenda corrupti tempora, quidem itaque</li>
                         <li className="list3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                         <li className="list4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                     </ul>
                     <h1>Sub Heading</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tenetur neque cum aut dolore mollitia rerum quis enim ex officiis sunt accusamus alias eaque quasi. Sunt rerum nihil distinctio error tempore veniam, accusantium dolorum vel tempora qui perferendis, fugiat quos, doloremque pariatur reprehenderit numquam corporis officiis labore saepe voluptatibus? Rem accusantium non esse! Exercitationem, consequuntur. Nam ipsum consequatur corporis quam vel, mollitia debitis quae ratione veritatis id sit incidunt eius, deleniti voluptas tempora voluptates obcaecati temporibus saepe voluptatum exercitationem aperiam optio itaque natus perferendis? Voluptatem cum asperiores obcaecati saepe, aperiam consequatur nostrum iure quae sint necessitatibus dolore deleniti qui delectus!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tenetur neque cum aut dolore mollitia rerum quis enim ex officiis sunt accusamus alias eaque quasi. Sunt rerum nihil distinctio error tempore veniam, accusantium dolorum vel tempora qui perferendis, fugiat quos, doloremque pariatur reprehenderit numquam corporis officiis labore saepe voluptatibus? Rem accusantium non esse! Exercitationem, consequuntur. Nam ipsum consequatur corporis  </p>
                     <div className="hashtag-div">
                         <h2># Hastag_One</h2>
                         <h2># Hastag_Two</h2>
@@ -80,27 +82,27 @@ export const BlogPage = () => {
                 <div className="columimg">
                     <div className="coloumbox">
                         <img src={Rectangle5} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="news">News & Events</a><i className="fa-solid fa-arrow-right arrow1"></i></div>
+                        <div className="block"><a href="/blog" className="column-header">News & Events</a><i className="fa-solid fa-arrow-right arrow"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle4} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="featured1">Feature Updates</a><i className="fa-solid fa-arrow-right arrow2"></i></div>
+                        <div className="block"><a href="/blog" className="column-header">Feature Updates</a><i className="fa-solid fa-arrow-right arrow"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle1} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="brand">Brand Collaboration</a><i className="fa-solid fa-arrow-right arrow3"></i></div>
+                        <div className="block"><a href="/blog" className="column-header">Brand Collaboration</a><i className="fa-solid fa-arrow-right arrow"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle2} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="life-at-tolet">Life at To-Let</a><i className="fa-solid fa-arrow-right arrow4"></i></div>
+                        <div className="block"><a href="/blog" className="column-header">Life at To-Let</a><i className="fa-solid fa-arrow-right arrow"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle6} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="internship-campaigns">Internship Campaigns</a><i className="fa-solid fa-arrow-right arrow5"></i></div>
+                        <div className="block"><a href="/blog" className="column-header">Internship Campaigns</a><i className="fa-solid fa-arrow-right arrow"></i></div>
                     </div>
                     <div className="coloumbox">
                         <img src={Rectangle3} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="giveaway">Giveway & Offers</a><i className="fa-solid fa-arrow-right arrow6"></i></div>
+                        <div className="block"><a href="/blog" className="column-header">Giveway & Offers</a><i className="fa-solid fa-arrow-right arrow"></i></div>
                     </div>
                 </div>
             </div>

@@ -21,7 +21,6 @@ export const Service = () =>  {
       <div class="row-container">
         <div
           class="serviced1"
-          
         >
           <div class="box1">
             <div class="box12">

@@ -1,13 +1,13 @@
 // import { Container } from 'react-bootstrap'
 import { useEffect } from 'react'
 import $ from 'jquery'
-import '../style/about.css'
+import '../../style/about/about.css'
 
 import React, { useState } from 'react';
-import ceo1 from '../assets/image/about/ceo1.svg'
-import ceo2 from '../assets/image/about/ceo2.svg'
-import ceo3 from '../assets/image/about/ceo3.svg'
-import divi from '../assets/image/about/division.png';
+import ceo1 from '../../assets/image/about/ceo1.svg'
+import ceo2 from '../../assets/image/about/ceo2.svg'
+import ceo3 from '../../assets/image/about/ceo3.svg'
+import divi from '../../assets/image/about/division.png';
 
 // import { Fplus } from '../components/faq'
 

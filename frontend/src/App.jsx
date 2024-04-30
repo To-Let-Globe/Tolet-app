@@ -3,14 +3,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from './components/navbar';
 
 // import { Home } from './components/home/home';
-import { Contact } from './components/contactus';
-import { Login } from './components/login';
-import { Blog } from './components/blog/blog';
-import {AboutUs} from './components/aboutus';
-import {Service} from './components/service';
-import {BlogPage} from './components/blog/blogpage';
-import 'bootstrap/dist/css/bootstrap.css';
 import { Layout } from './components/layout';
+import { Contact } from './components/contact/contactus';
+import  {BlogPage } from './components/blog/blogpage';
+import { Blog } from './components/blog/blog';
+import {AboutUs} from './components/about/aboutus';
+import { Login } from './components/login';
+import {Service} from './components/service';
+import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
    <div className="App">

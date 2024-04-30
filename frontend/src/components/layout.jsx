@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { HomeDown } from './home/homeDown'
 import { HomeUp } from './home/homeUp';
+import { ContactUs } from './contact/getintouch';
 import {Service} from './service';
 import {Footer} from './footer';
 // import { Blog } from './blog/blog'
@@ -26,6 +27,7 @@ export const Layout = () => {
             <HomeUp/>
             <HomeDown/>
             <Service/>
+            <ContactUs/>
             <Footer />
             {/* <Blog/> */}
     </section>

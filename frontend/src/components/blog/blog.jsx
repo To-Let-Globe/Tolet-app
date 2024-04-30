@@ -20,8 +20,7 @@ export const Blog = () => {
   return (
     <section className="blog">
       <Container className='blog-container'>
-        <div className="line"></div>
-        <Typography variant="h1" className="insights">
+        <Typography variant="h1" className="insights text-center">
           Our Insights and Stories
         </Typography>
         <Typography variant="body1" className="lorem">
@@ -36,7 +35,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo1">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image1} alt="BlogImage" /></div>
+                <div className="box-img"><img src={image1} alt='BlogImage' /></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -87,7 +86,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo2">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image2} alt="BlogImage" /></div>
+                <div className="box-img"><img src={image2} alt='BlogImage'/></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -138,7 +137,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo3">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image3} alt="BlogImage"/></div>
+                <div className="box-img"><img src={image3} alt='BlogImage'/></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -189,7 +188,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo4">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image3} alt="BlogImage"/></div>
+                <div className="box-img"><img src={image3} alt='BlogImage'/></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -240,7 +239,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo5">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image4} alt="BlogImage" /></div>
+                <div className="box-img"><img src={image4} alt='BlogImage'/></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -291,7 +290,7 @@ export const Blog = () => {
             <div className="col-md-4">
             <div className="boxes bo6">
                 <Link to="/blog/blogpage"  style={{ textDecoration: 'none' }}>
-                <div className="box-img"><img src={image5} alt="BlogImage" /></div>
+                <div className="box-img"><img src={image5} alt='BlogImage'/></div>
                 </Link>
                 <div className="box-content">
                     <div className="date">
@@ -352,47 +351,35 @@ export const Blog = () => {
             <div className="next">{'>'}</div>
           </div>
         </div>
-        <h2 className="categories">Categories</h2>
-        <div className="column-img">
-          <div className="columnbox">
-            <img src={Rectangle1} alt="img" style={{ width: '300px' }} />
-            <div className="block">
-              News & Events<i className="fa-solid fa-arrow-right arrow1"></i>
-            </div>
-          </div>
-          <div className="columnbox">
-            <img src={Rectangle2} alt="img" style={{ width: '300px' }} />
-            <div className="block">
-              Feature Updates<i className="fa-solid fa-arrow-right arrow2"></i>
-            </div>
-          </div>
-          <div className="columnbox">
-            <img src={Rectangle3} alt="img" style={{ width: '300px' }} />
-            <div className="block">
-              Brand Collaboration
-              <i className="fa-solid fa-arrow-right arrow3"></i>
-            </div>
-          </div>
-          <div className="columnbox">
-            <img src={Rectangle4} alt="img" style={{ width: '300px' }} />
-            <div className="block">
-              Life at To-Let<i className="fa-solid fa-arrow-right arrow4"></i>
-            </div>
-          </div>
-          <div className="columnbox">
-            <img src={Rectangle5} alt="img" style={{ width: '300px' }} />
-            <div className="block">
-              Internship Campaigns
-              <i className="fa-solid fa-arrow-right arrow5"></i>
-            </div>
-          </div>
-          <div className="columnbox">
-            <img src={Rectangle6} alt="img" style={{ width: '300px' }} />
-            <div className="block">
-              Giveway & Offers<i className="fa-solid fa-arrow-right arrow6"></i>
-            </div>
-          </div>
-        </div>
+        <div className="column">
+                    <h5>Categories</h5>
+                </div>
+                <div className="columimg">
+                    <div className="coloumbox">
+                        <img src={Rectangle5} alt="img" width="300px" className="img" />
+                        <div className="block"><a href="/blog" className="column-header">News & Events</a><i className="fa-solid fa-arrow-right arrow"></i></div>
+                    </div>
+                    <div className="coloumbox">
+                        <img src={Rectangle4} alt="img" width="300px" className="img" />
+                        <div className="block"><a href="/blog" className="column-header">Feature Updates</a><i className="fa-solid fa-arrow-right arrow"></i></div>
+                    </div>
+                    <div className="coloumbox">
+                        <img src={Rectangle1} alt="img" width="300px" className="img" />
+                        <div className="block"><a href="/blog" className="column-header">Brand Collaboration</a><i className="fa-solid fa-arrow-right arrow"></i></div>
+                    </div>
+                    <div className="coloumbox">
+                        <img src={Rectangle2} alt="img" width="300px" className="img" />
+                        <div className="block"><a href="/blog" className="column-header">Life at To-Let</a><i className="fa-solid fa-arrow-right arrow"></i></div>
+                    </div>
+                    <div className="coloumbox">
+                        <img src={Rectangle6} alt="img" width="300px" className="img" />
+                        <div className="block"><a href="/blog" className="column-header">Internship Campaigns</a><i className="fa-solid fa-arrow-right arrow"></i></div>
+                    </div>
+                    <div className="coloumbox">
+                        <img src={Rectangle3} alt="img" width="300px" className="img" />
+                        <div className="block"><a href="/blog" className="column-header">Giveway & Offers</a><i className="fa-solid fa-arrow-right arrow"></i></div>
+                    </div>
+                </div>
       </Container>
     </section>
   )

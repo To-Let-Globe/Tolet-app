@@ -4,14 +4,22 @@
     width: 100%;
     min-height: 375px;
     background-color: black;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     flex-wrap: wrap;
     align-items:center;
     justify-content:space-around;
     border-top: 1px solid #f4f3f3;
   
   }
-  
+  .footer-tag{
+    display: flex;
+    justify-content: space-between;
+  }
+  /* .fa-brands{
+    display: flex;
+    justify-content: space-between;
+  } */
+
   .footer-content {
     display: flex;
     flex-direction: row;
@@ -23,6 +31,9 @@
     background-color: transparent;
   }
     
+  .footer-icon i{
+    padding: 0 10px 0 10px;
+  }
   .footer .language-btn{
     color: white;
     margin-top: 20px;
@@ -39,6 +50,9 @@
     color: white;
   }
 
+  .add-text{
+    color: #999;
+  }
   .footer-link{
     text-decoration: none;
     color: #999;
