@@ -9,6 +9,7 @@
 	display: inline;
 	border: 3px solid #6cc0c4;
 	font-size: 3em;
+	
 }
 
 .ag-timeline {
@@ -17,6 +18,7 @@
   padding-top:10px;
 	margin:auto;
 	position: relative;
+	margin-left: 2%;
 }
 .ag-timeline_line {
 	width: 3px;
@@ -52,17 +54,21 @@
 
 .checkpoint{
 	text-align: justify;
-  max-width: 840px;
+  max-width: 740px;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	position: relative;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10%;
 }
 
 .checkpoint div{
 	border: 2px solid #6cc0c4;
 	border-radius: 1em;
 	padding: 1.5em;
-  
+	
 }
 
 .checkpoint p{
