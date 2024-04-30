@@ -3,7 +3,7 @@ import '../style/footer.css'
 import image1 from '../assets/img/logo.jpeg'
 export const Footer =()=>{
     return (
-      <Container>
+      <Container className='footer-container'>
       <footer class="text-center text-lg-start bg-body-tertiary text-muted">
         
         <section class="">
