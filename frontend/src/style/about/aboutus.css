@@ -6,11 +6,15 @@
     margin-top: 10%;
 }
 .AboutUS-Container h1{
+    display: flex;
     text-align: left;
+    justify-content: last baseline;
 }
 
 .about-container {
-    margin-top: 20px;
+    left: 0;
+    right: 0;
+    margin-top: 5% !important;
 }
 
 .about-container h3 {

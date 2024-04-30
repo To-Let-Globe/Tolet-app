@@ -25,13 +25,13 @@ export const Layout = () => {
 
   return (
     <section className={isScrolled ? "home scrolled" : "home"} id="home">
-            {/* <HomeUp/>
+            <HomeUp/>
             <HomeDown/>
-            <Service/> */}
+            <Service/>
             <About />
-            {/* <ContactUs/>
-            <Footer /> */}
-            {/* <Blog/> */}
+            <ContactUs/>
+            <Footer />
+            
     </section>
   )
 }

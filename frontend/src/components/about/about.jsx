@@ -11,7 +11,7 @@ const About = () => {
             <h2>About Us</h2>
             <div className='about-container'>
                 <Row>
-                    <Col md={4}>
+                    <Col md={6}>
                         <h3>Who We Are</h3>
                         <p>
                             An Online Platform where property owners and tenants can directly contact each other with ZERO brokerage.
@@ -33,13 +33,13 @@ const About = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={4}>
+                    <Col md={6}>
                         <h3>Our Mission</h3>
                         <p>
                             to hold To-Let boards at all rental properties available nearby.
                         </p>
                     </Col>
-                    <Col md={6}>
+                    <Col md={4}>
                         <img src={image3} alt='imag3' />
                     </Col>
                 </Row>
