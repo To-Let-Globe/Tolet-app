@@ -1,5 +1,6 @@
 .footer-container{
   margin-top: 10%;
+  width: 100% !important;
 }
 .footer {
     display: flex;
@@ -11,17 +12,13 @@
     flex-wrap: wrap;
     align-items:center;
     justify-content:space-around;
-    border-top: 1px solid #f4f3f3;
+    border-top: 1px solid #ffffff;
   
   }
   .footer-tag{
     display: flex;
     justify-content: space-between;
   }
-  /* .fa-brands{
-    display: flex;
-    justify-content: space-between;
-  } */
 
   .footer-content {
     display: flex;
