@@ -52,9 +52,9 @@ export const Contact = () => {
                             {/* {({ isVisible }) => */}
                                 {/* <div className={isVisible ? "animate__animated animate__backInRight" : ""}> */}
                                     <h1 style={{ marginBottom: '30px', fontSize:'35px' }}>Contact Us, We're Ready to Help!</h1>
-                                    <p className='conpara' style={{letterSpacing:'2px'}}>We strive to provide you with the best</p> 
-                                    <p className='conpara' style={{letterSpacing:'2px'}}>experience and the best platform to find your</p>
-                                    <p className='conpara' style={{letterSpacing:'2px'}}> choice.</p>
+                                    <p className='conpara' style={{letterSpacing:'1px'}}>We strive to provide you with the best</p> 
+                                    <p className='conpara' style={{letterSpacing:'1px'}}>experience and the best platform to find your</p>
+                                    <p className='conpara' style={{letterSpacing:'1px'}}> choice.</p>
                                     <p className='conpara' class='space'>Post us any queries and we’ll get back to you.</p>
 
                                     <Row className="mb-3 mt-5">

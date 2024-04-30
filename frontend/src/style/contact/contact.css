@@ -36,7 +36,9 @@ span{
    
 }
 .space{
-    padding-bottom: 50px;
+    padding-top: 10px;
+    color: #848887;
+    padding-bottom: 10px;
 }
 #inputID::placeholder {
     color: #848887;

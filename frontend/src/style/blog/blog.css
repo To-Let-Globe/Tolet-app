@@ -44,6 +44,7 @@ p {
   margin-left: 36.3%;
   border-radius: 16px;
   margin-top: 50px;
+  margin-bottom: 50px;
   font-size: large;
 }
 
@@ -91,12 +92,13 @@ p {
   text-align: left;
 }
 
-.readmore {
+.Readmore {
   text-decoration: none;
   color: #5aa7a0;
 }
 .read Link{
   text-decoration: none;
+  color: #9ca3af !important;
 }
 
 .readmore:hover {

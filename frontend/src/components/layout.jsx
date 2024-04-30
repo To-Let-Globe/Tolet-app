@@ -4,6 +4,7 @@ import { HomeUp } from './home/homeUp';
 import { ContactUs } from './contact/getintouch';
 import {Service} from './service';
 import {Footer} from './footer';
+import About from './about/about';
 // import { Blog } from './blog/blog'
 // import Service from './service'
 
@@ -24,11 +25,12 @@ export const Layout = () => {
 
   return (
     <section className={isScrolled ? "home scrolled" : "home"} id="home">
-            <HomeUp/>
+            {/* <HomeUp/>
             <HomeDown/>
-            <Service/>
-            <ContactUs/>
-            <Footer />
+            <Service/> */}
+            <About />
+            {/* <ContactUs/>
+            <Footer /> */}
             {/* <Blog/> */}
     </section>
   )

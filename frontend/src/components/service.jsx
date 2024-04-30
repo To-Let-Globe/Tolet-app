@@ -13,7 +13,7 @@ export const Service = () =>  {
     <div className="serviceouterdiv">
       <div className="serviced2">
         <p class="serviceh1">Services</p>
-        <p class="serviceh2">
+        <p class="serviceh2" style={{fontSize:'15px'}}>
           SKIP THE MIDDLEMAN : RENT OR LEASE DIRECTLY ON TO-LET GLOBE
         </p>
       </div>

@@ -7,6 +7,7 @@ height: 100vh;
   width: 100%;
   height: 10%;
   margin-top: 10%; 
+  
 }
 .servicepageimage{
   width: 30%;
@@ -14,10 +15,10 @@ height: 100vh;
 }
 .servicepagetext{
     color: black;
-    margin-left: 5%;
-    margin-top: 2%;
+   
+    margin-top: 8%;
     font-weight: bold;
-    text-align: start;
+  
 }    
   
 
@@ -60,7 +61,7 @@ height: 100vh;
       justify-content: center;
       align-items: center;
       width:100%;
-      height:80%;
+      height:75%;
       position:relative;
       background-color:#D4DED8;
       flex-direction:column;
@@ -70,7 +71,7 @@ height: 100vh;
     .box13{
      
       width:100%;
-      height:20%;
+      height:25%;
       background-color:#CCB454;
       font:Poppins;
       font-size:10px;
@@ -80,6 +81,8 @@ height: 100vh;
     }
     .servicepagetext{
       font-size:12px;
+      text-align:left;
+      margin-left: 5%;
     }
     /* .container{
       width:95%;
@@ -89,7 +92,7 @@ height: 100vh;
     .box23{
      
       width:100%;
-      height:20%;
+      height:25%;
       background-color:#6CC1B6;
       font:Poppins;
       border-radius: 0 0 15px 15px;
@@ -107,6 +110,9 @@ height: 100vh;
     margin-left: 4%;
     padding-bottom: 10%;
    
+    }
+    .serviced2{
+      margin-left: 3%;
     }
     
     .box1:hover  .box14{
@@ -146,9 +152,7 @@ height: 100vh;
       justify-content: space-around;
       align-items: center;
       flex-direction: row;
-      padding: 0;
-      margin: 0;
-      width:100%;
+      width:99%;
       height:80%;
     }
     .serviced1{
@@ -182,6 +186,9 @@ height: 100vh;
   font-weight: 700;
  
  }
+ .serviced2{
+  margin-left: 4%;
+ }
  .serviceh2{
   font-size: 10px;
   margin-left: 9%;
@@ -214,7 +221,7 @@ height: 100vh;
       justify-content:center;
       align-items: center;
       flex-direction: column;
-      margin: 3% 10% 5% 10%;
+      margin:10%;
       width:80%;
       height:90%;
 
@@ -223,7 +230,7 @@ height: 100vh;
         display:flex;
         justify-content: space-around;
         width: 100%;
-        height: 40%;
+        height: 45%;
         position: relative;
         margin-bottom: 3%;
         flex-direction:row;
@@ -250,7 +257,7 @@ height: 100vh;
       justify-content: center;
       align-items: center;
       width:100%;
-      height:80%;
+      height:75%;
       position:relative;
       background-color:#D4DED8;
       flex-direction:column;
@@ -260,7 +267,7 @@ height: 100vh;
     .box13{
      
       width:100%;
-     height:20%;
+     height:25%;
  
       background-color:#CCB454;
       font:Poppins;
@@ -271,8 +278,8 @@ height: 100vh;
     .box23{
      
       width:100%;
-   height:20%;
-
+   height:25%;
+  
       background-color:#6CC1B6;
       font:Poppins;
       font-size:18px;
@@ -281,6 +288,8 @@ height: 100vh;
     }
     .servicepagetext{
       font-size: 18px;
+      text-align:left;
+      margin-left: 5%;
     }
     .box14{
       width:92%;
@@ -331,6 +340,9 @@ height: 100vh;
       text-align: start;
       color: #C8A21C;
       font: poppins;
+     }
+     .serviced2{
+      margin-left: 0%;
      }
        /* .container{
           width:60%;
@@ -392,7 +404,7 @@ height: 100vh;
           justify-content: center;
           align-items: center;
           width:100%;
-          height:80%;
+          height:75%;
           position:relative;
           background-color:#D4DED8;
           flex-direction:column;
@@ -402,7 +414,7 @@ height: 100vh;
         .box13{
          
           width:100%;
-          height:20%;
+          height:25%;
           background-color:#CCB454;
           font:Poppins;
           font-size:18px;
@@ -410,9 +422,9 @@ height: 100vh;
           transition: height 0.3s ease-in-out;
         }
         .box23{
-         
+        
           width:100%;
-          height:20%;
+          height:25%;
           background-color:#6CC1B6;
           font:Poppins;
           font-size:18px;
@@ -421,6 +433,8 @@ height: 100vh;
         }
         .servicepagetext{
           font-size: 18px;
+          text-align:left;
+          margin-left: 5%;
         }
         .box14{
           width:92%;

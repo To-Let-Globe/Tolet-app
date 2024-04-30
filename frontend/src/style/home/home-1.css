@@ -37,7 +37,7 @@ h6{
 
 .tagline{
   position: absolute;
-  letter-spacing: 8px;
+  letter-spacing: 5px;
   top: 30%;
   left: 0;
   right: 0;
@@ -127,7 +127,7 @@ h6{
 
 .scrolled .wrap2 {
     overflow: hidden;
-    border-right: .15em solid rgb(0, 255, 238); /* Adjust color and size as needed */
+    border-right: .15em solid #C8A21C !important; /* Adjust color and size as needed */
     white-space: nowrap;
     margin: 0 auto;
     animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
