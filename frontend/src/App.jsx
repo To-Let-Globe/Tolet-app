@@ -5,7 +5,8 @@ import { NavBar } from './components/navbar';
 // import { Home } from './components/home/home';
 import { Layout } from './components/layout';
 import { Contact } from './components/contact/contactus';
-import  {BlogPage } from './components/blog/blogpage';
+import  {BlogPage3 } from './components/blog/blogpage3';
+import  {BlogPage4 } from './components/blog/blogpage4';
 import { Blog } from './components/blog/blog';
 import {AboutUs} from './components/about/aboutus';
 import { Login } from './components/login';
@@ -20,7 +21,8 @@ function App() {
           <Route path="/" element={<Layout/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/blogpage" element={<BlogPage />} />
+          <Route path="/blog/blogpage-3" element={<BlogPage3 />} />
+          <Route path="/blog/blogpage-4" element={<BlogPage4 />} />
           <Route path="/service" element={<Service />} />
           <Route path="/login/" element={<Login />} />
           <Route path="/about/" element={<AboutUs />} />
