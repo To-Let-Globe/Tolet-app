@@ -1,7 +1,5 @@
 .about{
 	margin-top: 10% !important;
-	width: 100vw;
-	overflow-x: hidden;
 }
 
 .head-title h1{
@@ -55,8 +53,7 @@
 .checkpoint{
 	text-align: justify;
   	max-width: 840px;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding: 2em 2em 2em 2em;
 	position: relative;
 }
 
@@ -165,10 +162,10 @@
 	left: 9em ;
 }
 .imagd{
-	height: 150px !important;
-	width: auto !important;
-	margin-left: -10px;
-	margin-top: -8px;
+	width: 100% !important;
+	height: auto !important;
+	margin-left: -5px;
+	margin-top: -7px;
 }
 .line1{
 	/* Line 43 */
@@ -410,6 +407,7 @@
   }
   .answer.active{
     max-height: max-content; 
+	text-align: left;
 	line-height: 80%; 
   }
   .faqinner {
@@ -422,4 +420,8 @@
 	margin-right: auto;
 	margin-left: 7% !important;
   
+  }
+  .imag3{
+	width: 200px;
+	height: auto;
   }

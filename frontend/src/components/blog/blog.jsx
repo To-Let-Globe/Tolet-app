@@ -6,7 +6,7 @@ import image2 from '../../assets/image/blog/image2.png'
 import image3 from '../../assets/image/blog/image3.png'
 import image4 from '../../assets/image/blog/image4.png'
 import image5 from '../../assets/image/blog/image5.png'
-import image6 from '../../assets/image/blog/image6.png'
+// import image6 from '../../assets/image/blog/image6.png'
 
 import Rectangle1 from '../../assets/image/blog/Rectangle1.png'
 import Rectangle2 from '../../assets/image/blog/Rectangle2.png'

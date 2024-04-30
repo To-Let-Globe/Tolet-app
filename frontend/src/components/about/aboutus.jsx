@@ -2,11 +2,11 @@
 import { useEffect } from 'react'
 import $ from 'jquery'
 import '../../style/about/about.css'
-// import {Footer} from '../footer'
-import React, { useState } from 'react';
-import ceo1 from '../../assets/image/about/ceo1.svg'
-import ceo2 from '../../assets/image/about/ceo2.svg'
-import ceo3 from '../../assets/image/about/ceo3.svg'
+import {Footer} from '../footer'
+import React from 'react';
+import ceo1 from '../../assets/image/about/CEO1.png'
+import ceo2 from '../../assets/image/about/CEO2.jpg'
+import ceo3 from '../../assets/image/about/CEO3.jpeg'
 import divi from '../../assets/image/about/division.png';
 import { FAQ } from '../faq';
 // import { Fplus } from '../components/faq'
@@ -41,7 +41,7 @@ export const AboutUs = () => {
     }
 
     function fnUpdateProgress() {
-      var agTop = topoffset.offsetTop + 62
+      var agTop = topoffset.offsetTop + 130
 
       var i = agTop + agPosY - $(window).scrollTop()
       var a =
@@ -247,8 +247,8 @@ export const AboutUs = () => {
               </div>
               <div class="flip-box-back">
                 <a href="https://www.linkedin.com/in/rohit-kanaujia-b775a5171/">
-                  <h2>Naruto</h2>
-                  <p>Developer</p>
+                  <h2>Rohit Kanaujia</h2>
+                  <p>Co-founder</p>
                 </a>
               </div>
             </div>
@@ -256,8 +256,8 @@ export const AboutUs = () => {
         </div>
       </div>
       {/* <Fplus /> */}
-    <FAQ />  
-    {/* <Footer /> */}
+      < FAQ/>
+       <Footer/>
     </section>
   )
 }

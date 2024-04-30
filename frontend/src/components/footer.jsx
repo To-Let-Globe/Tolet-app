@@ -79,9 +79,13 @@ export const Footer =()=>{
                 </p>
               </div>
 
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-center" >
-                <img src={image1} alt="logo"style={{width:"60px"}}/>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-3 text-center" >
+                <Row>
+                <img src={image1} alt="logo"style={{width:"90px",height:'auto',marginLeft: '25%'}}/>
+                </Row>
+                <Row>
                 <p style={{textAlign:"center",fontSize:"12px", color:'#999'}}>One-stop solution for all your brokerage free rental needs </p>
+                </Row>
               </div>
              
              
