@@ -10,6 +10,9 @@ nav.navbar {
 #navbarNav{
     margin-right: 3%;
 }
+.navbar-toggler{
+    margin-right: 3%;
+}
 
 .navbar{
     background-color: black;
@@ -34,6 +37,7 @@ nav.navbar {
   
   @media (max-width: 480px) {
     .navbar-brand{
-        margin-left: 3%;
+        margin-left: 2%;
+        height: 40px !important;
     }
   }

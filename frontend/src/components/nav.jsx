@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "../style/nav.css";
 import Logo from "../assets/img/Favicon.png";
 import { useEffect, useState } from "react";
+import { Navbar } from "react-bootstrap";
 
 export const Nav = () => {
 
@@ -103,7 +104,7 @@ export const Nav = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon" style={{ color: "white" }}></span>
+          <i class="fa-solid fa-bars" style={{color:'white'}}></i>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
@@ -139,6 +140,7 @@ export const Nav = () => {
             </li>
           </ul>
         </div>
+        
       </div>
     </nav>
   );
