@@ -5,7 +5,7 @@ import image2 from '../../assets/image/about/image2.svg';
 import image3 from '../../assets/image/about/image3.svg';
 import { Col, Row } from 'react-bootstrap';
 
-const About = () => {
+export const About = () => {
     return (
         <div className="AboutUS-Container">
             <h2>About Us</h2>
@@ -47,5 +47,3 @@ const About = () => {
         </div>
     );
 }
-
-export default About;

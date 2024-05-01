@@ -21,10 +21,10 @@ export const Blog = () => {
     <section className="blog">
       <Container className="blog-container">
         <Typography variant="h1" className="insights text-center">
-          Our Insights and Stories
+        Our Insights and Stories
         </Typography>
         <Typography variant="body1" className="lorem">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Dive into a Sea of Endless Stories and Insights
         </Typography>
         <div className="content">
           <div className="trending">

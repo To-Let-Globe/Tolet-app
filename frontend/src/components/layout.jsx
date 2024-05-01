@@ -4,7 +4,7 @@ import { HomeUp } from './home/homeUp';
 import { ContactUs } from './contact/getintouch';
 import {Service} from './service';
 import {Footer} from './footer';
-// import About from './about/about';
+// import {About} from './about/about';
 // import { Blog } from './blog/blog'
 // import Service from './service'
 

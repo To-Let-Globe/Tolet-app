@@ -1,0 +1,39 @@
+nav.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.navbar-brand{
+    margin-left: 3%;
+}
+#navbarNav{
+    margin-right: 3%;
+}
+
+.navbar{
+    background-color: black;
+    justify-content: space-between;
+}
+.nav-link{
+    margin: 0 5px 0 5px;
+    padding:5px 15px !important;
+    color: white !important;
+}
+.nav-link:hover {
+    border-radius: 15px;
+    background-color: #e59948;
+    color: #ffffff !important; /* Change color on hover */
+  }
+  
+  .nav-link.active {
+    border-radius: 15px;
+    background-color: #6cc0c4;
+    color: rgb(255, 255, 255) !important; /* Change color for active link */
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-brand{
+        margin-left: 3%;
+    }
+  }
