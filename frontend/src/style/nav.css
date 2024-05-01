@@ -7,6 +7,9 @@ nav.navbar {
 .navbar-brand{
     margin-left: 3%;
 }
+.navbar-brand img{
+    height: 50px;
+}
 #navbarNav{
     margin-right: 3%;
 }
@@ -36,8 +39,9 @@ nav.navbar {
   }
   
   @media (max-width: 480px) {
-    .navbar-brand{
+    .navbar-brand img{
         margin-left: 2%;
         height: 40px !important;
+        width: auto;
     }
   }

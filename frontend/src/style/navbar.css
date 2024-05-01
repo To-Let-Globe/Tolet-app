@@ -1,20 +1,43 @@
+@media (max-width:991px) {
+    .navbar-brand .logo{
+        margin-left:10px !important;
+        width: 50px !important;
+    }
+    nav.navbar .navbar-link{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex !important;
+        justify-content: flex-end !important;
+        width: 30% !important;
+    }
+    .ms-auto{
+        width: 100%;
+    }
+}
+
+
 .navbar.scrolled {
     height: 70px;
 }
 
 .logo {
     padding: 0;
-    transition: all 1s ease-in-out !important; /* Smooth transition */
+    transition: all 0.5s ease-in-out !important; /* Smooth transition */
 }
-
+nav.navbar .navbar-link{
+    align-items: left;
+    padding: 0 20px 0 20px !important;
+    margin:0 10px 0 10px ;
+    width: 100% ;
+  }
+  
 .logo.scrolled {
     max-height: 60px; 
     width: auto;
-
 }
 
 .navbar {
-    transition: all 1s ease-in-out !important; /* Smooth transition for navbar height */
+    transition: all 0.5s ease-in-out !important; /* Smooth transition for navbar height */
 }
 
 nav.navbar {
@@ -23,7 +46,7 @@ nav.navbar {
     width: 100%;
     top: 0;
     z-index: 9999;
-    transition:  1s ease-in-out;
+    transition:  0.5s ease-in-out;
   }
   nav.navbar.scrolled {
     padding: 0px 0;
@@ -34,18 +57,19 @@ nav.navbar {
 
   }
   
-  
   nav.navbar .navbar-nav .nav-link.navbar-link {
     text-align: right;
-    font-family: 'Kanit';
+    font-family: Poppins-regular;
     font-weight: 400;
     color: #ffffff !important;
     letter-spacing: 0.8px;
-    padding: 0 20px;
-    font-size: 18px;
+    padding: 0 10px;
+    font-size: 15px;
     opacity: 0.75;
   }
   nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+      justify-content: flex-end;
+      background-color: #000000;
       opacity: 1;
       font-weight: 500;
       background-color: #00c0ba;
@@ -57,7 +81,6 @@ nav.navbar {
       font-weight: 500;
       background-color: rgba(0, 225, 210, 0.71);
       border-radius: 50px;
-      margin: 0px 0px 0px 0px;
       transition:  0.30s ease-in-out;
   }
   
@@ -65,6 +88,7 @@ nav.navbar {
   nav.navbar .navbar-toggler:focus {
       outline: none;
       box-shadow: none;
+      background-color: #000000 !;
   }
   nav.navbar .navbar-toggler-icon {
     width: 24px;

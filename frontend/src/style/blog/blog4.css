@@ -1,10 +1,10 @@
-@media (min-width:250px) and (max-width: 480px) {
+@media (max-width: 480px) {
   .blog{
     margin-left: auto !important;
     margin-right: auto !important;
     padding-left: auto;
     padding-right: auto;
-    width: 140vw;
+    width: 100%;
     height: auto;
     position: relative;
     align-items: center;
