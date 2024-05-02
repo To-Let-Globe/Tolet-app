@@ -1,11 +1,4 @@
 import "../../style/blog/blogpage.css"
-
-import Rectangle1 from '../../assets/image/blog/Rectangle1.png';
-import Rectangle2 from '../../assets/image/blog/Rectangle2.png';
-import Rectangle3 from '../../assets/image/blog/Rectangle3.png';
-import Rectangle4 from '../../assets/image/blog/Rectangle4.png';
-import Rectangle5 from '../../assets/image/blog/Rectangle5.png';
-import Rectangle6 from '../../assets/image/blog/Rectangle6.png';
 import image1 from '../../assets/image/blog/blog1/image1.png'
 export const BlogPage1 = () => {
     return (
@@ -68,35 +61,7 @@ export const BlogPage1 = () => {
                     <p>By adhering to these principles and adapting them to your specific circumstances, you can cultivate a financially resilient rental property portfolio that thrives in the dynamic Indian real estate market</p>
                     
                 </div>
-                <div className="column">
-                    <h5>Categories</h5>
-                </div>
-                <div className="columimg">
-                    <div className="coloumbox">
-                        <img src={Rectangle5} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">News & Events</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle4} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Feature Updates</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle1} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Brand Collaboration</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle2} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Life at To-Let</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle6} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Internship Campaigns</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle3} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Giveway & Offers</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                </div>
+                
             </div>
         </section>
     );

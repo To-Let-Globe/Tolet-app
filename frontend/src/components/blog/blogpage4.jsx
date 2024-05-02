@@ -7,13 +7,6 @@ import image3 from '../../assets/image/blog/blog4/image3.jpg'
 import image4 from '../../assets/image/blog/blog4/image4.jpg'
 import image5 from '../../assets/image/blog/blog4/image5.jpg'
 
-import Rectangle1 from '../../assets/image/blog/Rectangle1.png';
-import Rectangle2 from '../../assets/image/blog/Rectangle2.png';
-import Rectangle3 from '../../assets/image/blog/Rectangle3.png';
-import Rectangle4 from '../../assets/image/blog/Rectangle4.png';
-import Rectangle5 from '../../assets/image/blog/Rectangle5.png';
-import Rectangle6 from '../../assets/image/blog/Rectangle6.png';
-
 export const BlogPage4 = () => {
     return (
         <section className="blog">
@@ -81,64 +74,35 @@ export const BlogPage4 = () => {
                     </div>
                     <h4 className="mt-4">Promote a Safe and Secure Environment: </h4>
                     <p>Prioritize safety and security measures to reassure tenants that they are renting from a responsible and caring landlord. Install adequate lighting, secure locks, and smoke detectors, and consider investing in additional security features such as surveillance cameras or alarm systems to enhance peace of mind for both you and your tenant.Attracting reliable tenants to your rental property is not an exact science, but by implementing these proactive strategies and maintaining a commitment to professionalism and excellence, you can increase your chances of finding tenants who are dependable, respectful, and committed to maintaining a positive rental experience for all parties involved. Remember that investing time and effort in attracting reliable tenants upfront will ultimately pay dividends in the form of long-term tenant satisfaction and property success.
-</p>            
-<h4>"The To-Let Globe: A Landlord's Guide to Attracting Tenants"</h4>
-<p>The rental market is like a vast globe, teeming with opportunities and potential tenants. As a landlord, your goal is to attract reliable tenants who will not only fill your vacancies but also contribute positively to your rental property's success. In this guide, we'll explore how to navigate the to-let globe and implement strategies to attract tenants effectively.</p>
-               
-<h4>Optimize Your Online Presence:</h4>
-<ul>
-    <li>Create a compelling listing on rental platforms and websites with high-quality photos and detailed descriptions.</li>
-    <li>Utilize social media channels and online advertising to reach a wider audience of prospective tenants.</li>
-    <li>Consider investing in professional photography and virtual tours to showcase your property in the best possible light.</li>
-</ul>
-<h4>Highlight Unique Features and Amenities:</h4>
-<ul>
-    <li>Identify and emphasize the unique selling points of your rental property, such as its location, amenities, and architectural features.</li>
-    <li>Showcase any recent upgrades or renovations to attract tenants who value quality and modernity.</li>
-    <li>Highlight nearby attractions, amenities, and conveniences, such as parks, schools, public transportation, and shopping centers</li>
-</ul>
-<h4>
-Offer Flexible Lease Terms:
-</h4>
-<ul>
-    <li>Consider offering flexible lease terms, such as month-to-month or short-term leases, to appeal to tenants with varying needs and preferences.</li>
-    <li>Provide options for furnished or unfurnished rentals to accommodate different tenant lifestyles and situations.</li>
-    <li>Be open to negotiating lease terms and rental rates to attract qualified tenants and fill vacancies quickly.</li>
-</ul>
+                    </p>            
+                    <h4>"The To-Let Globe: A Landlord's Guide to Attracting Tenants"</h4>
+                    <p>The rental market is like a vast globe, teeming with opportunities and potential tenants. As a landlord, your goal is to attract reliable tenants who will not only fill your vacancies but also contribute positively to your rental property's success. In this guide, we'll explore how to navigate the to-let globe and implement strategies to attract tenants effectively.</p>
+                                
+                    <h4>Optimize Your Online Presence:</h4>
+                    <ul>
+                        <li>Create a compelling listing on rental platforms and websites with high-quality photos and detailed descriptions.</li>
+                        <li>Utilize social media channels and online advertising to reach a wider audience of prospective tenants.</li>
+                        <li>Consider investing in professional photography and virtual tours to showcase your property in the best possible light.</li>
+                    </ul>
+                    <h4>Highlight Unique Features and Amenities:</h4>
+                    <ul>
+                        <li>Identify and emphasize the unique selling points of your rental property, such as its location, amenities, and architectural features.</li>
+                        <li>Showcase any recent upgrades or renovations to attract tenants who value quality and modernity.</li>
+                        <li>Highlight nearby attractions, amenities, and conveniences, such as parks, schools, public transportation, and shopping centers</li>
+                    </ul>
+                    <h4>
+                    Offer Flexible Lease Terms:
+                    </h4>
+                    <ul>
+                        <li>Consider offering flexible lease terms, such as month-to-month or short-term leases, to appeal to tenants with varying needs and preferences.</li>
+                        <li>Provide options for furnished or unfurnished rentals to accommodate different tenant lifestyles and situations.</li>
+                        <li>Be open to negotiating lease terms and rental rates to attract qualified tenants and fill vacancies quickly.</li>
+                    </ul>
             
                     
                     <div className="hashtag-div">
                         <h2>#LucknowProperty</h2>
                         <h2>#NoBrokerage</h2>
-                    </div>
-                </div>
-                <div className="column">
-                    <h5>Categories</h5>
-                </div>
-                <div className="columimg">
-                    <div className="coloumbox">
-                        <img src={Rectangle5} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">News & Events</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle4} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Feature Updates</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle1} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Brand Collaboration</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle2} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Life at To-Let</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle6} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Internship Campaigns</a><i className="fa-solid fa-arrow-right arrow"></i></div>
-                    </div>
-                    <div className="coloumbox">
-                        <img src={Rectangle3} alt="img" width="300px" className="img" />
-                        <div className="block"><a href="/blog" className="column-header">Giveway & Offers</a><i className="fa-solid fa-arrow-right arrow"></i></div>
                     </div>
                 </div>
             </div>

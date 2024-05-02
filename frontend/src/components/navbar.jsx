@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/img/Favicon.png";
 import { useState } from "react";
 import { Navbar, Nav } from 'react-bootstrap';
-import "../style/navbar1.css"
+import "../style/navbar.css"
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
  
@@ -16,7 +16,7 @@ export const NavBar = () => {
                 <Link to="/" className="navbar-brand">
                     <img src={Logo} alt="Logo" />
                 </Link>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: 'white' }} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to="/" className={`nav-link ${activeLink === 'home' ? 'active' : ''}`} onClick={() => handleNavLinkClick('home')}>

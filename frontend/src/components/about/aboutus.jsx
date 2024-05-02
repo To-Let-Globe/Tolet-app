@@ -41,7 +41,7 @@ export const AboutUs = () => {
     }
 
     function fnUpdateProgress() {
-      var agTop = topoffset.offsetTop + 130
+      var agTop = topoffset.offsetTop + 0
 
       var i = agTop + agPosY - $(window).scrollTop()
       var a =
