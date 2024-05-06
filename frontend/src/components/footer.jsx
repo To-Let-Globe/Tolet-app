@@ -47,13 +47,13 @@ export const Footer =()=>{
                   Quick Links
                 </h6>
                 <p>
-                  <a href="#!" class="footer-link">About US</a>
+                  <a href="/about" class="footer-link">About US</a>
                 </p>
                 <p>
-                  <a href="#!" class="footer-link">Services</a>
+                  <a href="/service" class="footer-link">Services</a>
                 </p>
                 <p>
-                  <a href="#!" class="footer-link">Blogs</a>
+                  <a href="/blog" class="footer-link">Blogs</a>
                 </p>
                 <p>
                   <a href="#!" class="footer-link">Projects</a>
@@ -81,7 +81,7 @@ export const Footer =()=>{
 
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-3 text-center" >
                 <Row>
-                <img src={image1} alt="logo"style={{width:"90px",height:'auto',marginLeft: '25%'}}/>
+                <img src={image1} alt="logo"style={{width:"90px",height:'auto',marginLeft: 'auto',marginRight:'auto'}}/>
                 </Row>
                 <Row>
                 <p style={{textAlign:"center",fontSize:"12px", color:'#999'}}>One-stop solution for all your brokerage free rental needs </p>

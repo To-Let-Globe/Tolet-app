@@ -3,18 +3,20 @@
     width: 100%;
     min-height: 100vh;
     padding: 20px;
-    margin-top: 10%;
+    margin-top: 12%;
+    margin-bottom: 5%;
 }
-.AboutUS-Container h1{
+
+.AboutUS-Container h1 {
     display: flex;
-    text-align: left;
     justify-content: last baseline;
+    text-align: left;
 }
 
 .about-container {
-    left: 0;
-    right: 0;
-    margin-top: 5% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the rows vertically within the container */
 }
 
 .about-container h3 {
@@ -23,6 +25,10 @@
     font-weight: 200;
     color: yellow;
     text-align: left;
+}
+
+.heading-color{
+    color: #f6ce3c !important;
 }
 
 .about-container p {
@@ -35,14 +41,20 @@
 }
 
 .about-container img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
 }
 
 .about-container .vision-heading {
-    color: #C8A21C;
-    font-size: 20px;
+    color: #f6ce3c;
+    font-size: 30px;
     font-weight: 200;
     line-height: 60px;
     text-align: left;
+}
+
+.rows-center{
+    align-items: center; 
+    justify-content: center;
+    margin: -5%;
 }
