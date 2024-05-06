@@ -13,7 +13,7 @@ export const NavBar = () => {
     return ( 
         <Navbar expand="lg" className="navbar-container">
             <div className="container-fluid">
-                <Link to="/" className="navbar-brand">
+                <Link to="/" className="navbar-brand" >
                     <img src={Logo} alt="Logo" />
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: 'white' }} />
@@ -34,7 +34,7 @@ export const NavBar = () => {
                         <Nav.Link as={Link} to="/about" className={`nav-link ${activeLink === 'about' ? 'active' : ''}`} onClick={() => handleNavLinkClick('about')}>
                             About
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/property-listing" className={`nav-link ${activeLink === 'propertyListing' ? 'active' : ''}`} onClick={() => handleNavLinkClick('propertyListing')}>
+                        <Nav.Link as={Link} to="/property" className={`nav-link ${activeLink === 'propertyListing' ? 'active' : ''}`} onClick={() => handleNavLinkClick('propertyListing')}>
                             Property Listing
                         </Nav.Link>
                     </Nav>

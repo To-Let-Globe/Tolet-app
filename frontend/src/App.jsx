@@ -17,6 +17,7 @@ import { BlogMain } from './components/blog/blogmain';
 import {AboutUs} from './components/about/aboutus';
 import { Login } from './components/login';
 import {Service} from './components/service';
+import { Property } from './components/property/property';
 import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/blog/blogpage-5" element={<BlogPage5 />} />
           <Route path="/blog/blogpage-6" element={<BlogPage6 />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/property" element={<Property />} />
           <Route path="/login/" element={<Login />} />
           <Route path="/about/" element={<AboutUs />} />
         </Routes>

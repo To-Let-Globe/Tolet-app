@@ -50,8 +50,8 @@
   color: white !important;
 }
 .content{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .box-content {
   color: white;

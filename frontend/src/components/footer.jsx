@@ -47,13 +47,13 @@ export const Footer =()=>{
                   Quick Links
                 </h6>
                 <p>
-                  <a href="#!" class="footer-link">About US</a>
+                  <a href="/about" class="footer-link">About US</a>
                 </p>
                 <p>
-                  <a href="#!" class="footer-link">Services</a>
+                  <a href="/service" class="footer-link">Services</a>
                 </p>
                 <p>
-                  <a href="#!" class="footer-link">Blogs</a>
+                  <a href="/blog" class="footer-link">Blogs</a>
                 </p>
                 <p>
                   <a href="#!" class="footer-link">Projects</a>
