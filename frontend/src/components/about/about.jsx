@@ -10,7 +10,7 @@ export const About = () => {
     <div className="AboutUS-Container">
       <h2>About Us</h2>
       <div className="about-container">
-        <Row className="rows-center">
+        <Row className="rows-center" style={{justifyContent:"space-between"}}>
           <Col md={6} className="text-center"> 
             <h3 className="heading-color">Who We Are</h3>
             <p>
@@ -23,7 +23,7 @@ export const About = () => {
           </Col>
         </Row>
 
-        <Row className="rows-center">
+        <Row className="rows-center" style={{justifyContent:"space-between"}}>
           <Col md={4} className="text-center">
             <img src={image2} alt="image2" />
           </Col>
@@ -36,15 +36,15 @@ export const About = () => {
           </Col>
         </Row>
 
-        <Row className="rows-center">
-          <Col md={6}>
+        <Row className="rows-center" style={{justifyContent:"space-between"}}>
+          <Col md={6} className="text-center"> 
             <h3 className="heading-color">Our Mission</h3>
             <p>
-              To hold "To-Let" boards at all rental properties available nearby.
+            Placing "To-Let" boards at all nearby rental properties to advertise availability to potential tenants.
             </p>
           </Col>
-          <Col md={4} className="text-center"> {/* Center image horizontally */}
-            <img src={image3} alt="image3" />
+          <Col md={4} className="text-center" > {/* Center image horizontally */}
+            <img src={image3} alt="image1" />
           </Col>
         </Row>
       </div>

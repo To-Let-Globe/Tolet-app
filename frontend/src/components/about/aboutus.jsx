@@ -118,7 +118,7 @@ export const AboutUs = () => {
         <div className="timeline">
           <div className="checkpoint check1">
             <div>
-              <h2>Who are are?</h2>
+              <h2>Who We Are?</h2>
               <p>
                 At To-Let, we are more than just property managers – we are
                 dedicated partners in your property management journey.

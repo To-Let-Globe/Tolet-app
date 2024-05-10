@@ -395,6 +395,7 @@ transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
     position: absolute;
     height: 120px;
     width:190px;
+    opacity: 0;
     fill: black;
     z-index: 0;
     transform: translate3d(325px,270px,0);
