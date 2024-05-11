@@ -1,0 +1,136 @@
+@media (max-width: 480px){
+    .ag-timeline {
+       
+    }
+    .ag-timeline_line {
+        
+    }
+    
+    .ag-timeline_line-progress {
+       
+    }
+    
+    .checkpoint h2{
+        height:30px;
+        text-align: center;
+        font-size:1.3em;
+        margin-bottom: 0.5;
+        color: #e59948;
+      }
+      
+      .timeline{
+        
+    }
+    
+    .checkpoint{
+        
+    }
+    
+    .checkpoint div{
+       
+    }
+    
+    .checkpoint p{
+        line-height: 27px;
+        color: #feffff;
+        font-size: 18px;
+    }
+    
+    .checkpoint:nth-child(even){
+        padding-left: 20em;
+        transform: translateX(14.5rem);
+    }
+    .checkpoint:nth-child(odd){
+        padding-right: 20em;
+        transform: translateX(-14.5em);
+    
+    }
+    
+    .checkpoint:nth-child(odd)::before{
+      content: "";
+        background: #6cc0c4;
+        width: 9.5em;
+        height: 3px;
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+    
+    .checkpoint:nth-child(even)::before{
+        content: "";
+        background: #6cc0c4;
+        width: 9.5em;
+        height: 3px;
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+      /* left: 50%; */
+    
+    }
+    
+    .checkpoint:nth-child(odd)::before{
+        right: 20%;
+    }
+    .checkpoint:nth-child(even)::before{
+        left: 20%;
+    }
+    
+    .ag-timeline::before {
+        content: "";
+        background:#6cc0c4 ;
+        background-size: contain;
+        box-shadow: 0 0 0.5em #6cc0c4;
+        width: 0.5em;
+        height: 0.5em;
+        position: fixed; /* Set the position to fixed */
+        top: 50%; /* Adjust the vertical position */
+        left: 50%; /* Adjust the horizontal position */
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        z-index: -2; /* Set a higher z-index to appear on top of the line */
+    }
+    
+    .checkpoint:nth-child(even) div::before{
+          content: "";
+        background-image: url(../../assets/img/logo.jpeg);
+        background-position: cover;
+        background-size:contain;
+        box-shadow: 0 0 0.5em #6cc0c4;
+        width: 3.9em;
+        height: 4em;
+        position:fixed;
+        left: 19% !important;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        
+        
+    }
+    .checkpoint:nth-child(odd) div::before{
+        content: "";
+        background-image: url(../../assets/img/logo.jpeg);
+        background-position: cover;
+        background-size: contain;
+        box-shadow: 0 0 0.5em #6cc0c4;
+        width: 3.9em;
+        height: 4em;
+        position:fixed;
+        left: 74%;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;   
+    }
+    
+    .checkpoint:nth-child(odd) div::before{
+        right:5.2em;
+    }
+    .checkpoint:nth-child(even) div::before{
+        left: 9em ;
+    }
+    .imagd{
+        width: 100% !important;
+        height: auto !important;
+        margin-left: -5px;
+        margin-top: -7px;
+    }
+}

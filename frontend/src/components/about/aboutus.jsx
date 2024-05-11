@@ -2,6 +2,7 @@
 import { useEffect } from 'react'
 import $ from 'jquery'
 import '../../style/about/about.css'
+import '../../style/about/about-4.css'
 import {Footer} from '../footer'
 import React from 'react';
 import ceo1 from '../../assets/image/about/CEO1.png'

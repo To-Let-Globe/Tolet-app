@@ -10,7 +10,7 @@ export const About = () => {
     <div className="AboutUS-Container">
       <h2>About Us</h2>
       <div className="about-container">
-        <Row className="rows-center" style={{justifyContent:"space-between"}}>
+        <Row xs={2} sm={1} lg={2} className="rows-center">
           <Col md={6} className="text-center"> 
             <h3 className="heading-color">Who We Are</h3>
             <p>
@@ -18,13 +18,10 @@ export const About = () => {
               contact each other with ZERO brokerage.
             </p>
           </Col>
-          <Col md={4} className="text-center"> {/* Center image horizontally */}
+          <Col md={4}> {/* Center image horizontally */}
             <img src={image1} alt="image1" />
-          </Col>
-        </Row>
-
-        <Row className="rows-center" style={{justifyContent:"space-between"}}>
-          <Col md={4} className="text-center">
+          </Col>        
+          <Col md={4}>
             <img src={image2} alt="image2" />
           </Col>
           <Col md={6}>
@@ -34,16 +31,16 @@ export const About = () => {
               cities while doing so from the comfort of their own homes.
             </p>
           </Col>
-        </Row>
+        
 
-        <Row className="rows-center" style={{justifyContent:"space-between"}}>
+        
           <Col md={6} className="text-center"> 
             <h3 className="heading-color">Our Mission</h3>
             <p>
             Placing "To-Let" boards at all nearby rental properties to advertise availability to potential tenants.
             </p>
           </Col>
-          <Col md={4} className="text-center" > {/* Center image horizontally */}
+          <Col md={4} > {/* Center image horizontally */}
             <img src={image3} alt="image1" />
           </Col>
         </Row>
