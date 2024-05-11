@@ -3,11 +3,19 @@ import Logo from "../assets/img/Favicon.png";
 import { useState } from "react";
 import { Navbar, Nav } from 'react-bootstrap';
 import "../style/navbar.css"
+import { ReactComponent as CustomIcon } from '../assets/image/home/NavbarToggleIcon.svg';
+
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
+    const [expanded, setExpanded] = useState(false);
  
     const handleNavLinkClick = (link) => {
         setActiveLink(link);
+        setExpanded(false);
+    };
+
+    const toggleNavbar = () => {
+        setExpanded(prevExpanded => !prevExpanded);
     };
 
     return ( 
@@ -16,7 +24,19 @@ export const NavBar = () => {
                 <Link to="/" className="navbar-brand" >
                     <img src={Logo} alt="Logo" />
                 </Link>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: 'white' }} />
+                <Navbar.Toggle 
+                    aria-controls="basic-navbar-nav" 
+                    onClick={toggleNavbar}  
+                    style={{ border: 'none', backgroundColor: 'transparent' }} 
+                >
+                    <CustomIcon 
+                        style={{ 
+                            transform: expanded ? 'rotate(90deg)' : 'rotate(0deg)',
+                            transition: 'transform 0.3s ease',
+                            padding : '4px'
+                        }} 
+                    />
+                </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to="/" className={`nav-link ${activeLink === 'home' ? 'active' : ''}`} onClick={() => handleNavLinkClick('home')}>
