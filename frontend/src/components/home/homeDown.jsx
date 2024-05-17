@@ -12,8 +12,8 @@ export const HomeDown = () => {
   return (
       <Container fluid className="scrollable-content bottom-home">
         <Row className="justify-content-center align-items-center h-100 mb-5 mt-4 d-flex">
-          <Col xs={12} md={8} lg={6}>
-            <h1 className="tagline2 text-left">Welcome to To-Let Globe</h1>
+          <Col xs={10} md={8} lg={6}>
+            <h1 className="tagline2">Welcome to To-Let Globe</h1>
             <h6 className="headline2 text-center">
               NO BROKERAGE ON PGS | FLATS | HOUSES | OFFICES
             </h6>

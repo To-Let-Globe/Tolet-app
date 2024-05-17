@@ -9,7 +9,7 @@ export const ContactUs = () => {
       <div class="innerdiv1">
         <a href={googlemaps} class="googlemaplink">
           <div class="imagediv2">
-            <p class="imagediv2h1"> CONTACT US</p>
+            <p class="imagediv2h1"></p>
           </div>
         </a>
         <div class="headingd1">
