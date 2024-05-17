@@ -4,7 +4,7 @@ import image2 from '../../assets/image/property/img2.svg'
 import image3 from '../../assets/image/property/img3.svg'
 import image4 from '../../assets/image/property/img4.svg'
 import { Row, Col} from "react-bootstrap"
-import {Footer} from "../footer"
+// import {Footer} from "../footer"
 
 export const Property = () => {
   return (
@@ -74,7 +74,7 @@ export const Property = () => {
         </div>
         </Col>
       </Row>
-      <Footer/>
+      {/* <Footer/> */}
     </section>
   )
 }

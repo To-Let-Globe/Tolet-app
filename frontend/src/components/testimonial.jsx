@@ -1,13 +1,41 @@
-import React, { useState } from 'react';
-import { Card, Col, Row, Carousel } from 'react-bootstrap';
-import '../style/testimonial.css';
+import { Col, Row } from "react-bootstrap";
+import "../style/testimonial.css";
+import man2  from "../assets/image/testimonial/man2.jpg";
+import man11 from "../assets/image/testimonial/man11.jpg";
+import girl from "../assets/image/testimonial/girl.jpg";
+
+
 
 export const Testimonial = () => {
-  const [index, setIndex] = useState(0);
+  let slideIndex = 0;
+showSlides();
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+function showSlides() {
+  let slides = document.getElementsByClassName("testimonialSlider");
+  let dots = document.getElementsByClassName("dot");
+
+  // Check if slides and dots exist
+  if (slides.length === 0 || dots.length === 0) {
+    console.error("Slides or dots not found");
+    return;
+  }
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1;}    
+
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+  slides[slideIndex - 1].style.display = "block";  
+  dots[slideIndex - 1].className += " active";
+  
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
 
   return (
     <>
@@ -15,51 +43,50 @@ export const Testimonial = () => {
         <h2>Testimonials</h2>
         <div className="testimonial-container">
           <Row className="rows-center">
-            <Col md={6} className="text-center">
+          <Col md={6} className="text-center">
               <h3 className="heading-color">What People Say About Us</h3>
-            </Col>
+                  <div className="testimonialSlider">
+                    <div className="card">
+                    <img src={man11} alt="imagge"/>
+                    <h1>David</h1>
+            
+                     <p>To-Let is a game-changer for professionals like me relocating to new cities. I found a comfortable flat with ease, and the process was incredibly smooth.
+              
+                    </p>
+
+                  </div>
+                  </div>
+                  <div className="testimonialSlider">
+                    <div className="card">
+                    <img src={girl} alt="imagge"/>
+                    <h1>David</h1>
+            
+                     <p> To-Let is a game-changer for professionals like me relocating to new cities. I found a comfortable flat with ease, and the process was incredibly smooth.
+                    </p>
+
+                  </div>
+                  </div>
+                  <div className="testimonialSlider">
+                    <div className="card">
+                    <img src={man2} alt="imagge"/>
+                    <h1>David</h1>
+            
+                     <p> To-Let is a game-changer for professionals like me relocating to new cities. I found a comfortable flat with ease, and the process was incredibly smooth.
+                    </p>
+
+                  </div>
+                  </div>
+                  <div >
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+  </div>
+            </Col>
           </Row>
-          <Row className="rows-center">
-            <Col md={6} className="text-center">
-              <Carousel activeIndex={index} onSelect={handleSelect}>
-                <Carousel.Item>
-                  <Card className="card">
-                    <Card.Img variant="top" src="path/to/image1.jpg" />
-                    <Card.Body>
-                      <Card.Title>Testimonial 1</Card.Title>
-                      <Card.Text>
-                        This is the first testimonial.
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Card className="card">
-                    <Card.Img variant="top" src="path/to/image2.jpg" />
-                    <Card.Body>
-                      <Card.Title>Testimonial 2</Card.Title>
-                      <Card.Text>
-                        This is the second testimonial.
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Card className="card">
-                    <Card.Img variant="top" src="path/to/image3.jpg" />
-                    <Card.Body>
-                      <Card.Title>Testimonial 3</Card.Title>
-                      <Card.Text>
-                        This is the third testimonial.
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Carousel.Item>
-              </Carousel>
-            </Col>
-          </Row>
+          
         </div>
       </div>
     </>
   );
 };
+

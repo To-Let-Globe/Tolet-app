@@ -167,45 +167,7 @@
 	margin-left: -5px;
 	margin-top: -7px;
 }
-.line1{
-	/* Line 43 */
-	box-sizing: border-box;
-	position: absolute;
-	width: 546px;
-	height: 0px;
-	left: 180px;
-	bottom: 270px;
 
-	border: 2px solid #6CBFC4;
-	transform: rotate(156.12deg);
-
-}
-.line2{
-	/* Line 43 */
-	box-sizing: border-box;
-	position: absolute;
-	width: 146px;
-	height: 0px;
-	left: 630px;
-	bottom: 307px;
-
-	border: 2px solid #6CBFC4;
-	transform: rotate(90deg);
-
-}
-.line3{
-	/* Line 43 */
-	box-sizing: border-box;
-	position: absolute;
-	width: 546px;
-	height: 0px;
-	left: 680px;
-	bottom: 268px;
-
-	border: 2px solid #6CBFC4;
-	transform: rotate(204.12deg);
-
-}
 
 
 .team-container {

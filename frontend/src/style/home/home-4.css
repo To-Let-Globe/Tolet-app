@@ -47,6 +47,7 @@
     opacity: 1;
     left: 30%;
     right: auto;
+    margin-bottom: 20px !important;
     transform: translate(-58px, -15px); 
     top:10% !important;
   }
@@ -63,7 +64,7 @@
     opacity: 1;
     left: 35%;
     right: auto;
-    top: 10% !important;
+    top: 11% !important;
     transform: translate(-59px, 15px); 
   }
 

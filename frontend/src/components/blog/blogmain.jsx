@@ -10,6 +10,7 @@ import image5 from '../../assets/image/blog/blog1/image1.png'
 import image6 from '../../assets/image/blog/blog6/image.png'
 import { Link } from 'react-router-dom'
 import { Category } from "../category"
+import { Footer } from "../footer"
 
 export const BlogMain = ()=>{
     return(
@@ -240,7 +241,7 @@ export const BlogMain = ()=>{
                 </Row>
             </div>
             <Category/>
-
+            <Footer/>
         </Container>
     )
 }
