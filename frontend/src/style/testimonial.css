@@ -7,120 +7,46 @@
   margin-top: 8%;
   margin-bottom: 5%;
 }
-
-.Testimonial-Container h2 {
+.Testimonial-Container h2{
   text-align: center;
   margin-left: 5rem;
   color: #1D5F58 !important;
+  
 }
-
 .Testimonial-Container h1 {
   display: flex;
   justify-content: last baseline;
   text-align: left;
 }
-
 .testimonial-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: justify-between;
   flex-direction: row;
   align-items: center; /* Centers the rows vertically within the container */
   margin-top: 17%;
   margin-left: 4%;
 }
-
-.testimonialSlider {
+.testimonialSlider{
+ 
   justify-content: space-between;
   margin-left: 35vw;
   margin-top: -10vw;
+  
 }
-
-.card img {
+.card img{
   width: 30vw;
-  padding: 10px;
+  padding:10px 10px 10px 10px;
 }
-
-.card h1 {
+.card h1{
   font-size: 2vw;
   color: black !important;
   padding-top: 10px;
   margin-right: 19vw;
+  
 }
 
-/* Responsive Styles */
 
-/* For tablets and larger phones */
-@media (max-width: 768px) {
-  .Testimonial-Container h2 {
-    margin-left: 2rem;
-    font-size: 1.5rem;
-  }
+  
+  
 
-  .Testimonial-Container h1 {
-    font-size: 1.75rem;
-    justify-content: center;
-    text-align: center;
-  }
 
-  .testimonial-container {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10%;
-    margin-left: 0;
-  }
-
-  .testimonialSlider {
-    margin-left: 0;
-    margin-top: 5vw;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card img {
-    width: 50vw;
-  }
-
-  .card h1 {
-    font-size: 3vw;
-    margin-right: 0;
-    text-align: center;
-  }
-}
-
-/* For mobile phones */
-@media (max-width: 480px) {
-  .Testimonial-Container h2 {
-    margin-left: 1rem;
-    font-size: 1.25rem;
-  }
-
-  .Testimonial-Container h1 {
-    font-size: 1.5rem;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .testimonial-container {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-    margin-left: 0;
-  }
-
-  .testimonialSlider {
-    margin-left: 0;
-    margin-top: 5vw;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card img {
-    width: 95vw;
-  }
-
-  .card h1 {
-    font-size: 4vw;
-    margin-right: 0;
-    margin-right: 20rem;
-  }
-}
