@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import $ from 'jquery'
 import '../../style/about/about.css'
 import '../../style/about/about-4.css'
-// import {Footer} from '../footer'
+import {Footer} from '../footer'
 import React from 'react';
 import ceo1 from '../../assets/image/about/CEO1.png'
 import ceo2 from '../../assets/image/about/CEO2.jpg'
@@ -258,7 +258,7 @@ export const AboutUs = () => {
       </div>
       {/* <Fplus /> */}
       < FAQ/>
-       {/* <Footer/> */}
+       <Footer/>
     </section>
   )
 }

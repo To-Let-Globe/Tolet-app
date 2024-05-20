@@ -1,12 +1,12 @@
-import { Col, Row } from "react-bootstrap";
-import "../style/testimonial.css";
-import man2  from "../assets/image/testimonial/man2.jpg";
-import man11 from "../assets/image/testimonial/man11.jpg";
-import girl from "../assets/image/testimonial/girl.jpg";
+import { Card, Col, Row } from "react-bootstrap";
+import "../../style/testimonial/testimonial.css";
+import man2  from "../../assets/image/testimonials/man2.jpg";
+import man11 from "../../assets/image/testimonials/man11.jpg";
+import girl from "../../assets/image/testimonials/girl.jpg";
 
 
 
-export const Testimonial = () => {
+const Testimonial = () => {
   let slideIndex = 0;
 showSlides();
 
@@ -47,7 +47,7 @@ function showSlides() {
               <h3 className="heading-color">What People Say About Us</h3>
                   <div className="testimonialSlider">
                     <div className="card">
-                    <img src={man11} alt="imagge"/>
+                    <img src={man11} />
                     <h1>David</h1>
             
                      <p>To-Let is a game-changer for professionals like me relocating to new cities. I found a comfortable flat with ease, and the process was incredibly smooth.
@@ -58,7 +58,7 @@ function showSlides() {
                   </div>
                   <div className="testimonialSlider">
                     <div className="card">
-                    <img src={girl} alt="imagge"/>
+                    <img src={man2} />
                     <h1>David</h1>
             
                      <p> To-Let is a game-changer for professionals like me relocating to new cities. I found a comfortable flat with ease, and the process was incredibly smooth.
@@ -68,7 +68,7 @@ function showSlides() {
                   </div>
                   <div className="testimonialSlider">
                     <div className="card">
-                    <img src={man2} alt="imagge"/>
+                    <img src={girl} />
                     <h1>David</h1>
             
                      <p> To-Let is a game-changer for professionals like me relocating to new cities. I found a comfortable flat with ease, and the process was incredibly smooth.
@@ -89,4 +89,4 @@ function showSlides() {
     </>
   );
 };
-
+export default Testimonial;

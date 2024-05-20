@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from './components/navbar';
 // import { Nav } from './components/nav';
 
@@ -19,11 +19,11 @@ import { Login } from './components/login';
 import {Service} from './components/service';
 import { Property } from './components/property/property';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Footer } from './components/footer';
+// import { Footer } from './components/footer';
 function App() {
   return (
    <div className="App">
-      <HashRouter>
+      <BrowserRouter>
       <NavBar />
       {/* <Nav /> */}
         <Routes>
@@ -42,8 +42,8 @@ function App() {
           <Route path="/login/" element={<Login />} />
           <Route path="/about/" element={<AboutUs />} />
         </Routes>
-        <Footer />
-      </HashRouter>
+        {/* <Footer /> */}
+      </BrowserRouter>
     </div>
    
 );

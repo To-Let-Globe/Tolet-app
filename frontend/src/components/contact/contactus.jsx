@@ -5,7 +5,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import messageIMG from '../../assets/img/message-img.png';
 import callIMG from '../../assets/img/call-img.png';
-// import { Footer } from '../footer';
+import { Footer } from '../footer';
 export const Contact = () => {
     const formInitialDetails = {
         Name: '',
@@ -113,7 +113,7 @@ export const Contact = () => {
                     </Col>
                      
                 </Row>
-                {/* <Footer/> */}
+                <Footer/>
             </Container>
         </section>
     )
