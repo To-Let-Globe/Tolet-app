@@ -1,4 +1,4 @@
-import '../../style/contact/contact.css'
+
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
@@ -44,15 +44,15 @@ export const Contact = () => {
     };
 
     return (
-        <section className="contact" id="contact">
+        <section>
            
             <Container>
                 <Row className="align-items-center justify-content-between">
-                    <Col size={12} md={5} className="contact-us">
+                    <Col size={12} md={5} className="">
                         <TrackVisibility>
                             {/* {({ isVisible }) => */}
                                 {/* <div className={isVisible ? "animate__animated animate__backInRight" : ""}> */}
-                                    <h1 style={{ marginBottom: '30px', fontSize:'35px' }}>Contact Us, We're Ready to Help!</h1>
+                                    <p classname=" text-left text-2xl text-white">Contact Us, We're Ready to Help!</p>
                                     <p className='conpara' style={{letterSpacing:'1px'}}>We strive to provide you with the best</p> 
                                     <p className='conpara' style={{letterSpacing:'1px'}}>experience and the best platform to find your</p>
                                     <p className='conpara' style={{letterSpacing:'1px'}}> choice.</p>
