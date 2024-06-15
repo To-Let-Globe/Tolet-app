@@ -1,5 +1,217 @@
+<<<<<<< HEAD
 @media (min-width:763px){
     /* /------------------- Background CSS -----------------------/ */
+=======
+@media (max-width:1440px){
+/*------------------- Background CSS -----------------------*/
+
+.Tbg-1{
+    position: absolute;
+    opacity: 0.05;
+    width: 500px;
+    height: 600px;
+    transform: translate3d(-450px,50px,0);
+    transition: all 1sec ease-in-out;
+}
+.scrolled .Tbg-1{
+    opacity: 1 !important;
+    width: 500px;
+    height: 600px;
+    transform: translate3d(560px,-520px,0);
+    transition: all 1sec ease-in-out;
+}
+
+.bg-1{
+    opacity: 0;
+    transform: translate3d(560px,-520px,0);
+    transition: all 1sec ease-in-out;
+}
+.scrolled .bg-1{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    opacity: 0.2;
+    transform: translate3d(260px,-120px,0);
+}
+
+.Tbg-2{
+    height: 600px !important;
+    opacity: 0.1;
+    transform: translate3d(-600px,-300px,0);
+    transition: all 1sec ease-in-out !important;
+}
+.scrolled .Tbg-2{
+    opacity: 0;
+    transform: translate3d(400px,-300px,0);
+}
+
+.bg-2{
+    opacity: 0;
+    height: 600px !important ;
+    transform: translate3d(-600px,-300px,0);
+    transition: all 0.5sec ease-in-out;
+}
+.scrolled .bg-2{
+    opacity: 0.2;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    z-index: -1;
+    transform: translate3d(-220px,-290px,0);
+}
+
+/* -----------------------Bird Component-------------- */
+
+.Tbird-1{
+    position: absolute;
+    opacity: 0.5;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(-600px, 100px, 0) !important;
+    transition: all 2s ease-in-out;
+}
+.scrolled .Tbird-1 {
+    opacity: 0;
+    transform: translate3d(250px,190px,0) !important;
+}
+
+.bird-1{
+    opacity: 0;
+    position: absolute;
+    transform: translate3d(-1040px, -250px, 0) !important;
+    transition: all 2s ease-in-out;
+}
+
+.scrolled .bird-1{
+    position: absolute;
+    opacity: 1;
+    width: 80px;
+    height: 30px;
+    transform: translate3d(220px,-190px,0) !important;
+} 
+
+.Tbird-2{
+    position: absolute;
+    opacity: 0.5;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(-310px, 420px, 0);
+    transition: 2s ease-in-out;
+}
+.scrolled .Tbird-2{
+    opacity: 0;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(450px, 250px, 0);
+}
+
+.bird-2{
+    opacity: 0;
+    position: absolute;
+    transform: translate3d(-700px, 72px, 0);
+    transition: 2s ease-in-out;
+}
+.scrolled .bird-2{
+    position: absolute;
+    opacity: 1;
+    width: 80px;
+    height: 30px;
+    transform: translate3d(510px, -100px, 0);
+}
+
+/* ------------------Cloud CSS------------------- */
+
+/* Line 42 */
+
+/* box-sizing: border-box;
+
+position: absolute;
+width: 366.72px;
+height: 0px;
+left: 572px;
+top: 1632px;
+
+background: #6CBFC4;
+border: 5px solid #6CBFC4;
+transform: matrix(0.97, 0.24, 0.24, -0.97, 0, 0); */
+
+
+.Tcloud-1{
+    position: absolute;
+    opacity: 0.3;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(-260px,45px,0) !important;
+    transition: all 2s ease-in-out !important;
+}
+
+.scrolled .Tcloud-1{
+    opacity: 0;
+    position: absolute;
+    transform: translate3d(250px, 150px,0) !important;
+}
+.cloud-1{
+    opacity: 0;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(-260px,-245px,0) !important;
+    transition: all 2s ease-in-out !important;
+}
+.scrolled .cloud-1{
+    position: absolute;
+    opacity: 1;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(250px, -250px,0) !important;
+}
+
+.Tcloud-2{
+    opacity: 0.5;
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    transform: translate3d(-50%,160px,0);
+    transition: all 2s ease-in-out !important;
+}
+.scrolled .Tcloud-2{
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 40px;
+    transform: translate3d(70px,220px,0);
+}
+.cloud-2{
+    opacity: 0.3;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    transform: translate3d(-450px,45px,0);
+    transition: all 2s ease-in-out;
+}
+.scrolled  .cloud-2{
+    position: absolute;
+    opacity: 1;
+    width: 130px;
+    height: 40px;
+    transform: translate3d(70px,-120px,0);
+}
+
+.Tcloud-3{
+    opacity: 0.5;
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    transform: translate3d(-520px,430px,0);
+    transition: all 2s ease-in-out !important;
+}
+.scrolled .Tcloud-3{
+    opacity: 0;
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    transform: translate3d(340px,175px,0);
+>>>>>>> 8c3ad2ea38259debf2b42c4688f7e53a655e2e99
     
     .Tbg-1{
         position: absolute;
