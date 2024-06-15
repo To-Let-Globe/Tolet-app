@@ -6,6 +6,7 @@ import Image3 from '../assets/image/service/image23.png'
 import Image4 from '../assets/image/service/image25.png'
 import Image5 from '../assets/image/service/image27.png'
 import Image6 from '../assets/image/service/image29.png'
+// import { Footer } from './footer'
 
 export const Service = () =>  {
 
@@ -160,6 +161,7 @@ export const Service = () =>  {
           </div>
         </div>
       </div>
+      {/* <Footer/> */}
     </div>
   )
 }

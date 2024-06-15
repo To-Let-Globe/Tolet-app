@@ -27,9 +27,9 @@
       transition: all 1.5s ease-in-out !important;
     }
     .scrolled .tagline2 {
-      font-size: 30px;
+      font-size: 10px !important;
       position: relative;
-      transform: translateX(-35%) !important;
+      transform: translateX(-5%) !important;
       color: #ffffff !important;
       transition: all 1.5s ease-in-out !important;
     }
