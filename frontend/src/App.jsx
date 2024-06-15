@@ -15,10 +15,10 @@ import  {BlogPage6 } from './components/blog/blogpage6';
 // import { Blog } from './components/blog/blog';
 import { BlogMain } from './components/blog/blogmain';
 import {AboutUs} from './components/about/aboutus';
-import { Login } from './components/login';
-import {Service} from './components/service';
 import { Property } from './components/property/property';
 import 'bootstrap/dist/css/bootstrap.css';
+import Login from './components/login/Login';
+import {Service} from './components/service';
 // import { Footer } from './components/footer';
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
       <NavBar />
       {/* <Nav /> */}
         <Routes>
+          <Route path="/login" element={<Login/>} />
           <Route path="/" element={<Layout/>} />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="/blog" element={<Blog />} /> */}
