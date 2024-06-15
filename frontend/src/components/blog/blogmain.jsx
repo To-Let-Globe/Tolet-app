@@ -1,5 +1,6 @@
 import { BiRightArrow } from "react-icons/bi";
 import { BlogPage } from "../../SampleData";
+import { Category } from "../category";
 
 export const BlogMain = () => {
   return (
@@ -19,6 +20,7 @@ export const BlogMain = () => {
           </div>
         ))}
       </div>
+      <Category/>
     </div>
   );
 };
