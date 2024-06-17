@@ -5,6 +5,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import messageIMG from '../../assets/img/message-img.png';
 import callIMG from '../../assets/img/call-img.png';
+import { Footer } from '../footer';
 export const Contact = () => {
     const formInitialDetails = {
         Name: '',
@@ -82,8 +83,8 @@ export const Contact = () => {
                     </Col>
                     <Col size={12} md={5} className='form-container'>
                         <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__backInRight" : ""}>
+                            
+                                <div>
                                  
                                     <form onSubmit={handleSubmit}>
                                         <Row>
@@ -107,11 +108,12 @@ export const Contact = () => {
                                             </Col>
                                         </Row>
                                     </form>
-                                </div>}
+                                </div>
                         </TrackVisibility>
                     </Col>
                      
                 </Row>
+                <Footer/>
             </Container>
         </section>
     )

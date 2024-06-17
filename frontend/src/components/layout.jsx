@@ -4,6 +4,7 @@ import { HomeUp } from './home/homeUp';
 import { ContactUs } from './contact/getintouch';
 import {Service} from './service';
 import {Footer} from './footer';
+// import {Testimonial} from './testimonial';
 import {About} from './about/about';
 // import { Blog } from './blog/blog'
 // import Service from './service'
@@ -29,6 +30,7 @@ export const Layout = () => {
             <HomeDown/>
             <Service/>
             <About />
+            {/* <Testimonial /> */}
             <ContactUs/>
             <Footer />
             

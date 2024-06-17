@@ -2,6 +2,7 @@
 import { useEffect } from 'react'
 import $ from 'jquery'
 import '../../style/about/about.css'
+import '../../style/about/about-4.css'
 import {Footer} from '../footer'
 import React from 'react';
 import ceo1 from '../../assets/image/about/CEO1.png'
@@ -118,7 +119,7 @@ export const AboutUs = () => {
         <div className="timeline">
           <div className="checkpoint check1">
             <div>
-              <h2>Who are are?</h2>
+              <h2>Who we are?</h2>
               <p>
                 At To-Let, we are more than just property managers – we are
                 dedicated partners in your property management journey.

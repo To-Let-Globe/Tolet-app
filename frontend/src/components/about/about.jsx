@@ -18,17 +18,17 @@ export const About = () => {
               contact each other with ZERO brokerage.
             </p>
           </Col>
-          <Col md={4} className="text-center"> {/* Center image horizontally */}
+          <Col md={4} className="text-center "> {/* Center image horizontally */}
             <img src={image1} alt="image1" />
           </Col>
         </Row>
 
-        <Row className="rows-center">
-          <Col md={4} className="text-center">
+        <Row className="rows-center midc" >
+          <Col md={4} className="text-center  mcol1">
             <img src={image2} alt="image2" />
           </Col>
           <Col md={6}>
-            <h3 className="vision-heading heading-color">Our Vision</h3>
+            <h3 className="vision-heading heading-color mcol1">Our Vision</h3>
             <p>
               To make it simple for people to search for and rent homes in new
               cities while doing so from the comfort of their own homes.
@@ -38,12 +38,12 @@ export const About = () => {
 
         <Row className="rows-center">
           <Col md={6}>
-            <h3 className="heading-color">Our Mission</h3>
+            <h3 className="heading-color ">Our Mission</h3>
             <p>
               To hold "To-Let" boards at all rental properties available nearby.
             </p>
           </Col>
-          <Col md={4} className="text-center"> {/* Center image horizontally */}
+          <Col md={4} className="text-center mi"> {/* Center image horizontally */}
             <img src={image3} alt="image3" />
           </Col>
         </Row>
