@@ -1,34 +1,35 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { NavBar } from './components/navbar';
+import "./App.css"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { NavBar } from "./components/navbar"
 // import { Nav } from './components/nav';
 
 // import { Home } from './components/home/home';
-import { Layout } from './components/layout';
-import { Contact } from './components/contact/contactus';
-import  {BlogPage1 } from './components/blog/blogpage1';
-import  {BlogPage2 } from './components/blog/blogpage2';
-import  {BlogPage3 } from './components/blog/blogpage3';
-import  {BlogPage4 } from './components/blog/blogpage4';
-import  {BlogPage5 } from './components/blog/blogpage5';
-import  {BlogPage6 } from './components/blog/blogpage6';
+import { Layout } from "./components/layout"
+import { Contact } from "./components/contact/contactus"
+import { BlogPage1 } from "./components/blog/blogpage1"
+import { BlogPage2 } from "./components/blog/blogpage2"
+import { BlogPage3 } from "./components/blog/blogpage3"
+import { BlogPage4 } from "./components/blog/blogpage4"
+import { BlogPage5 } from "./components/blog/blogpage5"
+import { BlogPage6 } from "./components/blog/blogpage6"
 // import { Blog } from './components/blog/blog';
-import { BlogMain } from './components/blog/blogmain';
-import {AboutUs} from './components/about/aboutus';
-import { Property } from './components/property/property';
-import 'bootstrap/dist/css/bootstrap.css';
-import Login from './components/login/Login';
-import {Service} from './components/service';
+import { BlogMain } from "./components/blog/blogmain"
+import { AboutUs } from "./components/about/aboutus"
+import { Property } from "./components/property/property"
+import "bootstrap/dist/css/bootstrap.css"
+import Login from "./components/login/Login"
+import { Service } from "./components/service"
+import Flow2 from "./components/Flow2"
 // import { Footer } from './components/footer';
 function App() {
   return (
-   <div className="App">
+    <div className="App">
       <BrowserRouter>
-      <NavBar />
-      {/* <Nav /> */}
+        <NavBar />
+        {/* <Nav /> */}
         <Routes>
-          <Route path="/login" element={<Login/>} />
-          <Route path="/" element={<Layout/>} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Layout />} />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="/blog" element={<Blog />} /> */}
           <Route path="/blog" element={<BlogMain />} />
@@ -42,12 +43,12 @@ function App() {
           <Route path="/property" element={<Property />} />
           <Route path="/login/" element={<Login />} />
           <Route path="/about/" element={<AboutUs />} />
+          <Route path="/flow2/" element={<Flow2 />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
     </div>
-   
-);
+  )
 }
 
-export default App;
+export default App
