@@ -31,6 +31,7 @@
     color: #f6ce3c !important;
 }
 
+
 .about-container p {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -83,13 +84,6 @@
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
- .midc>.mcol1{
-
- }
-
-       
- 
-   
 
 .about-container p{
     font-size: 18px;
