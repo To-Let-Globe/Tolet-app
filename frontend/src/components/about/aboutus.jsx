@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import $ from 'jquery'
 import '../../style/about/about.css'
 import '../../style/about/about-4.css'
-import {Footer} from '../footer'
+import { Footer } from '../footer'
 import React from 'react';
 import ceo1 from '../../assets/image/about/CEO1.png'
 import ceo2 from '../../assets/image/about/CEO2.jpg'
@@ -104,7 +104,7 @@ export const AboutUs = () => {
   // const toggleFAQ5 = () => {
   //   setIsOpen5(!isOpen5);
   // };
-  
+
 
   return (
     <section className="about">
@@ -119,14 +119,18 @@ export const AboutUs = () => {
         <div className="timeline">
           <div className="checkpoint check1">
             <div>
-              <h2>Who we are?</h2>
+              <h2>Who We Are & Why We Built ToLet Globe</h2>
               <p>
                 At To-Let, we are more than just property managers – we are
                 dedicated partners in your property management journey.
                 Established with a commitment to redefining the standards of
                 property management, To-Let brings a wealth of expertise to the
-                dynamic property management landscape.
+                dynamic property management landscape. Our mission is to make rentals simple and affordable for everyone.
+                We value Trust, Simplicity, and Transparency in everything we do.Founded in 2022, we've proudly served over 10,000+ rental listings.
               </p>
+
+
+
             </div>
           </div>
           <div className="checkpoint check2">
@@ -195,8 +199,8 @@ export const AboutUs = () => {
       <div className="team-container">
         <div id="team-head" className='mb-2'>Our team</div>
 
-        <div><img className='imagd' src={divi} alt='division'/></div>
-        
+        <div><img className='imagd' src={divi} alt='division' /></div>
+
 
         <div className="team-images">
           <div className="flip-box">
@@ -257,8 +261,8 @@ export const AboutUs = () => {
         </div>
       </div>
       {/* <Fplus /> */}
-      < FAQ/>
-       <Footer/>
+      < FAQ />
+      <Footer />
     </section>
   )
 }
